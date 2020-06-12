@@ -1,0 +1,224 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\HomePage\Post Elements\bet icons\bet icon Bold.jpg" />
+    <None Remove="assets\HomePage\Post Elements\bet icons\bet icon Bold2x.jpg" />
+    <None Remove="assets\HomePage\Post Elements\bet icons\bet icon.jpg" />
+    <None Remove="assets\HomePage\Post Elements\bet icons\bet icon2x.jpg" />
+    <None Remove="assets\HomePage\Post Elements\Comment icons\comment bubble BOLD.jpg" />
+    <None Remove="assets\HomePage\Post Elements\Comment icons\comment bubble BOLD2x.jpg" />
+    <None Remove="assets\HomePage\Post Elements\Comment icons\comment bubble.jpg" />
+    <None Remove="assets\HomePage\Post Elements\Comment icons\comment bubble2x.jpg" />
+    <None Remove="assets\HomePage\Post Elements\DropVote icons\upvote icon BOLD.jpg" />
+    <None Remove="assets\HomePage\Post Elements\DropVote icons\upvote icon BOLD2x.jpg" />
+    <None Remove="assets\HomePage\Post Elements\DropVote icons\upvote icon.jpg" />
+    <None Remove="assets\HomePage\Post Elements\DropVote icons\upvote icon2x.jpg" />
+    <None Remove="assets\HomePage\Post Elements\save icons\save icon BOLD.jpg" />
+    <None Remove="assets\HomePage\Post Elements\save icons\save icon BOLD2x.jpg" />
+    <None Remove="assets\HomePage\Post Elements\save icons\save icon.jpg" />
+    <None Remove="assets\HomePage\Post Elements\save icons\save icon2x.jpg" />
+    <None Remove="assets\HomePage\Post Elements\Send icons\send icon BOLD.jpg" />
+    <None Remove="assets\HomePage\Post Elements\Send icons\send icon BOLD2x.jpg" />
+    <None Remove="assets\HomePage\Post Elements\Send icons\send icon.jpg" />
+    <None Remove="assets\HomePage\Post Elements\Send icons\send icon2x.jpg" />
+    <None Remove="assets\HomePage\Post Elements\thumbs up icon\Thumbs up icon BOLD.jpg" />
+    <None Remove="assets\HomePage\Post Elements\thumbs up icon\Thumbs up icon BOLD2x.jpg" />
+    <None Remove="assets\HomePage\Post Elements\thumbs up icon\Thumbs up icon.jpg" />
+    <None Remove="assets\HomePage\Post Elements\thumbs up icon\Thumbs up icon2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\back white rect.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\back white rect2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\FriendsIcon\friend icon BOLD.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\FriendsIcon\friend icon BOLD2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\FriendsIcon\friend icon.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\FriendsIcon\friend icon2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\HomeIcons\Home Icon BOLD.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\HomeIcons\Home Icon BOLD2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\HomeIcons\Home Icon.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\HomeIcons\Home Icon2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\SearchIcons\search icon BOLD.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\SearchIcons\search icon BOLD2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\SearchIcons\search icon.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\SearchIcons\search icon2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\TrophyIcons\trophy icon BOLD.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\TrophyIcons\trophy icon BOLD2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\TrophyIcons\trophy icon.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\TrophyIcons\trophy icon2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\UploadIcons\upload icon BOLD.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\UploadIcons\upload icon BOLD2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\UploadIcons\upload icon.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\UploadIcons\upload icon2x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\line elements\Line5.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\line elements\Line52x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\line elements\Line6.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\line elements\Line62x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\line elements\Path 172x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\line elements\Path17.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\Rectangle15.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\Rectangle152x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\search\Search bar.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\search\Search bar2x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\search\search logo.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\search\search logo2x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\Settings icons\settings icon BOLD.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\Settings icons\settings icon BOLD2x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\Settings icons\settings icon.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\Settings icons\settings icon2x.jpg" />
+    <None Remove="assets\LoginScreen\backarrow.jpg" />
+    <None Remove="assets\LoginScreen\backarrow2x.jpg" />
+    <None Remove="assets\LoginScreen\bottomflow.jpg" />
+    <None Remove="assets\LoginScreen\bottomflow2x.jpg" />
+    <None Remove="assets\LoginScreen\loginbutton.jpg" />
+    <None Remove="assets\LoginScreen\loginbutton2x.jpg" />
+    <None Remove="assets\LoginScreen\password.jpg" />
+    <None Remove="assets\LoginScreen\password2x.jpg" />
+    <None Remove="assets\LoginScreen\title.jpg" />
+    <None Remove="assets\LoginScreen\title2x.jpg" />
+    <None Remove="assets\LoginScreen\topflow.jpg" />
+    <None Remove="assets\LoginScreen\topflow2x.jpg" />
+    <None Remove="assets\LoginScreen\username.jpg" />
+    <None Remove="assets\LoginScreen\username2x.jpg" />
+    <None Remove="assets\LoginScreen\white.jpg" />
+    <None Remove="assets\LoginScreen\white2x.jpg" />
+    <None Remove="assets\titlecard\backwhite.jpg" />
+    <None Remove="assets\titlecard\backwhitetwo.jpg" />
+    <None Remove="assets\titlecard\bottomflowing.jpg" />
+    <None Remove="assets\titlecard\bottomflowingtwo.jpg" />
+    <None Remove="assets\titlecard\FullTitle.jpg" />
+    <None Remove="assets\titlecard\FullTitle2x.jpg" />
+    <None Remove="assets\titlecard\JoinOurCommunity.jpg" />
+    <None Remove="assets\titlecard\JoinOurCommunitytwo.jpg" />
+    <None Remove="assets\titlecard\Line1.jpg" />
+    <None Remove="assets\titlecard\Line1two.jpg" />
+    <None Remove="assets\titlecard\LoginButton.jpg" />
+    <None Remove="assets\titlecard\LoginButtontwo.jpg" />
+    <None Remove="assets\titlecard\RegisterButton.jpg" />
+    <None Remove="assets\titlecard\RegisterButtontwo.jpg" />
+    <None Remove="assets\titlecard\title.jpg" />
+    <None Remove="assets\titlecard\titletwo.jpg" />
+    <None Remove="assets\titlecard\topflowing.jpg" />
+    <None Remove="assets\titlecard\topflowingtwo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="assets\HomePage\Post Elements\bet icons\bet icon Bold.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\bet icons\bet icon Bold2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\bet icons\bet icon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\bet icons\bet icon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\Comment icons\comment bubble BOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\Comment icons\comment bubble BOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\Comment icons\comment bubble.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\Comment icons\comment bubble2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\DropVote icons\upvote icon BOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\DropVote icons\upvote icon BOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\DropVote icons\upvote icon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\DropVote icons\upvote icon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\save icons\save icon BOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\save icons\save icon BOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\save icons\save icon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\save icons\save icon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\Send icons\send icon BOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\Send icons\send icon BOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\Send icons\send icon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\Send icons\send icon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\thumbs up icon\Thumbs up icon BOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\thumbs up icon\Thumbs up icon BOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\thumbs up icon\Thumbs up icon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\Post Elements\thumbs up icon\Thumbs up icon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\back white rect.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\back white rect2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\FriendsIcon\friend icon BOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\FriendsIcon\friend icon BOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\FriendsIcon\friend icon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\FriendsIcon\friend icon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\HomeIcons\Home Icon BOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\HomeIcons\Home Icon BOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\HomeIcons\Home Icon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\HomeIcons\Home Icon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\SearchIcons\search icon BOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\SearchIcons\search icon BOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\SearchIcons\search icon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\SearchIcons\search icon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\TrophyIcons\trophy icon BOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\TrophyIcons\trophy icon BOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\TrophyIcons\trophy icon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\TrophyIcons\trophy icon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\UploadIcons\upload icon BOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\UploadIcons\upload icon BOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\UploadIcons\upload icon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\UploadIcons\upload icon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\line elements\Line5.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\line elements\Line52x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\line elements\Line6.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\line elements\Line62x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\line elements\Path 172x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\line elements\Path17.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\Rectangle15.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\Rectangle152x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\search\Search bar.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\search\Search bar2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\search\search logo.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\search\search logo2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\Settings icons\settings icon BOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\Settings icons\settings icon BOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\Settings icons\settings icon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\Settings icons\settings icon2x.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\backarrow.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\backarrow2x.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\bottomflow.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\bottomflow2x.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\loginbutton.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\loginbutton2x.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\password.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\password2x.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\title.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\title2x.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\topflow.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\topflow2x.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\username.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\username2x.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\white.jpg" />
+    <EmbeddedResource Include="assets\LoginScreen\white2x.jpg" />
+    <EmbeddedResource Include="assets\titlecard\backwhite.jpg" />
+    <EmbeddedResource Include="assets\titlecard\backwhitetwo.jpg" />
+    <EmbeddedResource Include="assets\titlecard\bottomflowing.jpg" />
+    <EmbeddedResource Include="assets\titlecard\bottomflowingtwo.jpg" />
+    <EmbeddedResource Include="assets\titlecard\FullTitle.jpg" />
+    <EmbeddedResource Include="assets\titlecard\FullTitle2x.jpg" />
+    <EmbeddedResource Include="assets\titlecard\JoinOurCommunity.jpg" />
+    <EmbeddedResource Include="assets\titlecard\JoinOurCommunitytwo.jpg" />
+    <EmbeddedResource Include="assets\titlecard\Line1.jpg" />
+    <EmbeddedResource Include="assets\titlecard\Line1two.jpg" />
+    <EmbeddedResource Include="assets\titlecard\LoginButton.jpg" />
+    <EmbeddedResource Include="assets\titlecard\LoginButtontwo.jpg" />
+    <EmbeddedResource Include="assets\titlecard\RegisterButton.jpg" />
+    <EmbeddedResource Include="assets\titlecard\RegisterButtontwo.jpg" />
+    <EmbeddedResource Include="assets\titlecard\title.jpg" />
+    <EmbeddedResource Include="assets\titlecard\titletwo.jpg" />
+    <EmbeddedResource Include="assets\titlecard\topflowing.jpg" />
+    <EmbeddedResource Include="assets\titlecard\topflowingtwo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.495" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

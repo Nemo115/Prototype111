@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Prototype.HomePage" BackgroundColor="#E9E9E9" xmlns:local="clr-namespace:Prototype" >
+    <ContentPage.Content>
+        <StackLayout Margin="0,0,0,0">
+            <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Margin="0,0,0,0">
+                <Image Source="{local:ImageResource Prototype.assets.HomePage.TopSearchBar.Rectangle152x.jpg}" 
+                       HeightRequest="500" 
+                       WidthRequest="500" 
+                       VerticalOptions="StartAndExpand" 
+                       HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
