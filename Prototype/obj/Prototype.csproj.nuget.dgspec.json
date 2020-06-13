@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leo.liu\\source\\repos\\Prototype\\Prototype\\Prototype.csproj": {}
+    "/Users/ludens1/Documents/GitHub/Prototype111/Prototype/Prototype.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leo.liu\\source\\repos\\Prototype\\Prototype\\Prototype.csproj": {
+    "/Users/ludens1/Documents/GitHub/Prototype111/Prototype/Prototype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leo.liu\\source\\repos\\Prototype\\Prototype\\Prototype.csproj",
+        "projectUniqueName": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype/Prototype.csproj",
         "projectName": "Prototype",
-        "projectPath": "C:\\Users\\leo.liu\\source\\repos\\Prototype\\Prototype\\Prototype.csproj",
-        "packagesPath": "C:\\Users\\leo.liu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leo.liu\\source\\repos\\Prototype\\Prototype\\obj\\",
+        "projectPath": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype/Prototype.csproj",
+        "packagesPath": "/Users/ludens1/.nuget/packages/",
+        "outputPath": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\leo.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/ludens1/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,7 +61,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     }

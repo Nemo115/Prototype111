@@ -1969,39 +1969,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leo.liu\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/ludens1/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leo.liu\\source\\repos\\Prototype\\Prototype.Android\\Prototype.Android.csproj",
+      "projectUniqueName": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype.Android/Prototype.Android.csproj",
       "projectName": "Prototype.Android",
-      "projectPath": "C:\\Users\\leo.liu\\source\\repos\\Prototype\\Prototype.Android\\Prototype.Android.csproj",
-      "packagesPath": "C:\\Users\\leo.liu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leo.liu\\source\\repos\\Prototype\\Prototype.Android\\obj\\",
+      "projectPath": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype.Android/Prototype.Android.csproj",
+      "packagesPath": "/Users/ludens1/.nuget/packages/",
+      "outputPath": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\leo.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/ludens1/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\leo.liu\\source\\repos\\Prototype\\Prototype\\Prototype.csproj": {
-              "projectPath": "C:\\Users\\leo.liu\\source\\repos\\Prototype\\Prototype\\Prototype.csproj"
+            "/Users/ludens1/Documents/GitHub/Prototype111/Prototype/Prototype.csproj": {
+              "projectPath": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype/Prototype.csproj"
             }
           }
         }
