@@ -15,6 +15,7 @@ namespace Prototype
         public HomePage()
         {
             InitializeComponent();
+            Posts();
         }
 
         public bool OnFriends = false;
@@ -27,7 +28,13 @@ namespace Prototype
 
         public bool OnSearch = false;
 
-        
+        public void Posts()
+        {
+
+            var test = new Label {Text= "BRUHRBUHRUFASHBNDFHBDSJFB" };
+
+            
+        }
 
         void FriendsButton_Clicked(System.Object sender, System.EventArgs e)
         {
@@ -83,6 +90,25 @@ namespace Prototype
             Home.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg");
             Create.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
+        }
+
+        void Swiped(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
+        {
+            switch (e.Direction)
+            {
+                case SwipeDirection.Up:
+                    RemoteBar.TranslateTo(0, 70);
+                    NavigationBar.TranslateTo(0, -60);
+                    RemoteBar.FadeTo(0, 150);
+                    NavigationBar.FadeTo(0, 150);
+                    break;
+                case SwipeDirection.Down:
+                    RemoteBar.TranslateTo(0,0);
+                    NavigationBar.TranslateTo(0,0);
+                    RemoteBar.FadeTo(1, 150);
+                    NavigationBar.FadeTo(1, 150);
+                    break;
+            }
         }
     }
 }
