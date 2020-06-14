@@ -51,27 +51,15 @@
                 </Grid>
 
                 
-                <Grid>
-                    <Grid>
-                        <Grid>
-                            <Grid>
-                                <BoxView BackgroundColor="Red" HeightRequest="360" Opacity="0.4" Grid.RowSpan="400">
-                                    <BoxView.GestureRecognizers>
-                                        <SwipeGestureRecognizer Direction="Up" Swiped="Swiped"/>
-                                        <SwipeGestureRecognizer Direction="Down" Swiped="Swiped"/>
-                            
-                                    </BoxView.GestureRecognizers>
-                                </BoxView>
-                            </Grid>
-                        </Grid>
-                    </Grid>
-                </Grid>
+                
 
-                <StackLayout x:Name="PostStack" HeightRequest="200" BackgroundColor="Blue">
-                    <StackLayout HeightRequest="300" BackgroundColor="White">
+                <CollectionView BackgroundColor="Blue" HeightRequest="2500" VerticalOptions="EndAndExpand">
+                    <CollectionView.GestureRecognizers>
+                        <SwipeGestureRecognizer Direction="Up" Swiped="Swiped"/>
+                        <SwipeGestureRecognizer Direction="Down" Swiped="Swiped"/>
+                    </CollectionView.GestureRecognizers>
 
-                    </StackLayout>
-                </StackLayout>
+                </CollectionView>
 
                 <Grid x:Name="RemoteBar" Margin="0,0,0,0" VerticalOptions="EndAndExpand" >
            
@@ -100,16 +88,16 @@
                                 </Grid.ColumnDefinitions>
 
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="60"/>
-                                    <RowDefinition Height="10"/>
+                                    <RowDefinition Height="90"/>
+                                    <RowDefinition Height="8"/>
                                 </Grid.RowDefinitions>
 
-                                <local:AspectRatioContainer AspectRatio="0.149864" Grid.Row="0">
+                                <local:AspectRatioContainer AspectRatio="0.18961" Grid.Row="0">
 
-                                    <Image Source="{local:ImageResource Prototype.assets.HomePage.RemoteBar.backWhiteRect2x.jpg}" 
+                                    <Image Source="{local:ImageResource Prototype.assets.HomePage.RemoteBar.backwhiterect3x.png}" 
                                        HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"
-                           
-                                       WidthRequest="540" HeightRequest="540"/>
+                                       Grid.ColumnSpan="2" Grid.RowSpan="2"
+                                       WidthRequest="6000" HeightRequest="6000"/>
 
                                 </local:AspectRatioContainer>
 
@@ -117,7 +105,9 @@
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="1*"/>
                                         </Grid.ColumnDefinitions>
-
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="80"/>
+                                        </Grid.RowDefinitions>
                                         <Button x:Name="FriendsButton" ImageSource="{local:ImageResource Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg}"
                                             Grid.Row="0" Grid.Column="0"
                                             VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand"

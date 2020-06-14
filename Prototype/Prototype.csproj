@@ -109,6 +109,8 @@
     <None Remove="assets\titlecard\titletwo.jpg" />
     <None Remove="assets\titlecard\topflowing.jpg" />
     <None Remove="assets\titlecard\topflowingtwo.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\backwhiterect2x.png" />
+    <None Remove="assets\HomePage\RemoteBar\backwhiterect3x.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -210,6 +212,8 @@
     <EmbeddedResource Include="assets\titlecard\titletwo.jpg" />
     <EmbeddedResource Include="assets\titlecard\topflowing.jpg" />
     <EmbeddedResource Include="assets\titlecard\topflowingtwo.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\backwhiterect2x.png" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\backwhiterect3x.png" />
   </ItemGroup>
 
   <ItemGroup>
