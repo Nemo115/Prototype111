@@ -1,27 +1,30 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31ABF272-1370-4640-8096-45DF7E5D044A" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/assets/HomePage/RemoteBar/backwhiterect2x.png">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/App.xaml.cs">
     <Files>
       <File FileName="Prototype.iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="Prototype/HomePage.xaml" Line="109" Column="128" />
-      <File FileName="Prototype/HomePage.xaml.cs" />
+      <File FileName="Prototype/HomePage.xaml" Line="96" Column="34" />
+      <File FileName="Prototype/HomePage.xaml.cs" Line="94" Column="13" />
       <File FileName="Prototype/assets/HomePage/RemoteBar/backwhiterect2x.png" />
+      <File FileName="Prototype/obj/Debug/netstandard2.0/HomePage.xaml.g.cs" Line="54" Column="1" />
+      <File FileName="Prototype/SearchView.xaml" Line="36" Column="46" />
+      <File FileName="Prototype/SearchView.xaml.cs" Line="1" Column="1" />
+      <File FileName="Prototype/App.xaml.cs" Line="13" Column="1" />
+      <File FileName="Prototype/assets/People/Line 13.png" />
+      <File FileName="Prototype/PeoplePage.xaml" Line="4" Column="27" />
+      <File FileName="Prototype/PeoplePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Prototype/App.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
-              <Node name="assets" expanded="True">
-                <Node name="HomePage" expanded="True">
-                  <Node name="RemoteBar" expanded="True">
-                    <Node name="backWhiteRect.jpg" selected="True" />
-                  </Node>
-                </Node>
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
               </Node>
-              <Node name="HomePage.xaml" expanded="True" />
+              <Node name="SearchView.xaml" expanded="True" />
             </Node>
-            <Node name="Prototype.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

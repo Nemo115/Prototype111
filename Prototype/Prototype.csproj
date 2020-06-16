@@ -111,6 +111,35 @@
     <None Remove="assets\titlecard\topflowingtwo.jpg" />
     <None Remove="assets\HomePage\RemoteBar\backwhiterect2x.png" />
     <None Remove="assets\HomePage\RemoteBar\backwhiterect3x.png" />
+    <None Remove="assets\Search\TopSearchTab\BackWhite3x.png" />
+    <None Remove="assets\Search\TopSearchTab\BlueLine.png" />
+    <None Remove="assets\Search\TopSearchTab\TabLine3.png" />
+    <None Remove="assets\Search\TopSearchTab\SettingsIcon\settingsIcon3x.png" />
+    <None Remove="assets\Search\TopSearchTab\SettingsIcon\settingsIconBOLD3x.png" />
+    <None Remove="assets\People\settingsIcons\settings icon BOLD.png" />
+    <None Remove="assets\People\settingsIcons\settings icon BOLD%402x.png" />
+    <None Remove="assets\People\settingsIcons\settingsIconBOLD3x.png" />
+    <None Remove="assets\People\settingsIcons\settingsicon.png" />
+    <None Remove="assets\People\settingsIcons\settings icon%402x.png" />
+    <None Remove="assets\People\settingsIcons\settingsIcon3x.png" />
+    <None Remove="assets\People\FriendsBar.png" />
+    <None Remove="assets\People\FriendsBar2x.png" />
+    <None Remove="assets\People\FriendsBar3x.png" />
+    <None Remove="assets\People\BlueLine.png" />
+    <None Remove="assets\People\BlueLine2x.png" />
+    <None Remove="assets\People\BlueLine3x.png" />
+    <None Remove="assets\People\OrangeLine.png" />
+    <None Remove="assets\People\OrangeLine2x.png" />
+    <None Remove="assets\People\OrangeLine3x.png" />
+    <None Remove="assets\People\TiersIcons\tier1.png" />
+    <None Remove="assets\People\TiersIcons\tier 1%402x.png" />
+    <None Remove="assets\People\TiersIcons\tier1-3x.png" />
+    <None Remove="assets\People\TiersIcons\tier2.png" />
+    <None Remove="assets\People\TiersIcons\tier2%402x.png" />
+    <None Remove="assets\People\TiersIcons\tier2-3x.png" />
+    <None Remove="assets\People\defaultProfilePic\ProfilePic.png" />
+    <None Remove="assets\People\defaultProfilePic\ProfilePic2x.png" />
+    <None Remove="assets\People\defaultProfilePic\ProfilePic3x.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -214,6 +243,35 @@
     <EmbeddedResource Include="assets\titlecard\topflowingtwo.jpg" />
     <EmbeddedResource Include="assets\HomePage\RemoteBar\backwhiterect2x.png" />
     <EmbeddedResource Include="assets\HomePage\RemoteBar\backwhiterect3x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\BackWhite3x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\BlueLine.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\TabLine3.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\SettingsIcon\settingsIcon3x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\SettingsIcon\settingsIconBOLD3x.png" />
+    <EmbeddedResource Include="assets\People\settingsIcons\settings icon BOLD.png" />
+    <EmbeddedResource Include="assets\People\settingsIcons\settings icon BOLD%402x.png" />
+    <EmbeddedResource Include="assets\People\settingsIcons\settingsIconBOLD3x.png" />
+    <EmbeddedResource Include="assets\People\settingsIcons\settingsicon.png" />
+    <EmbeddedResource Include="assets\People\settingsIcons\settings icon%402x.png" />
+    <EmbeddedResource Include="assets\People\settingsIcons\settingsIcon3x.png" />
+    <EmbeddedResource Include="assets\People\FriendsBar.png" />
+    <EmbeddedResource Include="assets\People\FriendsBar2x.png" />
+    <EmbeddedResource Include="assets\People\FriendsBar3x.png" />
+    <EmbeddedResource Include="assets\People\BlueLine.png" />
+    <EmbeddedResource Include="assets\People\BlueLine2x.png" />
+    <EmbeddedResource Include="assets\People\BlueLine3x.png" />
+    <EmbeddedResource Include="assets\People\OrangeLine.png" />
+    <EmbeddedResource Include="assets\People\OrangeLine2x.png" />
+    <EmbeddedResource Include="assets\People\OrangeLine3x.png" />
+    <EmbeddedResource Include="assets\People\TiersIcons\tier1.png" />
+    <EmbeddedResource Include="assets\People\TiersIcons\tier 1%402x.png" />
+    <EmbeddedResource Include="assets\People\TiersIcons\tier1-3x.png" />
+    <EmbeddedResource Include="assets\People\TiersIcons\tier2.png" />
+    <EmbeddedResource Include="assets\People\TiersIcons\tier2%402x.png" />
+    <EmbeddedResource Include="assets\People\TiersIcons\tier2-3x.png" />
+    <EmbeddedResource Include="assets\People\defaultProfilePic\ProfilePic.png" />
+    <EmbeddedResource Include="assets\People\defaultProfilePic\ProfilePic2x.png" />
+    <EmbeddedResource Include="assets\People\defaultProfilePic\ProfilePic3x.png" />
   </ItemGroup>
 
   <ItemGroup>

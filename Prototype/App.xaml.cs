@@ -10,7 +10,11 @@ namespace Prototype
         {
             InitializeComponent();
 
-            MainPage = new HomePage();
+            MainPage = new PeoplePage();
+
+            //MainPage = new SearchView();
+
+            //MainPage = new HomePage();
         }
 
         protected override void OnStart()

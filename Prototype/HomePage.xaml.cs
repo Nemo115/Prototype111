@@ -16,6 +16,7 @@ namespace Prototype
         {
             InitializeComponent();
             Posts();
+            //SearchView.IsVisible = false;
         }
 
         public bool OnFriends = false;
@@ -90,6 +91,7 @@ namespace Prototype
             Home.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg");
             Create.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
+            
         }
 
         void Swiped(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
