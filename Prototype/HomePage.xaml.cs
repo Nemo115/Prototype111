@@ -36,6 +36,7 @@ namespace Prototype
 
             
         }
+        
 
         void FriendsButton_Clicked(System.Object sender, System.EventArgs e)
         {
@@ -92,7 +93,10 @@ namespace Prototype
             Create.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
             
+            
         }
+
+        
 
         void Swiped(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
         {

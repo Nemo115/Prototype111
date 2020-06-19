@@ -140,6 +140,15 @@
     <None Remove="assets\People\defaultProfilePic\ProfilePic.png" />
     <None Remove="assets\People\defaultProfilePic\ProfilePic2x.png" />
     <None Remove="assets\People\defaultProfilePic\ProfilePic3x.png" />
+    <None Remove="assets\Achievements\back grey for row.png" />
+    <None Remove="assets\Achievements\back grey for row%402x.png" />
+    <None Remove="assets\Achievements\backGrey3x.png" />
+    <None Remove="assets\Achievements\BlueLine3x.png" />
+    <None Remove="assets\Achievements\Line 15.png" />
+    <None Remove="assets\Achievements\Line 15%402x.png" />
+    <None Remove="assets\Achievements\Line 17.png" />
+    <None Remove="assets\Achievements\Line 17%402x.png" />
+    <None Remove="assets\Achievements\OrangeLine3x.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -272,6 +281,15 @@
     <EmbeddedResource Include="assets\People\defaultProfilePic\ProfilePic.png" />
     <EmbeddedResource Include="assets\People\defaultProfilePic\ProfilePic2x.png" />
     <EmbeddedResource Include="assets\People\defaultProfilePic\ProfilePic3x.png" />
+    <EmbeddedResource Include="assets\Achievements\back grey for row.png" />
+    <EmbeddedResource Include="assets\Achievements\back grey for row%402x.png" />
+    <EmbeddedResource Include="assets\Achievements\backGrey3x.png" />
+    <EmbeddedResource Include="assets\Achievements\BlueLine3x.png" />
+    <EmbeddedResource Include="assets\Achievements\Line 15.png" />
+    <EmbeddedResource Include="assets\Achievements\Line 15%402x.png" />
+    <EmbeddedResource Include="assets\Achievements\Line 17.png" />
+    <EmbeddedResource Include="assets\Achievements\Line 17%402x.png" />
+    <EmbeddedResource Include="assets\Achievements\OrangeLine3x.png" />
   </ItemGroup>
 
   <ItemGroup>

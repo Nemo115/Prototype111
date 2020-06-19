@@ -1,29 +1,34 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31ABF272-1370-4640-8096-45DF7E5D044A" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/AchievementsPage.xaml">
     <Files>
       <File FileName="Prototype.iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="Prototype/HomePage.xaml" Line="96" Column="34" />
-      <File FileName="Prototype/HomePage.xaml.cs" Line="94" Column="13" />
+      <File FileName="Prototype/HomePage.xaml" />
+      <File FileName="Prototype/HomePage.xaml.cs" />
       <File FileName="Prototype/assets/HomePage/RemoteBar/backwhiterect2x.png" />
-      <File FileName="Prototype/obj/Debug/netstandard2.0/HomePage.xaml.g.cs" Line="54" Column="1" />
-      <File FileName="Prototype/SearchView.xaml" Line="36" Column="46" />
-      <File FileName="Prototype/SearchView.xaml.cs" Line="1" Column="1" />
-      <File FileName="Prototype/App.xaml.cs" Line="13" Column="1" />
-      <File FileName="Prototype/assets/People/Line 13.png" />
-      <File FileName="Prototype/PeoplePage.xaml" Line="4" Column="27" />
-      <File FileName="Prototype/PeoplePage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Prototype/App.xaml" Line="1" Column="1" />
+      <File FileName="Prototype/obj/Debug/netstandard2.0/HomePage.xaml.g.cs" />
+      <File FileName="Prototype/SearchView.xaml" />
+      <File FileName="Prototype/SearchView.xaml.cs" />
+      <File FileName="Prototype/App.xaml.cs" />
+      <File FileName="Prototype/PeoplePage.xaml" />
+      <File FileName="Prototype/PeoplePage.xaml.cs" />
+      <File FileName="Prototype/App.xaml" />
+      <File FileName="Prototype/MainPage.xaml" />
+      <File FileName="Prototype/CustomEntry.cs" />
+      <File FileName="Prototype/LoginPage.xaml" />
+      <File FileName="Prototype/AchievementsPage.xaml" Line="22" Column="42" />
+      <File FileName="Prototype/AchievementsPage.xaml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
-              <Node name="App.xaml" expanded="True">
-                <Node name="App.xaml.cs" selected="True" />
+              <Node name="assets" expanded="True">
+                <Node name="Achievements" expanded="True" />
               </Node>
-              <Node name="SearchView.xaml" expanded="True" />
+              <Node name="AchievementsPage.xaml" expanded="True" selected="True" />
+              <Node name="App.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
