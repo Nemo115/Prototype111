@@ -15,15 +15,24 @@
                 <SearchBar Margin="70,30,0,0"/>
 
                 <Label Text="Tier 2" Margin="20,70,0,0" FontFamily="SegoeUI" TextColor="#00BCCF"/>
+                <Image Source="{local:ImageResource Prototype.assets.People.TiersIcons.tier2-3x.png}"
+                       Margin="25,30,0,20"
+                       HorizontalOptions="StartAndExpand"
+                       WidthRequest="35"/>
 
-                <Image x:Name="OLine1" Source="{local:ImageResource Prototype.assets.Achievements.OrangeLine3x.png}"
+                <Grid Grid.Row="1">
+                    <Image x:Name="OLine1" Source="{local:ImageResource Prototype.assets.Achievements.OrangeLine3x.png}"
                        HeightRequest="10" WidthRequest="10"
-                       Grid.Row="1" Grid.Column="1"
-                       Margin="10,10,10,10"
-                       BackgroundColor="Black"
+                       Margin="0,3,200,3"
                        />
-                <Image x:Name="BLine"/>
-                <Image x:Name="OLine2"/>
+
+                    <Image x:Name="BLine"
+                           Source="{local:ImageResource Prototype.assets.Achievements.BlueLine3x.png}"
+                           Margin="0,3,5,3"/>
+
+                    <Image x:Name="OLine2" Source="{local:ImageResource Prototype.assets.Achievements.OrangeLine3x.png}"
+                           Margin="200,3,0,3"/>
+                </Grid>
             </Grid>
         </Grid>
     </ContentPage.Content>
