@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Prototype.SearchView" BackgroundColor="#E9E9E9" xmlns:local="clr-namespace:Prototype">
-    <ContentPage.Content>
+    <ContentView.Content>
         <Grid x:Name="TopSearchBar" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" BackgroundColor="White">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.5*"/>
@@ -52,5 +52,5 @@
             </Grid>
             
         </Grid>
-    </ContentPage.Content>
-</ContentPage>
+    </ContentView.Content>
+</ContentView>

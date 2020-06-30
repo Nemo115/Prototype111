@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace Prototype
 {
-    public partial class SearchView : ContentPage
+    public partial class SearchView : ContentView
     {
         public SearchView()
         {

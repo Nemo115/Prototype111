@@ -12,9 +12,9 @@ namespace Prototype
 
             //MainPage = new PeoplePage();
 
-            //MainPage = new SearchView();
+            MainPage = new SearchView();
 
-            MainPage = new HomePage();
+            //MainPage = new HomePage();
 
             //MainPage = new AchievementsPage();
 
