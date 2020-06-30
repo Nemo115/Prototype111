@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace Prototype
 {
-    public partial class AchievementsPage : ContentPage
+    public partial class AchievementsPage : ContentView
     {
         public AchievementsPage()
         {

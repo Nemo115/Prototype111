@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Prototype.LoginPage" xmlns:local="clr-namespace:Prototype" BackgroundColor="White" xmlns:custom="clr-namespace:Prototype">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Spacing="10"  Margin="10">
+            <Image Source="{local:ImageResource Prototype.assets.LoginScreen.title2x.jpg}" WidthRequest="300" HeightRequest="300"/>
+            <Label Text="Username" FontFamily="Segoe UI" FontSize="15" TextColor="#00BCCF"/>
+            <custom:CustomEntry x:Name="UsernameInput" HeightRequest="50" WidthRequest="100" CornerRadius="30" BorderColor="#00BCCF" FontFamily="Segoe UI" TextColor="#00BCCF"/>
+            <Label Text="Password" FontFamily="Segoe UI" FontSize="15" TextColor="#FF8E5B"/>
+            <custom:CustomEntry x:Name="PasswordInput" HeightRequest="50" WidthRequest="100" CornerRadius="30" BorderColor="#FF8E5B" IsPassword="True" FontFamily="Segoe UI" TextColor="#FF8E5B"/>
+            <Button x:Name="LoginButton" ImageSource="{local:ImageResource Prototype.assets.LoginScreen.loginbutton2x.jpg}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prototype.SearchView" BackgroundColor="#E9E9E9" xmlns:local="clr-namespace:Prototype">
+    <ContentView.Content>
+        <Grid x:Name="TopSearchBar" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" BackgroundColor="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="140"/>
+            </Grid.RowDefinitions>
+
+
+            <SearchBar x:Name="SearchBar" BackgroundColor="White" HeightRequest="300" Margin="0,0,50,0"/>
+            
+            <Grid Margin="358,40,0,40" WidthRequest="10" HeightRequest="10">
+                <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.5*"/>
+                
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+
+                <ImageButton Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.SettingsIcon.settingsIcon3x.png}"
+                        Margin="10,12,10,55"/>
+                
+
+            </Grid>
+
+            <Grid Margin="20,110,0,0" Grid.ColumnSpan="1" Grid.Column="0">
+                    <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="12"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="Bruh" TextColor="#FF8E5B" Grid.Column="2"/>
+                    <Image Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.TabLine3.png}"
+                           WidthRequest="35" HeightRequest="70"
+                           HorizontalOptions="Start" VerticalOptions="StartAndExpand"
+                           Grid.Row="1" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+                    <Label Text="Bruh" TextColor="#FF8E5B"/>
+
+                    <Image Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.TabLine3.png}"
+                           WidthRequest="35" HeightRequest="70"
+                           HorizontalOptions="Start" VerticalOptions="StartAndExpand"
+                           Grid.Row="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Grid.Column="2"/>
+
+            </Grid>
+            
+        </Grid>
+    </ContentView.Content>
+</ContentView>
