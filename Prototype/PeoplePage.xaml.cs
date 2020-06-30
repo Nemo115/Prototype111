@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace Prototype
 {
-    public partial class PeoplePage : ContentPage
+    public partial class PeoplePage : ContentView
     {
         public PeoplePage()
         {

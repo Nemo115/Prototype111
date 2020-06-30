@@ -33,3 +33,6 @@ C:/Users/leo.liu/source/repos/Prototype/Prototype/obj/Debug/netstandard2.0/HomeP
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/SearchView.xaml.g.cs
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/PeoplePage.xaml.g.cs
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/AchievementsPage.xaml.g.cs
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/MainHomeView.xaml.g.cs
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/RecentActivity.xaml.g.cs
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/RecommendedTab.xaml.g.cs

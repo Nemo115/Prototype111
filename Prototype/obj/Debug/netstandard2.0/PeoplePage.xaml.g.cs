@@ -14,7 +14,7 @@ namespace Prototype {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("PeoplePage.xaml")]
-    public partial class PeoplePage : global::Xamarin.Forms.ContentPage {
+    public partial class PeoplePage : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Grid ProfileBar;

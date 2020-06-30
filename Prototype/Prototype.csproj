@@ -139,6 +139,52 @@
     <None Remove="assets\People\settingsIcons\settings icon%402x.png" />
     <None Remove="assets\People\TiersIcons\tier2%402x.png" />
     <None Remove="assets\People\TiersIcons\tier 1%402x.png" />
+    <None Remove="assets\HomePage\RemoteBar\backwhiterect3x.png" />
+    <None Remove="assets\HomePage\RecomendedPage\backGrey3x.png" />
+    <None Remove="assets\HomePage\RecomendedPage\Recomended4u.png" />
+    <None Remove="assets\HomePage\RecomendedPage\Recomended4u3x.png" />
+    <None Remove="assets\HomePage\RemoteBar\backWhiteRect.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\backwhiterect.png" />
+    <None Remove="assets\HomePage\RemoteBar\backWhiteRect2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\backwhiterect2x.png" />
+    <None Remove="assets\HomePage\RemoteBar\FriendsIcon\friendicon.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\FriendsIcon\friendIcon2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\FriendsIcon\friendiconBOLD.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\FriendsIcon\friendiconBOLD2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\HomeIcons\HomeIcon.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\HomeIcons\HomeIcon2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\HomeIcons\HomeIconBOLD.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\HomeIcons\HomeIconBOLD2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\SearchIcons\searchicon.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\SearchIcons\searchicon2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\SearchIcons\searchiconBOLD.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\SearchIcons\searchiconBOLD2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\TrophyIcons\trophyicon.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\TrophyIcons\trophyicon2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\TrophyIcons\trophyiconBOLD.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\TrophyIcons\trophyiconBOLD2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\UploadIcons\uploadicon.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\UploadIcons\uploadicon2x.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\UploadIcons\uploadiconBOLD.jpg" />
+    <None Remove="assets\HomePage\RemoteBar\UploadIcons\uploadiconBOLD2x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\BackRect1.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\BackRect2.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\lineElements\Line5.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\lineElements\Line52x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\lineElements\Line6.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\lineElements\Line62x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\lineElements\Path 172x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\lineElements\Path17.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\Rectangle15.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\Rectangle152x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\search\Search bar.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\search\Search bar2x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\search\search logo.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\search\search logo2x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\Settings icons\settings icon BOLD.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\Settings icons\settings icon BOLD2x.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\Settings icons\settings icon.jpg" />
+    <None Remove="assets\HomePage\TopSearchBar\Settings icons\settings icon2x.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -243,6 +289,52 @@
     <EmbeddedResource Include="assets\titlecard\titletwo.jpg" />
     <EmbeddedResource Include="assets\titlecard\topflowing.jpg" />
     <EmbeddedResource Include="assets\titlecard\topflowingtwo.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\backwhiterect3x.png" />
+    <EmbeddedResource Include="assets\HomePage\RecomendedPage\backGrey3x.png" />
+    <EmbeddedResource Include="assets\HomePage\RecomendedPage\Recomended4u.png" />
+    <EmbeddedResource Include="assets\HomePage\RecomendedPage\Recomended4u3x.png" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\backWhiteRect.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\backwhiterect.png" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\backWhiteRect2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\backwhiterect2x.png" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\FriendsIcon\friendicon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\FriendsIcon\friendIcon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\FriendsIcon\friendiconBOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\FriendsIcon\friendiconBOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\HomeIcons\HomeIcon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\HomeIcons\HomeIcon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\HomeIcons\HomeIconBOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\HomeIcons\HomeIconBOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\SearchIcons\searchicon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\SearchIcons\searchicon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\SearchIcons\searchiconBOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\SearchIcons\searchiconBOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\TrophyIcons\trophyicon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\TrophyIcons\trophyicon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\TrophyIcons\trophyiconBOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\TrophyIcons\trophyiconBOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\UploadIcons\uploadicon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\UploadIcons\uploadicon2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\UploadIcons\uploadiconBOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\RemoteBar\UploadIcons\uploadiconBOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\BackRect1.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\BackRect2.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\lineElements\Line5.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\lineElements\Line52x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\lineElements\Line6.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\lineElements\Line62x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\lineElements\Path 172x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\lineElements\Path17.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\Rectangle15.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\Rectangle152x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\search\Search bar.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\search\Search bar2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\search\search logo.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\search\search logo2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\Settings icons\settings icon BOLD.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\Settings icons\settings icon BOLD2x.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\Settings icons\settings icon.jpg" />
+    <EmbeddedResource Include="assets\HomePage\TopSearchBar\Settings icons\settings icon2x.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -259,10 +351,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="sav\" />
     <Folder Include="assets\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="sav\Prototype.csproj" />
+    <Compile Update="RecentActivity.xaml.cs">
+      <DependentUpon>RecentActivity.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MainHomeView.xaml.cs">
+      <DependentUpon>MainHomeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="RecommendedTab.xaml.cs">
+      <DependentUpon>RecommendedTab.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

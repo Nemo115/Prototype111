@@ -15,29 +15,15 @@ namespace Prototype
         public HomePage()
         {
             InitializeComponent();
-            Posts();
+
             //SearchView.IsVisible = false;
+
+            BindingContext = new Pages();
         }
 
-        public bool OnFriends = false;
-
-        public bool OnAchievements = false;
-
-        public bool OnHome = false;
-
-        public bool OnCreate = false;
-
-        public bool OnSearch = false;
-
-        public void Posts()
-        {
-
-            var test = new Label {Text= "BRUHRBUHRUFASHBNDFHBDSJFB" };
-
-            
-        }
         
-
+        
+        
         void FriendsButton_Clicked(System.Object sender, System.EventArgs e)
         {
             FriendsButton.ImageSource =  ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendiconBOLD2x.jpg");
@@ -47,7 +33,7 @@ namespace Prototype
             Create.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
             Search.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
 
-            OnFriends = true;
+            
         }
 
         void Achievements_Clicked(System.Object sender, System.EventArgs e)
@@ -59,7 +45,7 @@ namespace Prototype
             Search.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
 
-            OnAchievements = true;
+            
         }
 
         void Home_Clicked(System.Object sender, System.EventArgs e)
@@ -71,7 +57,7 @@ namespace Prototype
             Search.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
 
-            OnHome = true;
+           
         }
 
         void Create_Clicked(System.Object sender, System.EventArgs e)
