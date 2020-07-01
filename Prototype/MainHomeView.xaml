@@ -16,8 +16,35 @@
                                Margin="350,18,0,20"/>
                     </Grid>
 
-                    <Grid BackgroundColor="Black" Margin="0,70,0,100">
+                    <Grid BackgroundColor="Black" Margin="0,70,0,90">
 
+                    </Grid>
+
+                    <Grid Margin="0,310,0,50" BackgroundColor="Blue">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.5*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="90"/>
+                            
+                        </Grid.RowDefinitions>
+                        <Button x:Name="DropVote" ImageSource="{local:ImageResource Prototype.assets.HomePage.PostElements.DropVoteIcons.upvoteIcon2x.jpg}" BackgroundColor="AliceBlue"
+                                Margin="0,0,0,50"/>
+                        <Button x:Name="Like" ImageSource="{local:ImageResource Prototype.assets.HomePage.PostElements.thumbsUpIcon.ThumbsUpIcon2x.jpg}"
+                                Margin="0,0,0,50"
+                                Grid.Column="1"/>
+                        <Button x:Name="Bet" ImageSource="{local:ImageResource Prototype.assets.HomePage.PostElements.betIcons.betIcon2x.jpg}"
+                                Margin="0,0,0,50"
+                                Grid.Column="2"
+                                BackgroundColor="AliceBlue"/>
+                        <Button x:Name="Send" ImageSource="{local:ImageResource Prototype.assets.HomePage.PostElements.SendIcons.sendIcon2x.jpg}"
+                                Margin="0,0,0,50" Grid.Column="3"
+                                BackgroundColor="AntiqueWhite"/>
+                        <Button x:Name="Save" ImageSource="{local:ImageResource Prototype.assets.HomePage.PostElements.saveIcons.saveIcon2x.jpg}"
+                                Margin="0,0,0,50" Grid.Column="4"/>
+                        <Button x:Name="Comment" ImageSource="{local:ImageResource Prototype.assets.HomePage.PostElements.CommentIcons.commentBubble2x.jpg}"
+                                Margin="0,0,0,50" Grid.Column="5"/>
                     </Grid>
 
                 </Grid>
