@@ -1,22 +1,24 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31ABF272-1370-4640-8096-45DF7E5D044A" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/MainHomeView.xaml">
     <Files>
-      <File FileName="Prototype/HomePage.xaml" Line="91" Column="1" />
-      <File FileName="Prototype/HomePage.xaml.cs" Line="81" Column="1" />
-      <File FileName="Prototype/PeoplePage.xaml" />
-      <File FileName="Prototype/PeoplePage.xaml.cs" />
+      <File FileName="Prototype/HomePage.xaml" Line="7" Column="59" />
+      <File FileName="Prototype/HomePage.xaml.cs" Line="44" Column="56" />
+      <File FileName="Prototype/PeoplePage.xaml" Line="32" Column="61" />
+      <File FileName="Prototype/PeoplePage.xaml.cs" Line="16" Column="1" />
       <File FileName="Prototype/Pages.cs" />
       <File FileName="Prototype/RecentActivity.xaml" />
-      <File FileName="Prototype/RecentActivity.xaml.cs" />
-      <File FileName="Prototype/MainHomeView.xaml" />
+      <File FileName="Prototype/RecentActivity.xaml.cs" Line="8" Column="54" />
+      <File FileName="Prototype/MainHomeView.xaml" Line="6" Column="1" />
       <File FileName="Prototype/MainHomeView.xaml.cs" />
       <File FileName="Prototype/RecommendedTab.xaml" />
-      <File FileName="Prototype/RecommendedTab.xaml.cs" />
+      <File FileName="Prototype/RecommendedTab.xaml.cs" Line="12" Column="35" />
       <File FileName="Prototype/assets/HomePage/TopSearchBar/Settings icons/settings icon BOLD.jpg" />
-      <File FileName="Prototype/SearchView.xaml" Line="4" Column="17" />
-      <File FileName="Prototype/SearchView.xaml.cs" Line="10" Column="28" />
-      <File FileName="Prototype/App.xaml.cs" Line="15" Column="13" />
+      <File FileName="Prototype/SearchView.xaml" Line="28" Column="1" />
+      <File FileName="Prototype/SearchView.xaml.cs" Line="12" Column="35" />
+      <File FileName="Prototype/App.xaml.cs" Line="16" Column="1" />
+      <File FileName="Prototype/App.xaml" Line="1" Column="1" />
+      <File FileName="Prototype/LoginPage.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,16 +33,10 @@
                 </Node>
               </Node>
               <Node name="AchievementsPage.xaml" expanded="True" />
-              <Node name="App.xaml" expanded="True">
-                <Node name="App.xaml.cs" selected="True" />
-              </Node>
+              <Node name="App.xaml" expanded="True" />
               <Node name="HomePage.xaml" expanded="True" />
-              <Node name="MainHomeView.xaml" expanded="True" />
-              <Node name="RecentActivity.xaml" expanded="True" />
-              <Node name="RecommendedTab.xaml" expanded="True" />
-              <Node name="SearchView.xaml" expanded="True" />
+              <Node name="MainHomeView.xaml" expanded="True" selected="True" />
             </Node>
-            <Node name="Prototype.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
