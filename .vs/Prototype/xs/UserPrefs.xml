@@ -2,23 +2,23 @@
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31ABF272-1370-4640-8096-45DF7E5D044A" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/MainHomeView.xaml">
     <Files>
-      <File FileName="Prototype/HomePage.xaml" Line="7" Column="59" />
-      <File FileName="Prototype/HomePage.xaml.cs" Line="44" Column="56" />
-      <File FileName="Prototype/PeoplePage.xaml" Line="32" Column="61" />
-      <File FileName="Prototype/PeoplePage.xaml.cs" Line="16" Column="1" />
+      <File FileName="Prototype/HomePage.xaml" Line="120" Column="62" />
+      <File FileName="Prototype/MainHomeView.xaml" Line="23" Column="66" />
+      <File FileName="Prototype/HomePage.xaml.cs" />
+      <File FileName="Prototype/PeoplePage.xaml" />
+      <File FileName="Prototype/PeoplePage.xaml.cs" />
       <File FileName="Prototype/Pages.cs" />
       <File FileName="Prototype/RecentActivity.xaml" />
-      <File FileName="Prototype/RecentActivity.xaml.cs" Line="8" Column="54" />
-      <File FileName="Prototype/MainHomeView.xaml" Line="6" Column="1" />
+      <File FileName="Prototype/RecentActivity.xaml.cs" />
       <File FileName="Prototype/MainHomeView.xaml.cs" />
       <File FileName="Prototype/RecommendedTab.xaml" />
-      <File FileName="Prototype/RecommendedTab.xaml.cs" Line="12" Column="35" />
+      <File FileName="Prototype/RecommendedTab.xaml.cs" />
       <File FileName="Prototype/assets/HomePage/TopSearchBar/Settings icons/settings icon BOLD.jpg" />
-      <File FileName="Prototype/SearchView.xaml" Line="28" Column="1" />
-      <File FileName="Prototype/SearchView.xaml.cs" Line="12" Column="35" />
-      <File FileName="Prototype/App.xaml.cs" Line="16" Column="1" />
-      <File FileName="Prototype/App.xaml" Line="1" Column="1" />
-      <File FileName="Prototype/LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="Prototype/SearchView.xaml" />
+      <File FileName="Prototype/SearchView.xaml.cs" />
+      <File FileName="Prototype/App.xaml.cs" />
+      <File FileName="Prototype/App.xaml" />
+      <File FileName="Prototype/LoginPage.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,8 +27,8 @@
             <Node name="Prototype" expanded="True">
               <Node name="assets" expanded="True">
                 <Node name="HomePage" expanded="True">
-                  <Node name="TopSearchBar" expanded="True">
-                    <Node name="Settings icons" expanded="True" />
+                  <Node name="PostElements" expanded="True">
+                    <Node name="CommentIcons" expanded="True" />
                   </Node>
                 </Node>
               </Node>
