@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
 
 namespace Prototype
 {
-    public partial class SendUpload : ContentPage
+    public partial class PeopleYouFollow : ContentView
     {
-        public SendUpload()
+        public PeopleYouFollow()
         {
             InitializeComponent();
-            BindingContext = new SendUploadPages();
         }
     }
 }

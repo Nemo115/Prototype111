@@ -1,20 +1,28 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31ABF272-1370-4640-8096-45DF7E5D044A" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/SendUpload.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/PeopleYouFollow.xaml">
     <Files>
-      <File FileName="Prototype/SendUpload.xaml" Line="3" Column="14" />
-      <File FileName="Prototype/SendUpload.xaml.cs" Line="8" Column="50" />
-      <File FileName="Prototype/App.xaml.cs" Line="23" Column="41" />
-      <File FileName="Prototype/Pages.cs" Line="1" Column="1" />
-      <File FileName="Prototype/SearchView.xaml" Line="4" Column="26" />
+      <File FileName="Prototype/HomePage.xaml.cs" Line="23" Column="1" />
+      <File FileName="Prototype/LoginPage.xaml" />
+      <File FileName="Prototype/MainHomeView.xaml" />
+      <File FileName="Prototype/PeopleYouFollow.xaml" Line="26" Column="24" />
+      <File FileName="Prototype/LoginPage.xaml.cs" />
+      <File FileName="Prototype/PeoplePage.xaml" />
+      <File FileName="Prototype/PeopleYouFollow.xaml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
-              <Node name="App.xaml" expanded="True" />
-              <Node name="SendUpload.xaml" expanded="True" selected="True" />
+              <Node name="assets" expanded="True">
+                <Node name="People" expanded="True">
+                  <Node name="defaultProfilePic" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="HomePage.xaml" expanded="True" />
+              <Node name="LoginPage.xaml" expanded="True" />
+              <Node name="PeopleYouFollow.xaml" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>

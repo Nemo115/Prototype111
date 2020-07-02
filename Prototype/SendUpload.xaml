@@ -16,8 +16,15 @@
                 </Grid>
             </Grid>
 
-            <CarouselView BackgroundColor="AliceBlue" Margin="0,100,0,0">
+            <CarouselView Margin="0,100,0,0" ItemsSource="{Binding SendUploadList}">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <ContentView Content="{Binding .}">
 
+                        </ContentView>
+                    </DataTemplate>
+
+                </CarouselView.ItemTemplate>
             </CarouselView>
         </Grid>
 
