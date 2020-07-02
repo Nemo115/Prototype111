@@ -10,7 +10,7 @@ namespace Prototype
         {
             SendUploadList = new List<View>()
             {
-                new PeopleYouFollow()
+                new PeopleYouFollow(), new SendUploadFriends()
             };
 
         }

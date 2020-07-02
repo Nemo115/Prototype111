@@ -1,28 +1,29 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31ABF272-1370-4640-8096-45DF7E5D044A" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/PeopleYouFollow.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/SendUpload.xaml">
     <Files>
       <File FileName="Prototype/HomePage.xaml.cs" Line="23" Column="1" />
+      <File FileName="Prototype/SendUploadFriends.xaml" Line="3" Column="51" />
+      <File FileName="Prototype/SendUploadFriends.xaml.cs" Line="1" Column="1" />
+      <File FileName="Prototype/PeopleYouFollow.xaml" Line="3" Column="14" />
       <File FileName="Prototype/LoginPage.xaml" />
       <File FileName="Prototype/MainHomeView.xaml" />
-      <File FileName="Prototype/PeopleYouFollow.xaml" Line="26" Column="24" />
       <File FileName="Prototype/LoginPage.xaml.cs" />
       <File FileName="Prototype/PeoplePage.xaml" />
       <File FileName="Prototype/PeopleYouFollow.xaml.cs" />
+      <File FileName="Prototype/SendUploadPages.cs" Line="17" Column="56" />
+      <File FileName="Prototype/SendUpload.xaml" Line="8" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
-              <Node name="assets" expanded="True">
-                <Node name="People" expanded="True">
-                  <Node name="defaultProfilePic" expanded="True" />
-                </Node>
-              </Node>
               <Node name="HomePage.xaml" expanded="True" />
               <Node name="LoginPage.xaml" expanded="True" />
-              <Node name="PeopleYouFollow.xaml" expanded="True" selected="True" />
+              <Node name="PeopleYouFollow.xaml" expanded="True" />
+              <Node name="SendUpload.xaml" selected="True" />
+              <Node name="SendUploadFriends.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
