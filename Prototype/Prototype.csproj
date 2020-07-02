@@ -185,6 +185,21 @@
     <None Remove="assets\HomePage\TopSearchBar\Settings icons\settings icon BOLD2x.jpg" />
     <None Remove="assets\HomePage\TopSearchBar\Settings icons\settings icon.jpg" />
     <None Remove="assets\HomePage\TopSearchBar\Settings icons\settings icon2x.jpg" />
+    <None Remove="assets\SendUpload\backGreyRow.png" />
+    <None Remove="assets\SendUpload\backGreyRow2x.png" />
+    <None Remove="assets\SendUpload\backGreyRow3x.png" />
+    <None Remove="assets\SendUpload\NavBar\Lines\BlueLine.png" />
+    <None Remove="assets\SendUpload\NavBar\Lines\BlueLine2x.png" />
+    <None Remove="assets\SendUpload\NavBar\Lines\BlueLine3x.png" />
+    <None Remove="assets\SendUpload\NavBar\Lines\OrangeLine.png" />
+    <None Remove="assets\SendUpload\NavBar\Lines\OrangeLine2x.png" />
+    <None Remove="assets\SendUpload\NavBar\Lines\OrangeLine3x.png" />
+    <None Remove="assets\SendUpload\NavBar\UploadIcons\uploadicon-1.png" />
+    <None Remove="assets\SendUpload\NavBar\UploadIcons\uploadIcon.png" />
+    <None Remove="assets\SendUpload\NavBar\UploadIcons\uploadIcon1-2x.png" />
+    <None Remove="assets\SendUpload\NavBar\UploadIcons\uploadIcon1-3x.png" />
+    <None Remove="assets\SendUpload\NavBar\UploadIcons\uploadIcon2x.png" />
+    <None Remove="assets\SendUpload\NavBar\UploadIcons\uploadIcon3x.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -335,6 +350,21 @@
     <EmbeddedResource Include="assets\HomePage\TopSearchBar\Settings icons\settings icon BOLD2x.jpg" />
     <EmbeddedResource Include="assets\HomePage\TopSearchBar\Settings icons\settings icon.jpg" />
     <EmbeddedResource Include="assets\HomePage\TopSearchBar\Settings icons\settings icon2x.jpg" />
+    <EmbeddedResource Include="assets\SendUpload\backGreyRow.png" />
+    <EmbeddedResource Include="assets\SendUpload\backGreyRow2x.png" />
+    <EmbeddedResource Include="assets\SendUpload\backGreyRow3x.png" />
+    <EmbeddedResource Include="assets\SendUpload\NavBar\Lines\BlueLine.png" />
+    <EmbeddedResource Include="assets\SendUpload\NavBar\Lines\BlueLine2x.png" />
+    <EmbeddedResource Include="assets\SendUpload\NavBar\Lines\BlueLine3x.png" />
+    <EmbeddedResource Include="assets\SendUpload\NavBar\Lines\OrangeLine.png" />
+    <EmbeddedResource Include="assets\SendUpload\NavBar\Lines\OrangeLine2x.png" />
+    <EmbeddedResource Include="assets\SendUpload\NavBar\Lines\OrangeLine3x.png" />
+    <EmbeddedResource Include="assets\SendUpload\NavBar\UploadIcons\uploadicon-1.png" />
+    <EmbeddedResource Include="assets\SendUpload\NavBar\UploadIcons\uploadIcon.png" />
+    <EmbeddedResource Include="assets\SendUpload\NavBar\UploadIcons\uploadIcon1-2x.png" />
+    <EmbeddedResource Include="assets\SendUpload\NavBar\UploadIcons\uploadIcon1-3x.png" />
+    <EmbeddedResource Include="assets\SendUpload\NavBar\UploadIcons\uploadIcon2x.png" />
+    <EmbeddedResource Include="assets\SendUpload\NavBar\UploadIcons\uploadIcon3x.png" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.SendUpload"
+             xmlns:local="clr-namespace:Prototype" BackgroundColor="#E9E9E9">
+    <ContentPage.Content>
+        <Grid>
+            <Grid x:Name="NavBar" BackgroundColor="White" Margin="0,0,0,800">
+                <ImageButton Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.UploadIcons.uploadIcon1-3x.png}"
+                        Margin="30,40,330,20"
+                        HeightRequest="200" WidthRequest="200"/>
+
+                <Grid x:Name="LineBar" Margin="0,80,0,0">
+                    <Image x:Name="BlueLine" Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.Lines.BlueLine3x.png}"
+                           Margin="160,0,160,0"/>
+                    <Image x:Name="OrangeLine" Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.Lines.OrangeLine3x.png}"
+                           Margin="300,0,60,0"/>
+                </Grid>
+            </Grid>
+
+            <CarouselView BackgroundColor="AliceBlue" Margin="0,100,0,0">
+
+            </CarouselView>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>
