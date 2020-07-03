@@ -1,5 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.SearchTopTab">
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.SearchTopTab"
+             BackgroundColor="#E9E9E9">
     <ContentView.Content>
+        <Grid>
+            <Grid BackgroundColor="#F6F6F6" Margin="0,4,0,704">
+                <Label Text="Top"
+                       HorizontalOptions="Center" VerticalOptions="Center"
+                       TextColor="#00BCCF"/>
+            </Grid>
+
+            <ScrollView BackgroundColor="White" Margin="0,58,0,0">
+            </ScrollView>
+        </Grid>
     </ContentView.Content>
 </ContentView>

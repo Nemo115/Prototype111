@@ -1,27 +1,14 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31ABF272-1370-4640-8096-45DF7E5D044A" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/SearchDropsTab.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/PeopleYouFollow.xaml">
     <Files>
-      <File FileName="Prototype/SendUpload.xaml" Line="18" Column="1" />
-      <File FileName="Prototype/SendUpload.xaml.cs" Line="29" Column="10" />
-      <File FileName="Prototype/PeoplePage.xaml.cs" Line="26" Column="50" />
-      <File FileName="Prototype/Pages.cs" Line="19" Column="6" />
-      <File FileName="Prototype/SearchView.xaml.cs" Line="35" Column="1" />
-      <File FileName="Prototype/RecommendedTab.xaml.cs" Line="24" Column="50" />
-      <File FileName="Prototype/HomePage.xaml.cs" Line="93" Column="1" />
-      <File FileName="Prototype/HomePage.xaml" Line="11" Column="9" />
-      <File FileName="Prototype/App.xaml.cs" Line="17" Column="39" />
-      <File FileName="Prototype/SearchView.xaml" Line="30" Column="1" />
-      <File FileName="Prototype/PeoplePage.xaml" Line="1" Column="1" />
-      <File FileName="Prototype/AchievementsPage.xaml.cs" Line="26" Column="48" />
-      <File FileName="Prototype/SearchPeopleTab.xaml" Line="4" Column="1" />
-      <File FileName="Prototype/SearchPeopleTab.xaml.cs" Line="12" Column="10" />
-      <File FileName="Prototype/SearchTopTab.xaml" Line="1" Column="1" />
-      <File FileName="Prototype/SearchTopTab.xaml.cs" Line="1" Column="1" />
+      <File FileName="Prototype/SearchView.xaml" Line="56" Column="80" />
+      <File FileName="Prototype/SearchTopTab.xaml" Line="11" Column="61" />
       <File FileName="Prototype/SearchPostsTab.xaml" Line="1" Column="1" />
-      <File FileName="Prototype/SearchPostsTab.xaml.cs" Line="1" Column="1" />
+      <File FileName="Prototype/SearchPeopleTab.xaml" Line="1" Column="1" />
       <File FileName="Prototype/SearchDropsTab.xaml" Line="1" Column="1" />
-      <File FileName="Prototype/SearchDropsTab.xaml.cs" Line="1" Column="1" />
+      <File FileName="Prototype/SendUploadFriends.xaml" Line="1" Column="1" />
+      <File FileName="Prototype/PeopleYouFollow.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,10 +19,9 @@
               <Node name="App.xaml" expanded="True" />
               <Node name="HomePage.xaml" expanded="True" />
               <Node name="PeoplePage.xaml" expanded="True" />
+              <Node name="PeopleYouFollow.xaml" selected="True" />
               <Node name="RecommendedTab.xaml" expanded="True" />
-              <Node name="SearchDropsTab.xaml" expanded="True">
-                <Node name="SearchDropsTab.xaml.cs" selected="True" />
-              </Node>
+              <Node name="SearchDropsTab.xaml" expanded="True" />
               <Node name="SearchPeopleTab.xaml" expanded="True" />
               <Node name="SearchPostsTab.xaml" expanded="True" />
               <Node name="SearchTopTab.xaml" expanded="True" />

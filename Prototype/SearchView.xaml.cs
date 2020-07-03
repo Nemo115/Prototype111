@@ -10,6 +10,7 @@ namespace Prototype
         public SearchView()
         {
             InitializeComponent();
+            BindingContext = new SearchViewPages();
         }
     }
 
@@ -24,7 +25,7 @@ namespace Prototype
         }
         public IList<View> ViewList { get; set; }
     }
-
+    
     public class SearchViewPages
     {
         public SearchViewPages()
@@ -32,6 +33,7 @@ namespace Prototype
             SearchList = new List<View>()
             {
                 //new People, new Top, new Posts, new Drops
+                new SearchPeopleTab(), new SearchTopTab(), new SearchPostsTab(), new SearchDropsTab()
             };
         }
         public IList<View> SearchList { get; set; }

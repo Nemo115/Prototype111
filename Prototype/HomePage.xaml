@@ -22,19 +22,15 @@
                     <SwipeGestureRecognizer Direction="Left" Swiped="Swiped"/>
                     <SwipeGestureRecognizer Direction="Right" Swiped="Swiped"/>
                 </CarouselView.GestureRecognizers>
-
-                
                    
                     <CarouselView.ItemTemplate>
                         <DataTemplate>
                             <ContentView x:Name="ViewY" Content="{Binding .}" >
                                
                             </ContentView>
-                            
                         </DataTemplate>
                     </CarouselView.ItemTemplate>
-                    
-                </CarouselView>
+            </CarouselView>
 
             
 

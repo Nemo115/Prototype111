@@ -39,3 +39,7 @@ C:/Users/leo.liu/source/repos/Prototype/Prototype/obj/Debug/netstandard2.0/HomeP
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/SendUpload.xaml.g.cs
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/PeopleYouFollow.xaml.g.cs
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/SendUploadFriends.xaml.g.cs
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/SearchDropsTab.xaml.g.cs
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/SearchPeopleTab.xaml.g.cs
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/SearchPostsTab.xaml.g.cs
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/SearchTopTab.xaml.g.cs
