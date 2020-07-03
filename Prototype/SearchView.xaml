@@ -23,7 +23,7 @@
                 </Grid.RowDefinitions>
 
                 <ImageButton Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.SettingsIcon.settingsIcon3x.png}"
-                        Margin="10,12,10,55"/>
+                        Margin="10,17,10,60"/>
                 
 
             </Grid>

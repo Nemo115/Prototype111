@@ -24,4 +24,16 @@ namespace Prototype
         }
         public IList<View> ViewList { get; set; }
     }
+
+    public class SearchViewPages
+    {
+        public SearchViewPages()
+        {
+            SearchList = new List<View>()
+            {
+                //new People, new Top, new Posts, new Drops
+            };
+        }
+        public IList<View> SearchList { get; set; }
+    }
 }
