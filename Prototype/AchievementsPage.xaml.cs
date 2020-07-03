@@ -12,4 +12,17 @@ namespace Prototype
             InitializeComponent();
         }
     }
+
+    public class DisAchievementsPage
+    {
+        public DisAchievementsPage()
+        {
+            ViewList = new List<View>()
+            {
+                new AchievementsPage()
+            };
+        }
+
+        public IList<View> ViewList { get; set; }
+    }
 }

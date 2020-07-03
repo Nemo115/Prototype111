@@ -12,4 +12,17 @@ namespace Prototype
             InitializeComponent();
         }
     }
+
+    public class DisPeoplePage
+    {
+        public DisPeoplePage()
+        {
+            ViewList = new List<View>()
+            {
+                new PeoplePage()
+            };
+        }
+
+        public IList<View> ViewList { get; set; }
+    }
 }

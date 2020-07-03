@@ -33,7 +33,9 @@ namespace Prototype
             Create.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
             Search.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
 
-            BindingContext = new PeoplePage();
+            BindingContext = new DisPeoplePage();
+
+            NavigationBar.IsVisible = false;
         }
 
         void Achievements_Clicked(System.Object sender, System.EventArgs e)
@@ -45,7 +47,9 @@ namespace Prototype
             Search.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
 
-            BindingContext = new AchievementsPage();
+            BindingContext = new DisAchievementsPage();
+
+            NavigationBar.IsVisible = false;
         }
 
         void Home_Clicked(System.Object sender, System.EventArgs e)
@@ -58,6 +62,8 @@ namespace Prototype
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
 
             BindingContext = new Pages();
+
+            NavigationBar.IsVisible = true;
         }
 
         void Create_Clicked(System.Object sender, System.EventArgs e)
@@ -69,8 +75,7 @@ namespace Prototype
             Search.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
 
-            BindingContext = new SendUpload();
-            ViewX.ItemsSource = SUList;
+            BindingContext = new DisSendUpload();
 
             NavigationBar.IsVisible = false;
         }
@@ -84,7 +89,9 @@ namespace Prototype
             Create.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
 
-            BindingContext = new SearchView();
+            BindingContext = new DisSearchView();
+
+            NavigationBar.IsVisible = false;
         }
 
         

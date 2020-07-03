@@ -15,8 +15,7 @@
                 <RowDefinition Height="0.5*"/>
             </Grid.RowDefinitions>
 
-            <CarouselView x:Name="ViewX" HorizontalOptions="Center" VerticalOptions="Center" ItemsSource="{Binding ViewList}"
-                            >
+            <CarouselView x:Name="ViewX" HorizontalOptions="Center" VerticalOptions="Center" ItemsSource="{Binding ViewList}">
                 <CarouselView.GestureRecognizers>
                     <SwipeGestureRecognizer Direction="Up" Swiped="Swiped"/>
                     <SwipeGestureRecognizer Direction="Down" Swiped="Swiped"/>

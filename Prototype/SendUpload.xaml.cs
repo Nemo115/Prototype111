@@ -9,14 +9,24 @@ namespace Prototype
     {
         public SendUpload()
         {
-            InitializeComponent();
+            
             BindingContext = new SendUploadPages();
-            SUList = new List<View>()
+            
+
+            InitializeComponent();
+        }
+        
+    }
+
+    public class DisSendUpload
+    {
+        public DisSendUpload()
+        {
+            ViewList = new List<View>()
             {
                 new SendUpload()
             };
-
         }
-        public IList<View> SUList { get; set; }
+        public IList<View> ViewList { get; set; }
     }
 }

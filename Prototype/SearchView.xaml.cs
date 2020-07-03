@@ -12,4 +12,16 @@ namespace Prototype
             InitializeComponent();
         }
     }
+
+    public class DisSearchView
+    {
+        public DisSearchView()
+        {
+            ViewList = new List<View>()
+            {
+                new SearchView()
+            };
+        }
+        public IList<View> ViewList { get; set; }
+    }
 }

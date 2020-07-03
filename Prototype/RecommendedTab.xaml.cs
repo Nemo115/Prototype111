@@ -12,4 +12,15 @@ namespace Prototype
             InitializeComponent();
         }
     }
+    public class DisRecommendedTab
+    {
+        public DisRecommendedTab()
+        {
+            ViewList = new List<View>()
+            {
+                new RecommendedTab()
+            };
+        }
+        public IList<View> ViewList { get; set; }
+    }
 }
