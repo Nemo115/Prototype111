@@ -1,29 +1,24 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31ABF272-1370-4640-8096-45DF7E5D044A" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/SendUpload.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/App.xaml.cs">
     <Files>
-      <File FileName="Prototype/HomePage.xaml.cs" Line="23" Column="1" />
-      <File FileName="Prototype/SendUploadFriends.xaml" Line="3" Column="51" />
-      <File FileName="Prototype/SendUploadFriends.xaml.cs" Line="1" Column="1" />
-      <File FileName="Prototype/PeopleYouFollow.xaml" Line="3" Column="14" />
-      <File FileName="Prototype/LoginPage.xaml" />
-      <File FileName="Prototype/MainHomeView.xaml" />
-      <File FileName="Prototype/LoginPage.xaml.cs" />
-      <File FileName="Prototype/PeoplePage.xaml" />
-      <File FileName="Prototype/PeopleYouFollow.xaml.cs" />
-      <File FileName="Prototype/SendUploadPages.cs" Line="17" Column="56" />
-      <File FileName="Prototype/SendUpload.xaml" Line="8" Column="34" />
+      <File FileName="Prototype/SendUpload.xaml" Line="18" Column="1" />
+      <File FileName="Prototype/SendUpload.xaml.cs" Line="12" Column="35" />
+      <File FileName="Prototype/HomePage.xaml.cs" Line="72" Column="47" />
+      <File FileName="Prototype/HomePage.xaml" Line="1" Column="1" />
+      <File FileName="Prototype/Pages.cs" Line="18" Column="9" />
+      <File FileName="Prototype/App.xaml.cs" Line="17" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
               <Node name="HomePage.xaml" expanded="True" />
-              <Node name="LoginPage.xaml" expanded="True" />
-              <Node name="PeopleYouFollow.xaml" expanded="True" />
-              <Node name="SendUpload.xaml" selected="True" />
-              <Node name="SendUploadFriends.xaml" expanded="True" />
+              <Node name="SendUpload.xaml" expanded="True" />
             </Node>
           </Node>
         </State>

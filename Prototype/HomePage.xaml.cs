@@ -68,6 +68,11 @@ namespace Prototype
             Home.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg");
             Search.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
+
+            BindingContext = new SendUpload();
+            ViewX.ItemsSource = SUList;
+
+            NavigationBar.IsVisible = false;
         }
 
         void Search_Clicked(System.Object sender, System.EventArgs e)

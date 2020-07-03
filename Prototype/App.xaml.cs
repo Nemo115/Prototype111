@@ -14,13 +14,13 @@ namespace Prototype
 
             //MainPage = new SearchView();
 
-            //MainPage = new HomePage();
+            MainPage = new HomePage();
 
             //MainPage = new AchievementsPage();
 
             //MainPage = new RecommendedTab();
 
-            MainPage = new SendUpload();
+            //MainPage = new SendUpload();
         }
 
         protected override void OnStart()
