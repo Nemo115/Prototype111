@@ -200,6 +200,22 @@
     <None Remove="assets\SendUpload\NavBar\UploadIcons\uploadIcon1-3x.png" />
     <None Remove="assets\SendUpload\NavBar\UploadIcons\uploadIcon2x.png" />
     <None Remove="assets\SendUpload\NavBar\UploadIcons\uploadIcon3x.png" />
+    <None Remove="assets\Achievements\Row\BackGrey.png" />
+    <None Remove="assets\Achievements\Row\BackGrey2x.png" />
+    <None Remove="assets\Achievements\Row\BackGrey3x.png" />
+    <None Remove="assets\Achievements\Row\BetIcons\Bet.png" />
+    <None Remove="assets\Achievements\Row\BetIcons\Bet3x.png" />
+    <None Remove="assets\Achievements\Row\BetIcons\BetIcon2x.png" />
+    <None Remove="assets\Achievements\Row\LikeIcon\Like.png" />
+    <None Remove="assets\Achievements\Row\LikeIcon\Like2x.png" />
+    <None Remove="assets\Achievements\Row\LikeIcon\Like3x.png" />
+    <None Remove="assets\Achievements\Row\UpvoteIcons\upvoteBOLD.png" />
+    <None Remove="assets\Achievements\Row\UpvoteIcons\upvoteBOLD2x.png" />
+    <None Remove="assets\Achievements\Row\UpvoteIcons\upvoteBOLD3x.png" />
+    <None Remove="assets\Achievements\misc\HomeIconBOLD.png" />
+    <None Remove="assets\Achievements\misc\HomeIconBOLD%402x.png" />
+    <None Remove="assets\Achievements\misc\HomeIconBOLD%403x.png" />
+    <None Remove="assets\Achievements\misc\HomeTransparentImage.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -365,6 +381,22 @@
     <EmbeddedResource Include="assets\SendUpload\NavBar\UploadIcons\uploadIcon1-3x.png" />
     <EmbeddedResource Include="assets\SendUpload\NavBar\UploadIcons\uploadIcon2x.png" />
     <EmbeddedResource Include="assets\SendUpload\NavBar\UploadIcons\uploadIcon3x.png" />
+    <EmbeddedResource Include="assets\Achievements\Row\BackGrey.png" />
+    <EmbeddedResource Include="assets\Achievements\Row\BackGrey2x.png" />
+    <EmbeddedResource Include="assets\Achievements\Row\BackGrey3x.png" />
+    <EmbeddedResource Include="assets\Achievements\Row\BetIcons\Bet.png" />
+    <EmbeddedResource Include="assets\Achievements\Row\BetIcons\Bet3x.png" />
+    <EmbeddedResource Include="assets\Achievements\Row\BetIcons\BetIcon2x.png" />
+    <EmbeddedResource Include="assets\Achievements\Row\LikeIcon\Like.png" />
+    <EmbeddedResource Include="assets\Achievements\Row\LikeIcon\Like2x.png" />
+    <EmbeddedResource Include="assets\Achievements\Row\LikeIcon\Like3x.png" />
+    <EmbeddedResource Include="assets\Achievements\Row\UpvoteIcons\upvoteBOLD.png" />
+    <EmbeddedResource Include="assets\Achievements\Row\UpvoteIcons\upvoteBOLD2x.png" />
+    <EmbeddedResource Include="assets\Achievements\Row\UpvoteIcons\upvoteBOLD3x.png" />
+    <EmbeddedResource Include="assets\Achievements\misc\HomeIconBOLD.png" />
+    <EmbeddedResource Include="assets\Achievements\misc\HomeIconBOLD%402x.png" />
+    <EmbeddedResource Include="assets\Achievements\misc\HomeIconBOLD3x.png" />
+    <EmbeddedResource Include="assets\Achievements\misc\HomeTransparentImage.png" />
   </ItemGroup>
 
   <ItemGroup>

@@ -2,9 +2,24 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.AchvProgress"
              xmlns:local="clr-namespace:Prototype">
     <ContentView.Content>
-        <Grid BackgroundColor="#F6F6F6" Margin="0,5,0,730">
-                <Label Text="Your Progress" HorizontalOptions="Center" VerticalOptions="Center"
-                       TextColor="#00BCCF" FontSize="15"/>
+        <Grid>
+
+            <Grid BackgroundColor="#F6F6F6" Margin="0,5,0,700">
+                <Label Text="Your Progress" HorizontalOptions="Center" VerticalOptions="Start"
+                       TextColor="#00BCCF" FontSize="15" Margin="0,8,0,0"/>
+                <Slider x:Name="xp" MaximumTrackColor="#FF8E5B" MinimumTrackColor="#00BCCF" InputTransparent="True"
+                            ThumbImageSource="{local:ImageResource Prototype.assets.Achievements.misc.HomeTransparentImage.png}"/>
+                
+                <Label Text="0 / 100 xp" Margin="0,50,0,0" HorizontalOptions="Center"/>
+                
+                
+            </Grid>
+           
+            <Grid Margin="0,120,0,0" BackgroundColor="White">
+                
+            </Grid>
+
+            
         </Grid>
     </ContentView.Content>
 </ContentView>
