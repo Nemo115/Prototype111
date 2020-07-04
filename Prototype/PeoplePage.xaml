@@ -66,6 +66,16 @@
                         Grid.ColumnSpan="1"
                         Margin="130,20,0,0"/>
             </Grid>
+
+            <CarouselView ItemsSource="{Binding PPList}" Margin="0,170,0,0">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <ContentView Content="{Binding .}">
+
+                        </ContentView>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
         </Grid>
     </ContentView.Content>
 </ContentView>

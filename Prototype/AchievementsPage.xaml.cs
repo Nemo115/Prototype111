@@ -10,6 +10,7 @@ namespace Prototype
         public AchievementsPage()
         {
             InitializeComponent();
+            BindingContext = new AchievementPageAchv();
         }
     }
 
@@ -24,5 +25,17 @@ namespace Prototype
         }
 
         public IList<View> ViewList { get; set; }
+    }
+
+    public class AchievementPageAchv
+    {
+        public AchievementPageAchv()
+        {
+            AchvPages = new List<View>()
+            {
+                new AchvProgress() ,new AchvPagePosts(), new AchvPageTotalScores()
+            };
+        }
+        public IList<View> AchvPages { get; set; }
     }
 }

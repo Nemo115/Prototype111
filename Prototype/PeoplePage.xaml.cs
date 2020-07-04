@@ -10,6 +10,7 @@ namespace Prototype
         public PeoplePage()
         {
             InitializeComponent();
+            BindingContext = new PeoplePages();
         }
     }
 
@@ -24,5 +25,18 @@ namespace Prototype
         }
 
         public IList<View> ViewList { get; set; }
+    }
+
+    public class PeoplePages
+    {
+        public PeoplePages()
+        {
+            PPList = new List<View>()
+            {
+                new PeoplePagePosts()
+            };
+        }
+
+        public IList<View> PPList { get; set; }
     }
 }

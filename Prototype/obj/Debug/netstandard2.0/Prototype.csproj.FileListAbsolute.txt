@@ -43,3 +43,7 @@ C:/Users/leo.liu/source/repos/Prototype/Prototype/obj/Debug/netstandard2.0/HomeP
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/SearchPeopleTab.xaml.g.cs
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/SearchPostsTab.xaml.g.cs
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/SearchTopTab.xaml.g.cs
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/PeoplePagePosts.xaml.g.cs
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/AchvPagePosts.xaml.g.cs
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/AchvPageTotalScores.xaml.g.cs
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/AchvProgress.xaml.g.cs

@@ -34,6 +34,15 @@
                            Margin="200,3,0,3"/>
                 </Grid>
             </Grid>
+            <CarouselView Margin="0,116,0,0" ItemsSource="{Binding AchvPages}">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <ContentView Content="{Binding .}">
+
+                        </ContentView>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
         </Grid>
     </ContentView.Content>
 </ContentView>
