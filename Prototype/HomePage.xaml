@@ -126,7 +126,7 @@
                                             VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand"
                                             HeightRequest="200"
                                             Clicked="Achievements_Clicked" Margin="0,25,0,25"/>
-                                    <Button x:Name="Home" ImageSource="{local:ImageResource Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg}"
+                                    <Button x:Name="Home" ImageSource="{local:ImageResource Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIconBOLD2x.jpg}"
                                             Grid.Row="0" Grid.Column="2"
                                             VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand"
                                             HeightRequest="200"
