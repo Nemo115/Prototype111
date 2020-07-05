@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31ABF272-1370-4640-8096-45DF7E5D044A" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/HomePage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/obj/Debug/netstandard2.0/PeoplePageActivity.xaml.g.cs">
     <Files>
       <File FileName="Prototype/AchievementsPage.xaml" Line="37" Column="80" />
       <File FileName="Prototype/AchievementsPage.xaml.cs" Line="39" Column="51" />
-      <File FileName="Prototype/PeoplePage.xaml" Line="30" Column="36" />
+      <File FileName="Prototype/PeoplePage.xaml" Line="67" Column="44" />
       <File FileName="Prototype/PeoplePagePosts.xaml.cs" Line="12" Column="10" />
       <File FileName="Prototype/PeoplePagePosts.xaml" Line="5" Column="21" />
-      <File FileName="Prototype/PeopleYouFollow.xaml.cs" Line="14" Column="9" />
-      <File FileName="Prototype/PeopleYouFollow.xaml" Line="25" Column="88" />
+      <File FileName="Prototype/PeopleYouFollow.xaml.cs" Line="16" Column="13" />
+      <File FileName="Prototype/PeopleYouFollow.xaml" Line="25" Column="70" />
       <File FileName="Prototype/SendUpload.xaml" Line="16" Column="24" />
       <File FileName="Prototype/PeoplePage.xaml.cs" Line="36" Column="64" />
       <File FileName="Prototype/AchvPageTotalScores.xaml" Line="20" Column="98" />
@@ -22,6 +22,7 @@
       <File FileName="Prototype/PeoplePageActivity.xaml.cs" Line="1" Column="1" />
       <File FileName="Prototype/HomePage.xaml" Line="1" Column="1" />
       <File FileName="Prototype/HomePage.xaml.cs" Line="40" Column="1" />
+      <File FileName="Prototype/obj/Debug/netstandard2.0/PeoplePageActivity.xaml.g.cs" Line="20" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

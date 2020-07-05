@@ -216,6 +216,10 @@
     <None Remove="assets\Achievements\misc\HomeIconBOLD%402x.png" />
     <None Remove="assets\Achievements\misc\HomeIconBOLD%403x.png" />
     <None Remove="assets\Achievements\misc\HomeTransparentImage.png" />
+    <None Remove="assets\WallPapers\AstroWallpaper.jpg" />
+    <None Remove="assets\WallPapers\fat boi.jpg" />
+    <None Remove="assets\WallPapers\firelink.jpg" />
+    <None Remove="assets\WallPapers\new londo.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -397,6 +401,10 @@
     <EmbeddedResource Include="assets\Achievements\misc\HomeIconBOLD%402x.png" />
     <EmbeddedResource Include="assets\Achievements\misc\HomeIconBOLD3x.png" />
     <EmbeddedResource Include="assets\Achievements\misc\HomeTransparentImage.png" />
+    <EmbeddedResource Include="assets\WallPapers\AstroWallpaper.jpg" />
+    <EmbeddedResource Include="assets\WallPapers\fat boi.jpg" />
+    <EmbeddedResource Include="assets\WallPapers\firelink.jpg" />
+    <EmbeddedResource Include="assets\WallPapers\new londo.jpg" />
   </ItemGroup>
 
   <ItemGroup>

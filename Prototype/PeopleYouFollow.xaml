@@ -22,7 +22,7 @@
                             <Label x:Name="Time" Text="0:00 am" VerticalOptions="Center" FontSize="10" FontAttributes="Bold"
                                     Margin="350,0,0,0"/>
                             <Grid>
-                                <Button x:Name="UserButton"/>
+                                <Button x:Name="UserButton" Clicked="UserButton_Clicked"/>
                             </Grid>
                         </Grid>
                     </Grid>
