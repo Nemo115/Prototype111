@@ -9,68 +9,30 @@
                     <Label Text="Posts" VerticalOptions="Center" HorizontalOptions="Center"
                            TextColor="#00BCCF"/>
                 </Grid>
-                <Grid BackgroundColor="White" Margin="0,50,0,0" ColumnSpacing="0">
+                <Grid BackgroundColor="White" Margin="0,50,0,0" ColumnSpacing="0" VerticalOptions="StartAndExpand">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="0.999*"/>
-                       
+                        <ColumnDefinition Width="138"/>
+                        <ColumnDefinition Width="138"/>
+                        
+                        
                     </Grid.ColumnDefinitions>
 
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="1*"/>
-                        
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
                     </Grid.RowDefinitions>
                     
 
                     <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
                            HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="AliceBlue"/>
 
-                    <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
-                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Blue"
-                           Grid.Column="1"/>
-                    <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
-                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Column="2" BackgroundColor="AntiqueWhite"/>
-
-                    <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
-                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="AliceBlue"
-                           Grid.Row="1"/>
-
-                    <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
-                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Blue"
-                           Grid.Column="1"
-                           Grid.Row="1"/>
-                    <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
-                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Column="2" BackgroundColor="AntiqueWhite"
-                           Grid.Row="1"/>
-                    <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
-                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="AliceBlue"
-                           Grid.Row="2"/>
-
-                    <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
-                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Blue"
-                           Grid.Column="1"
-                           Grid.Row="2"/>
-                    <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
-                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Column="2" BackgroundColor="AntiqueWhite"
-                           Grid.Row="2"/>
-
-
-
-                    <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
-                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="AliceBlue"
-                           Grid.Row="3"/>
-
-                    <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
-                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Blue"
-                           Grid.Column="1" Grid.Row="3"/>
-                    <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
-                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Column="2" BackgroundColor="AntiqueWhite"
-                           Grid.Row="3"/>
-
-                    <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
-                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="AliceBlue"
-                           Grid.Row="4"/>
-
                     
+                    
+                           
 
                     <Label x:Name="NoPosts" Text="No Posts" VerticalOptions="Start" HorizontalOptions="Center" IsVisible="false"/>
                     
