@@ -21,6 +21,9 @@
                             <Label x:Name="Message" Text="Message" FontSize="12" Margin="250,0,0,0" VerticalOptions="Center"/>
                             <Label x:Name="Time" Text="0:00 am" VerticalOptions="Center" FontSize="10" FontAttributes="Bold"
                                     Margin="350,0,0,0"/>
+                            <Grid>
+                                <Button x:Name="UserButton"/>
+                            </Grid>
                         </Grid>
                     </Grid>
                        

@@ -10,5 +10,10 @@ namespace Prototype
         {
             InitializeComponent();
         }
+
+        void UserButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            
+        }
     }
 }

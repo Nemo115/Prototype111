@@ -33,7 +33,7 @@ namespace Prototype
         {
             PPList = new List<View>()
             {
-                new PeoplePagePosts()
+                new PeoplePagePosts(), new PeoplePageActivity()
             };
         }
 

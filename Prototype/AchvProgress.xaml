@@ -9,18 +9,15 @@
                        TextColor="#00BCCF" FontSize="15" Margin="0,8,0,0"/>
                 <Slider x:Name="xp" MaximumTrackColor="#FF8E5B" MinimumTrackColor="#00BCCF" InputTransparent="True"
                             ThumbImageSource="{local:ImageResource Prototype.assets.Achievements.misc.HomeTransparentImage.png}"/>
-                
                 <Label Text="0 / 100 xp" Margin="0,50,0,0" HorizontalOptions="Center"
                        TextColor="#707070"/>
-                
-                
             </Grid>
-           
-            <Grid Margin="0,86,0,0" BackgroundColor="White">
-                
-            </Grid>
-
             
+            <ScrollView Margin="0,86,0,0" BackgroundColor="White">
+                <StackLayout>
+
+                </StackLayout>
+            </ScrollView>
         </Grid>
     </ContentView.Content>
 </ContentView>

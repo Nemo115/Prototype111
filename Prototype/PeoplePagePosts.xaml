@@ -1,12 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.PeoplePagePosts">
     <ContentView.Content>
-        <Grid>
-            <ScrollView>
-                <Grid>
-                    <Label Text="1"/>
+        
+        <ScrollView>
+            <Grid>
+                <Grid BackgroundColor="#F6F6F6" Margin="0,2,0,700">
+                    <Label Text="Posts" VerticalOptions="Center" HorizontalOptions="Center"
+                           TextColor="#00BCCF"/>
                 </Grid>
-            </ScrollView>
-        </Grid>
+                <Grid BackgroundColor="White" Margin="0,50,0,0">
+                    <Label x:Name="NoPosts" Text="No Posts" VerticalOptions="Start" HorizontalOptions="Center"/>
+                </Grid>
+            </Grid>
+        </ScrollView>
+        
     </ContentView.Content>
 </ContentView>
