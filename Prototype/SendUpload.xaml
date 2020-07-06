@@ -3,10 +3,11 @@
              xmlns:local="clr-namespace:Prototype" BackgroundColor="#E9E9E9">
     <ContentView.Content>
         <Grid>
-            <Grid x:Name="NavBar" BackgroundColor="White" Margin="0,0,0,800">
-                <ImageButton Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.UploadIcons.uploadIcon1-3x.png}"
-                        Margin="30,44,330,24"
-                        HeightRequest="200" WidthRequest="200"/>
+            <Grid x:Name="NavBar" BackgroundColor="White" Margin="0,0,0,810">
+                <ImageButton x:Name="Upload" Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.UploadIcons.uploadIcon1-3x.png}"
+                        Margin="34,35,324,15"
+                        HeightRequest="200" WidthRequest="200"
+                        Clicked="Upload_Clicked"/>
 
                 <Grid x:Name="LineBar" Margin="0,80,0,0">
                     <Image x:Name="BlueLine" Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.Lines.BlueLine3x.png}"
@@ -16,7 +17,7 @@
                 </Grid>
             </Grid>
 
-            <CarouselView Margin="0,100,0,0" ItemsSource="{Binding SendUploadList}">
+            <CarouselView Margin="0,88,0,0" ItemsSource="{Binding SendUploadList}">
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
                         <ContentView Content="{Binding .}">

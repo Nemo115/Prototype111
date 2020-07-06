@@ -15,7 +15,12 @@ namespace Prototype
 
             InitializeComponent();
         }
-        
+
+        void Upload_Clicked(System.Object sender, System.EventArgs e)
+        {
+            Upload.Source = ImageSource.FromResource("Prototype.assets.SendUpload.NavBar.UploadIcons.uploadIcon3x.png");
+        }
+
     }
 
     public class DisSendUpload

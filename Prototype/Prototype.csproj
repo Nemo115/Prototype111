@@ -220,6 +220,24 @@
     <None Remove="assets\WallPapers\fat boi.jpg" />
     <None Remove="assets\WallPapers\firelink.jpg" />
     <None Remove="assets\WallPapers\new londo.jpg" />
+    <None Remove="assets\SendUpload\MakeNew\BackWhite.png" />
+    <None Remove="assets\SendUpload\MakeNew\BackWhite%402x.png" />
+    <None Remove="assets\SendUpload\MakeNew\BackWhite%403x.png" />
+    <None Remove="assets\SendUpload\MakeNew\CameraIcons\cameraIcon.png" />
+    <None Remove="assets\SendUpload\MakeNew\CameraIcons\cameraIcon%402x.png" />
+    <None Remove="assets\SendUpload\MakeNew\CameraIcons\cameraIcon%403x.png" />
+    <None Remove="assets\SendUpload\MakeNew\CameraIcons\cameraIconBOLD.png" />
+    <None Remove="assets\SendUpload\MakeNew\CameraIcons\cameraIconBOLD%402x.png" />
+    <None Remove="assets\SendUpload\MakeNew\CameraIcons\cameraIconBOLD%403x.png" />
+    <None Remove="assets\SendUpload\MakeNew\ChooseWindow\choose back white rect.png" />
+    <None Remove="assets\SendUpload\MakeNew\ChooseWindow\choose back white rect%402x.png" />
+    <None Remove="assets\SendUpload\MakeNew\ChooseWindow\choose back white rect%403x.png" />
+    <None Remove="assets\SendUpload\MakeNew\TextButtons\Text Button BOLD.png" />
+    <None Remove="assets\SendUpload\MakeNew\TextButtons\Text Button BOLD%402x.png" />
+    <None Remove="assets\SendUpload\MakeNew\TextButtons\Text Button BOLD%403x.png" />
+    <None Remove="assets\SendUpload\MakeNew\TextButtons\Text Button.png" />
+    <None Remove="assets\SendUpload\MakeNew\TextButtons\Text Button%402x.png" />
+    <None Remove="assets\SendUpload\MakeNew\TextButtons\Text Button%403x.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -405,6 +423,24 @@
     <EmbeddedResource Include="assets\WallPapers\fat boi.jpg" />
     <EmbeddedResource Include="assets\WallPapers\firelink.jpg" />
     <EmbeddedResource Include="assets\WallPapers\new londo.jpg" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\BackWhite.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\BackWhite%402x.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\BackWhite3x.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\CameraIcons\cameraIcon.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\CameraIcons\cameraIcon%402x.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\CameraIcons\cameraIcon3x.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\CameraIcons\cameraIconBOLD.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\CameraIcons\cameraIconBOLD%402x.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\CameraIcons\cameraIconBOLD3x.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\ChooseWindow\choose back white rect.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\ChooseWindow\choose back white rect%402x.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\ChooseWindow\backWhite3x.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\TextButtons\Text Button BOLD.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\TextButtons\Text Button BOLD%402x.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\TextButtons\TextButtonBOLD3x.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\TextButtons\Text Button.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\TextButtons\Text Button%402x.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\TextButtons\TextButton3x.png" />
   </ItemGroup>
 
   <ItemGroup>
