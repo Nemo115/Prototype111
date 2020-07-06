@@ -1,29 +1,29 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31ABF272-1370-4640-8096-45DF7E5D044A" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/assets/SendUpload/NavBar/UploadIcons/uploadIcon1-2x.png">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/SendUpload.xaml">
     <Files>
       <File FileName="Prototype/AchievementsPage.xaml" Line="3" Column="114" />
-      <File FileName="Prototype/AchievementsPage.xaml.cs" Line="39" Column="51" />
-      <File FileName="Prototype/PeoplePage.xaml" Line="73" Column="47" />
-      <File FileName="Prototype/PeoplePagePosts.xaml.cs" Line="12" Column="10" />
-      <File FileName="Prototype/PeoplePagePosts.xaml" Line="34" Column="21" />
-      <File FileName="Prototype/SendUpload.xaml.cs" Line="21" Column="107" />
-      <File FileName="Prototype/HomePage.xaml.cs" Line="40" Column="1" />
-      <File FileName="Prototype/PeopleYouFollow.xaml.cs" Line="16" Column="13" />
-      <File FileName="Prototype/PeopleYouFollow.xaml" Line="25" Column="70" />
-      <File FileName="Prototype/SendUpload.xaml" Line="7" Column="52" />
-      <File FileName="Prototype/PeoplePage.xaml.cs" Line="36" Column="64" />
-      <File FileName="Prototype/AchvPageTotalScores.xaml" Line="20" Column="98" />
-      <File FileName="Prototype/AchvPageTotalScores.xaml.cs" Line="1" Column="1" />
-      <File FileName="Prototype/AchvPagePosts.xaml" Line="10" Column="61" />
-      <File FileName="Prototype/AchvPagePosts.xaml.cs" Line="12" Column="10" />
-      <File FileName="Prototype/AchvProgress.xaml" Line="18" Column="1" />
-      <File FileName="Prototype/AchvProgress.xaml.cs" Line="1" Column="1" />
-      <File FileName="Prototype/SendUploadFriends.xaml" Line="7" Column="13" />
-      <File FileName="Prototype/PeoplePageActivity.xaml" Line="17" Column="15" />
-      <File FileName="Prototype/PeoplePageActivity.xaml.cs" Line="1" Column="1" />
-      <File FileName="Prototype/HomePage.xaml" Line="51" Column="43" />
-      <File FileName="Prototype/obj/Debug/netstandard2.0/PeoplePageActivity.xaml.g.cs" Line="20" Column="48" />
+      <File FileName="Prototype/AchievementsPage.xaml.cs" />
+      <File FileName="Prototype/PeoplePage.xaml" />
+      <File FileName="Prototype/PeoplePagePosts.xaml.cs" />
+      <File FileName="Prototype/PeoplePagePosts.xaml" />
+      <File FileName="Prototype/SendUpload.xaml" Line="31" Column="61" />
+      <File FileName="Prototype/SendUpload.xaml.cs" />
+      <File FileName="Prototype/HomePage.xaml.cs" />
+      <File FileName="Prototype/PeopleYouFollow.xaml.cs" />
+      <File FileName="Prototype/PeopleYouFollow.xaml" />
+      <File FileName="Prototype/PeoplePage.xaml.cs" />
+      <File FileName="Prototype/AchvPageTotalScores.xaml" />
+      <File FileName="Prototype/AchvPageTotalScores.xaml.cs" />
+      <File FileName="Prototype/AchvPagePosts.xaml" />
+      <File FileName="Prototype/AchvPagePosts.xaml.cs" />
+      <File FileName="Prototype/AchvProgress.xaml" />
+      <File FileName="Prototype/AchvProgress.xaml.cs" />
+      <File FileName="Prototype/SendUploadFriends.xaml" />
+      <File FileName="Prototype/PeoplePageActivity.xaml" />
+      <File FileName="Prototype/PeoplePageActivity.xaml.cs" />
+      <File FileName="Prototype/HomePage.xaml" />
+      <File FileName="Prototype/obj/Debug/netstandard2.0/PeoplePageActivity.xaml.g.cs" />
       <File FileName="Prototype/assets/SendUpload/NavBar/UploadIcons/uploadIcon1-2x.png" />
     </Files>
     <Pads>
@@ -33,10 +33,8 @@
             <Node name="Prototype" expanded="True">
               <Node name="assets" expanded="True">
                 <Node name="SendUpload" expanded="True">
-                  <Node name="NavBar" expanded="True">
-                    <Node name="UploadIcons" expanded="True">
-                      <Node name="uploadIcon3x.png" selected="True" />
-                    </Node>
+                  <Node name="MakeNew" expanded="True">
+                    <Node name="misc" expanded="True" />
                   </Node>
                 </Node>
               </Node>
@@ -55,7 +53,7 @@
               <Node name="SearchPostsTab.xaml" expanded="True" />
               <Node name="SearchTopTab.xaml" expanded="True" />
               <Node name="SearchView.xaml" expanded="True" />
-              <Node name="SendUpload.xaml" expanded="True" />
+              <Node name="SendUpload.xaml" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>

@@ -17,6 +17,7 @@
                 </Grid>
             </Grid>
 
+            
             <CarouselView Margin="0,88,0,0" ItemsSource="{Binding SendUploadList}">
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
@@ -27,6 +28,54 @@
 
                 </CarouselView.ItemTemplate>
             </CarouselView>
+            <Grid x:Name="UploadWindow" Margin="0,250,0,90" IsVisible="False" InputTransparent="True">
+
+                <Grid Margin="0,20,0,100">
+                    <Image Source="{local:ImageResource Prototype.assets.SendUpload.MakeNew.ChooseWindow.backWhite3x.png}"
+                           Margin="65"/>
+                    <Grid Margin="70">
+                        <Label Text="Select where you want to upload" TextColor="#00BCCF"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,0" FontSize="15"/>
+                        <Image Source="{local:ImageResource Prototype.assets.SendUpload.MakeNew.misc.Line3x.png}"
+                               VerticalOptions="Start" HorizontalOptions="Center" Margin="15,30,15,0"/>
+                        <SearchBar Margin="10,35,10,200"/>
+                        <StackLayout Margin="10,100,10,15">
+                            <Grid  HeightRequest="60">
+                                <Label x:Name="DropName" Text="[BestDropPost]" VerticalOptions="Center" HorizontalOptions="Center"
+                                       FontSize="14" TextColor="#00BCCF"/>
+                                <CheckBox VerticalOptions="Center" HorizontalOptions="End" Color="#707070"/>
+                            </Grid>
+                        </StackLayout>
+                    </Grid>
+                </Grid>
+
+                <Grid Margin="0,450,0,0">
+                    <Image Source="{local:ImageResource Prototype.assets.SendUpload.MakeNew.BackWhite3x.png}"
+                           Margin="15,15,15,15"/>
+
+
+                    <Grid  Margin="100,5,100,20">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="48"/>
+                                <ColumnDefinition Width="93"/>
+                                <ColumnDefinition Width="93"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                
+                                <RowDefinition Height="80"/>
+                            </Grid.RowDefinitions>
+                        <ImageButton Source="{local:ImageResource Prototype.assets.SendUpload.MakeNew.TextButtons.jpg.TextButton2x.jpg}"
+                                Margin="12,25,12,25"/>
+                        <ImageButton Source="{local:ImageResource Prototype.assets.SendUpload.MakeNew.CameraIcons.cameraIcon3x.png}"
+                                Grid.Column="1" Margin="30,25,30,25" />
+                        <ImageButton Source="{local:ImageResource Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg}"
+                                Grid.Column="2" Margin="35,25,35,25" BackgroundColor="Black"/>
+                    </Grid>
+
+                </Grid>
+            </Grid>
         </Grid>
 
     </ContentView.Content>

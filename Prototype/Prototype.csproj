@@ -238,6 +238,17 @@
     <None Remove="assets\SendUpload\MakeNew\TextButtons\Text Button.png" />
     <None Remove="assets\SendUpload\MakeNew\TextButtons\Text Button%402x.png" />
     <None Remove="assets\SendUpload\MakeNew\TextButtons\Text Button%403x.png" />
+    <None Remove="assets\SendUpload\MakeNew\CameraIcons\jpg\cameraIcon.jpg" />
+    <None Remove="assets\SendUpload\MakeNew\CameraIcons\jpg\cameraIcon2x.jpg" />
+    <None Remove="assets\SendUpload\MakeNew\CameraIcons\jpg\cameraIconBOLD.jpg" />
+    <None Remove="assets\SendUpload\MakeNew\CameraIcons\jpg\cameraIconBOLD2x.jpg" />
+    <None Remove="assets\SendUpload\MakeNew\TextButtons\jpg\Text Button BOLD.jpg" />
+    <None Remove="assets\SendUpload\MakeNew\TextButtons\jpg\Text Button BOLD%402x.jpg" />
+    <None Remove="assets\SendUpload\MakeNew\TextButtons\jpg\Text Button.jpg" />
+    <None Remove="assets\SendUpload\MakeNew\TextButtons\jpg\Text Button%402x.jpg" />
+    <None Remove="assets\SendUpload\MakeNew\misc\Line.png" />
+    <None Remove="assets\SendUpload\MakeNew\misc\Line3x.png" />
+    <None Remove="assets\SendUpload\MakeNew\misc\Line%402x.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -441,6 +452,17 @@
     <EmbeddedResource Include="assets\SendUpload\MakeNew\TextButtons\Text Button.png" />
     <EmbeddedResource Include="assets\SendUpload\MakeNew\TextButtons\Text Button%402x.png" />
     <EmbeddedResource Include="assets\SendUpload\MakeNew\TextButtons\TextButton3x.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\CameraIcons\jpg\cameraIcon.jpg" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\CameraIcons\jpg\cameraIcon2x.jpg" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\CameraIcons\jpg\cameraIconBOLD.jpg" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\CameraIcons\jpg\cameraIconBOLD2x.jpg" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\TextButtons\jpg\Text Button BOLD.jpg" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\TextButtons\jpg\TextButtonBOLD2x.jpg" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\TextButtons\jpg\Text Button.jpg" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\TextButtons\jpg\TextButton2x.jpg" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\misc\Line.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\misc\Line3x.png" />
+    <EmbeddedResource Include="assets\SendUpload\MakeNew\misc\Line%402x.png" />
   </ItemGroup>
 
   <ItemGroup>
