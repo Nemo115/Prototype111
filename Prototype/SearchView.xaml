@@ -13,7 +13,12 @@
 
 
                 <SearchBar x:Name="SearchBar" BackgroundColor="White" HeightRequest="300" Margin="0,0,50,0"/>
-            
+
+                <ImageButton x:Name="FilterButton" Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.FilterIcons.FilterIcon3x.png}"
+                             Margin="0,112,360,12" Clicked="FilterButton_Clicked"/>
+
+                
+                
                 <Grid Margin="358,40,0,40" WidthRequest="10" HeightRequest="10">
                     <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1.5*"/>
@@ -58,6 +63,46 @@
                                WidthRequest="35" HeightRequest="70"
                                HorizontalOptions="Start" VerticalOptions="StartAndExpand"
                                Grid.Row="1" Grid.RowSpan="1" Grid.Column="3"/>
+                </Grid>
+            </Grid>
+
+            <Grid x:Name="FilterSelect" Margin="0,120,200,300" InputTransparent="True" IsVisible="False">
+                    <Image Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.Rectangle3x.png}"
+                           Margin="0,0,30,0"/>
+                <Grid x:Name="selections" Margin="0,0,0,0">
+
+                    
+
+                    <Label x:Name="SortByTitle" Text="Sort by:" HorizontalOptions="Center"
+                           TextColor="#00BCCF" Margin="0,40,40,0" FontAttributes="Bold"/>
+
+                    <Label Text="Top" HorizontalOptions="Center" TextColor="#00BCCF"
+                           Margin="0,100,40,0"/>
+
+                    <Label Text="People" TextColor="#FF8E5B" HorizontalOptions="Center"
+                           Margin="0,180,40,0"/>
+
+                    <Label Text="Posts" TextColor="#FF8E5B" HorizontalOptions="Center"
+                           Margin="0,260,40,0"/>
+
+                    <Label Text="Drops" TextColor="#FF8E5B" HorizontalOptions="Center"
+                           Margin="0,340,40,0"/>
+
+                    <Image x:Name="TopTab" Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.Line53x.png}"
+                           Margin="60,90,100,300"/>
+
+                    <Image x:Name="PeopleTab" Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.Path3x.png}"
+                           Margin="70,80,110,130" />
+
+                    <Image x:Name="PostsTab" Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.Path3x.png}"
+                           Margin="70,115,110,0" />
+
+                    <Image x:Name="DropsTabs" Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.Path3x.png}"
+                           Margin="70,280,110,0" />
+
+                    <ImageButton x:Name="BackArrow" Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.backArrow3x.png}"
+                          Margin="170,20,0,0" VerticalOptions="End" Clicked="BackArrow_Clicked"/>
+                    
                 </Grid>
             </Grid>
 

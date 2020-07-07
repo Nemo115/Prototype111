@@ -11,9 +11,10 @@ namespace Prototype
         bool clicked;
         public SendUpload()
         {
-            
+
             BindingContext = new SendUploadPages();
-            
+
+            //BindingContext = new CreateNewDrop();
 
             InitializeComponent();
         }
@@ -24,6 +25,7 @@ namespace Prototype
             Upload.Source = ImageSource.FromResource("Prototype.assets.SendUpload.NavBar.UploadIcons.uploadIcon3x.png");
             clicked = true;
             i++;
+
             if (clicked == true)
             {
                 UploadWindow.IsVisible = true;
@@ -40,6 +42,23 @@ namespace Prototype
             }
         }
 
+        void TextUpload_Clicked(System.Object sender, System.EventArgs e)
+        {
+            ChooseWindow.IsVisible = true;
+            ChooseWindow.InputTransparent = false;
+        }
+
+        void CameraUpload_Clicked(System.Object sender, System.EventArgs e)
+        {
+            ChooseWindow.IsVisible = true;
+            ChooseWindow.InputTransparent = false;
+        }
+
+        void NewDrop_Clicked(System.Object sender, System.EventArgs e)
+        {
+            //BindingContext = CreateNewDrop();
+        }
+
     }
 
     public class DisSendUpload
@@ -52,5 +71,18 @@ namespace Prototype
             };
         }
         public IList<View> ViewList { get; set; }
+    }
+
+    public class CreateNewDrop
+    {
+        public CreateNewDrop()
+        {
+            SendUploadList = new List<View>()
+            {
+                new SendUploadCreateDrop()
+            };
+
+        }
+        public IList<View> SendUploadList { get; set; }
     }
 }

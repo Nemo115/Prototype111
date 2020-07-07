@@ -48,3 +48,4 @@ C:/Users/leo.liu/source/repos/Prototype/Prototype/obj/Debug/netstandard2.0/HomeP
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/AchvPageTotalScores.xaml.g.cs
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/AchvProgress.xaml.g.cs
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/PeoplePageActivity.xaml.g.cs
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Debug/netstandard2.0/SendUploadCreateDrop.xaml.g.cs

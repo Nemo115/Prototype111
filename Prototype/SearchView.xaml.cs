@@ -12,6 +12,23 @@ namespace Prototype
             InitializeComponent();
             BindingContext = new SearchViewPages();
         }
+
+        void BackArrow_Clicked(System.Object sender, System.EventArgs e)
+        {
+            FilterSelect.IsVisible = false;
+            FilterSelect.InputTransparent = true;
+            FilterButton.RotateTo(0, 200);
+            FilterButton.Source = ImageSource.FromResource("Prototype.assets.Search.TopSearchTab.Filter.FilterIcons.FilterIcon3x.png");
+        }
+
+        void FilterButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            FilterButton.RotateTo(90, 200);
+            FilterButton.Source = ImageSource.FromResource("Prototype.assets.Search.TopSearchTab.Filter.FilterIcons.FilterIconBOLD3x.png");
+            FilterSelect.IsVisible = true;
+            FilterSelect.InputTransparent = false;
+            
+        }
     }
 
     public class DisSearchView

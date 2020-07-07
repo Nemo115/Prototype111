@@ -30,7 +30,7 @@
             </CarouselView>
             <Grid x:Name="UploadWindow" Margin="0,250,0,90" IsVisible="False" InputTransparent="True">
 
-                <Grid Margin="0,20,0,100">
+                <Grid x:Name="ChooseWindow" Margin="0,20,0,100" IsVisible="False" InputTransparent="True">
                     <Image Source="{local:ImageResource Prototype.assets.SendUpload.MakeNew.ChooseWindow.backWhite3x.png}"
                            Margin="65"/>
                     <Grid Margin="70">
@@ -41,7 +41,7 @@
                                VerticalOptions="Start" HorizontalOptions="Center" Margin="15,30,15,0"/>
                         <SearchBar Margin="10,35,10,200"/>
                         <StackLayout Margin="10,100,10,15">
-                            <Grid  HeightRequest="60">
+                            <Grid HeightRequest="60">
                                 <Label x:Name="DropName" Text="[BestDropPost]" VerticalOptions="Center" HorizontalOptions="Center"
                                        FontSize="14" TextColor="#00BCCF"/>
                                 <CheckBox VerticalOptions="Center" HorizontalOptions="End" Color="#707070"/>
@@ -50,7 +50,7 @@
                     </Grid>
                 </Grid>
 
-                <Grid Margin="0,450,0,0">
+                <Grid Margin="0,450,0,0" InputTransparent="False">
                     <Image Source="{local:ImageResource Prototype.assets.SendUpload.MakeNew.BackWhite3x.png}"
                            Margin="15,15,15,15"/>
 
@@ -63,15 +63,15 @@
                             </Grid.ColumnDefinitions>
 
                             <Grid.RowDefinitions>
-                                
                                 <RowDefinition Height="80"/>
                             </Grid.RowDefinitions>
-                        <ImageButton Source="{local:ImageResource Prototype.assets.SendUpload.MakeNew.TextButtons.jpg.TextButton2x.jpg}"
-                                Margin="12,25,12,25"/>
-                        <ImageButton Source="{local:ImageResource Prototype.assets.SendUpload.MakeNew.CameraIcons.cameraIcon3x.png}"
-                                Grid.Column="1" Margin="30,25,30,25" />
-                        <ImageButton Source="{local:ImageResource Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg}"
-                                Grid.Column="2" Margin="35,25,35,25" BackgroundColor="Black"/>
+                        <ImageButton x:Name="TextUpload" Source="{local:ImageResource Prototype.assets.SendUpload.MakeNew.TextButtons.jpg.TextButton2x.jpg}"
+                                Margin="12,25,12,25"
+                                Clicked="TextUpload_Clicked"/>
+                        <ImageButton x:Name="CameraUpload" Source="{local:ImageResource Prototype.assets.SendUpload.MakeNew.CameraIcons.cameraIcon3x.png}"
+                                Grid.Column="1" Margin="30,25,30,25" Clicked="CameraUpload_Clicked"/>
+                        <ImageButton x:Name="NewDrop" Source="{local:ImageResource Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg}"
+                                Grid.Column="2" Margin="35,25,35,25" BackgroundColor="Black" Clicked="NewDrop_Clicked"/>
                     </Grid>
 
                 </Grid>

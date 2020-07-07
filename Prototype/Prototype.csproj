@@ -249,6 +249,24 @@
     <None Remove="assets\SendUpload\MakeNew\misc\Line.png" />
     <None Remove="assets\SendUpload\MakeNew\misc\Line3x.png" />
     <None Remove="assets\SendUpload\MakeNew\misc\Line%402x.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\back arrow.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\back arrow%402x.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\back arrow%403x.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\Line 5.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\Line 5%402x.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\Line 5%403x.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\Path 47.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\Path 47%402x.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\Path 47%403x.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\Rectangle 30.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\Rectangle 30%402x.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\Rectangle 30%403x.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIcon.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIcon2x.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIcon3x.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD2x.png" />
+    <None Remove="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD3x.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -463,6 +481,24 @@
     <EmbeddedResource Include="assets\SendUpload\MakeNew\misc\Line.png" />
     <EmbeddedResource Include="assets\SendUpload\MakeNew\misc\Line3x.png" />
     <EmbeddedResource Include="assets\SendUpload\MakeNew\misc\Line%402x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\back arrow.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\back arrow%402x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\backArrow3x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\Line 5.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\Line 5%402x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\Line53x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\Path 47.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\Path 47%402x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\Path3x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\Rectangle 30.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\Rectangle 30%402x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\Rectangle3x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIcon.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIcon2x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIcon3x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD2x.png" />
+    <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD3x.png" />
   </ItemGroup>
 
   <ItemGroup>

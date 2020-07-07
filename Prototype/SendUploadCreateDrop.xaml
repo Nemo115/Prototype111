@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.SendUploadCreateDrop">
+    <ContentView.Content>
+        <Grid>
+            <Grid BackgroundColor="#F6F6F6" Margin="0,0,0,750">
+                <Label Text="Create New Drop" HorizontalOptions="Center" VerticalOptions="Center"
+                       TextColor="#00BCCF" FontSize="15"/>
+            </Grid>
+
+            <Grid BackgroundColor="White" Margin="0,62,0,500">
+                
+            </Grid>
+
+            <Grid BackgroundColor="White" Margin="0,312,0,200">
+                
+            </Grid>
+        </Grid>
+    </ContentView.Content>
+</ContentView>
