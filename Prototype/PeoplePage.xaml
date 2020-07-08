@@ -4,11 +4,16 @@
              xmlns:local="clr-namespace:Prototype" BackgroundColor="#E9E9E9">
     <ContentView.Content>
         <Grid>
-            <CarouselView>
+            <CarouselView ItemsSource="{Binding PPList}">
+                <CarouselView.GestureRecognizers>
+                    <SwipeGestureRecognizer Direction="Up" Swiped="PPSwiped"/>
+                    <SwipeGestureRecognizer Direction="Down" Swiped="PPSwiped"/>
+                </CarouselView.GestureRecognizers>
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout>
-                        </StackLayout>
+                        <ContentView Content="{Binding .}">
+
+                        </ContentView>
                     </DataTemplate>
                 </CarouselView.ItemTemplate>
             </CarouselView>
@@ -77,15 +82,7 @@
                        Margin="0,0,135,15"/>
             </Grid>
 
-            <CarouselView ItemsSource="{Binding PPList}" Margin="0,150,0,0">
-                <CarouselView.ItemTemplate>
-                    <DataTemplate>
-                        <ContentView Content="{Binding .}">
-
-                        </ContentView>
-                    </DataTemplate>
-                </CarouselView.ItemTemplate>
-            </CarouselView>
+            
         </Grid>
     </ContentView.Content>
 </ContentView>
