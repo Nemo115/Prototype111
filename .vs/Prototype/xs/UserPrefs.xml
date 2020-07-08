@@ -1,25 +1,27 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31ABF272-1370-4640-8096-45DF7E5D044A" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/MainHomeView.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/PeopleYouFollow.xaml">
     <Files>
-      <File FileName="Prototype/SendUpload.xaml" Line="59" Column="50" />
-      <File FileName="Prototype/SendUploadCreateDrop.xaml" Line="39" Column="34" />
-      <File FileName="Prototype/SendUpload.xaml.cs" Line="18" Column="50" />
-      <File FileName="Prototype/SendUploadPages.cs" />
-      <File FileName="Prototype/SendUploadCreateDrop.xaml.cs" />
-      <File FileName="Prototype/SendUploadFriends.xaml" />
+      <File FileName="Prototype/SendUpload.xaml" Line="23" Column="1" />
+      <File FileName="Prototype/SendUpload.xaml.cs" Line="13" Column="28" />
+      <File FileName="Prototype/SendUploadCreateDrop.xaml" Line="71" Column="92" />
+      <File FileName="Prototype/SendUploadPages.cs" Line="11" Column="46" />
+      <File FileName="Prototype/SendUploadCreateDrop.xaml.cs" Line="1" Column="1" />
+      <File FileName="Prototype/SendUploadFriends.xaml" Line="5" Column="33" />
       <File FileName="Prototype/SearchView.xaml" Line="120" Column="1" />
-      <File FileName="Prototype/HomePage.xaml" Line="1" Column="1" />
-      <File FileName="Prototype/HomePage.xaml.cs" Line="22" Column="10" />
+      <File FileName="Prototype/HomePage.xaml" Line="19" Column="16" />
+      <File FileName="Prototype/HomePage.xaml.cs" Line="99" Column="9" />
       <File FileName="Prototype/SearchView.xaml.cs" Line="13" Column="52" />
       <File FileName="Prototype/MainHomeView.xaml" Line="26" Column="50" />
+      <File FileName="Prototype/PeopleYouFollow.xaml" Line="5" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
-              <Node name="MainHomeView.xaml" selected="True" />
+              <Node name="HomePage.xaml" expanded="True" />
+              <Node name="PeopleYouFollow.xaml" selected="True" />
               <Node name="SearchView.xaml" expanded="True" />
               <Node name="SendUpload.xaml" expanded="True" />
               <Node name="SendUploadCreateDrop.xaml" expanded="True" />

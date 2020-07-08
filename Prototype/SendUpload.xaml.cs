@@ -8,14 +8,14 @@ namespace Prototype
     public partial class SendUpload : ContentView
     {
         int i = 0;
-        bool clicked;
+        bool clicked = false;
 
         public SendUpload()
         {
 
-            //BindingContext = new SendUploadPages();
+            BindingContext = new SendUploadPages();
 
-            BindingContext = new CreateNewDrop();
+            //BindingContext = new CreateNewDrop();
 
             InitializeComponent();
         }
@@ -30,7 +30,7 @@ namespace Prototype
                 UploadWindow.IsVisible = true;
                 UploadWindow.InputTransparent = false;
             }
-            else if (clicked == true && i == 2)
+            if (clicked == true && i == 2)
             {
                 UploadWindow.IsVisible = false;
                 UploadWindow.InputTransparent = true;

@@ -21,19 +21,7 @@
                 </CarouselView.ItemTemplate>
             </CarouselView>
 
-            <Grid x:Name="NavBar" BackgroundColor="White" Margin="0,0,0,810">
-                <ImageButton x:Name="Upload" Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.UploadIcons.uploadIcon1-3x.png}"
-                        Margin="34,35,324,15"
-                        HeightRequest="200" WidthRequest="200"
-                        Clicked="Upload_Clicked"/>
-
-                <Grid x:Name="LineBar" Margin="0,80,0,0">
-                    <Image x:Name="BlueLine" Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.Lines.BlueLine3x.png}"
-                           Margin="160,0,160,0"/>
-                    <Image x:Name="OrangeLine" Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.Lines.OrangeLine3x.png}"
-                           Margin="300,0,60,0"/>
-                </Grid>
-            </Grid>
+            
 
             <Grid x:Name="UploadWindow" Margin="0,250,0,90" IsVisible="False" InputTransparent="True">
 
@@ -81,6 +69,20 @@
                                 Grid.Column="2" Margin="35,25,35,25" BackgroundColor="Black" Clicked="NewDrop_Clicked"/>
                     </Grid>
 
+                </Grid>
+            </Grid>
+
+            <Grid x:Name="NavBar" BackgroundColor="White" Margin="0,0,0,810">
+                <ImageButton x:Name="Upload" Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.UploadIcons.uploadIcon1-3x.png}"
+                        Margin="34,35,324,15"
+                        HeightRequest="200" WidthRequest="200"
+                        Clicked="Upload_Clicked"/>
+
+                <Grid x:Name="LineBar" Margin="0,80,0,0">
+                    <Image x:Name="BlueLine" Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.Lines.BlueLine3x.png}"
+                           Margin="160,0,160,0"/>
+                    <Image x:Name="OrangeLine" Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.Lines.OrangeLine3x.png}"
+                           Margin="300,0,60,0"/>
                 </Grid>
             </Grid>
         </Grid>

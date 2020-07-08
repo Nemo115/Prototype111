@@ -14,7 +14,7 @@
                     <Entry Margin="10,50,10,10"/>
                 </Grid>
 
-                <Grid BackgroundColor="White" HeightRequest="440" >
+                <Grid BackgroundColor="White" HeightRequest="350" >
                     <Label Text="File Upload Type" HorizontalOptions="Center"
                            Margin="0,15,0,0" TextColor="#00BCCF"/>
 
@@ -30,13 +30,45 @@
 
                     <Label Text="Duration of Drop" HorizontalOptions="Center" Margin="0,150,0,0" TextColor="#00BCCF"/>
 
-                    <DatePicker HorizontalOptions="Start" VerticalOptions="Center" Margin="100,0,0,50"/>
-                    <TimePicker HorizontalOptions="End" VerticalOptions="Center" Margin="0,0,100,50"/>
+                    <DatePicker HorizontalOptions="Start" VerticalOptions="Center" Margin="100,50,0,0"/>
+                    <TimePicker HorizontalOptions="End" VerticalOptions="Center" Margin="0,50,100,0"/>
 
-                    <Label Text="Manually Stop" TextColor="#FF8E5B" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,20,120,0"/>
-                    <CheckBox HorizontalOptions="Start" VerticalOptions="Center" Margin="130,70,0,0"/>
+                    <Label Text="Manually Stop" TextColor="#FF8E5B" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,120,130,0"/>
+                    <CheckBox HorizontalOptions="Start" VerticalOptions="Center" Margin="125,170,0,0"/>
 
-                    <Label Text=""/>
+                    <Label Text="Set as Discussion" TextColor="#FF8E5B" HorizontalOptions="Center" VerticalOptions="Center" Margin="150,120,0,0"/>
+                    <CheckBox HorizontalOptions="Start" VerticalOptions="Center" Margin="265,170,0,0"/>
+                </Grid>
+
+                <Grid BackgroundColor="White" HeightRequest="350">
+                    <Label Text="Entry Type" HorizontalOptions="Center" TextColor="#00BCCF" Margin="0,20,0,0"/>
+
+                    <Label Text="Private" TextColor="#FF8E5B" HorizontalOptions="Start" Margin="120,60,0,0"/>
+                    <CheckBox VerticalOptions="Start" HorizontalOptions="Center" Margin="0,70,110,0"/>
+
+                    <Label Text="Public" TextColor="#FF8E5B" HorizontalOptions="Start" Margin="240,60,0,0"/>
+                    <CheckBox VerticalOptions="Start" HorizontalOptions="Center" Margin="125,70,0,0"/>
+
+
+                    <Label Text="Spectate Type" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#00BCCF"
+                           Margin="0,0,0,60"/>
+
+
+                    <Label Text="Private" TextColor="#FF8E5B" HorizontalOptions="Start" VerticalOptions="Center" Margin="120,30,0,0"/>
+                    <CheckBox VerticalOptions="Center" HorizontalOptions="Center" Margin="0,70,110,0"/>
+
+                    <Label Text="Public" TextColor="#FF8E5B" VerticalOptions="Center" HorizontalOptions="Start" Margin="240,30,0,0"/>
+                    <CheckBox VerticalOptions="Center" HorizontalOptions="Center" Margin="125,70,0,0"/>
+                </Grid>
+
+                <Grid BackgroundColor="White" HeightRequest="300">
+                    <Label Text="Maximum number of Entries" VerticalOptions="Start" HorizontalOptions="Center"
+                           Margin="0,20,0,0" TextColor="#00BCCF"/>
+                    <Picker VerticalOptions="Start" HorizontalOptions="Center" Margin="0,60,0,0" />
+
+                    <Label Text="Maximum amount of Files submitted per Entry" VerticalOptions="Center" HorizontalOptions="Center"
+                           Margin="0,0,0,0" TextColor="#00BCCF"/>
+                    <Picker VerticalOptions="Center" HorizontalOptions="Center" Margin="0,80,0,0"/>
                 </Grid>
 
             </StackLayout>
