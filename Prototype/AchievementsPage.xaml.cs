@@ -12,6 +12,24 @@ namespace Prototype
             InitializeComponent();
             BindingContext = new AchievementPageAchv();
         }
+        void AchvSwipe(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
+        {
+            switch (e.Direction)
+            {
+                case SwipeDirection.Up:
+
+                    TopNavigationBar.TranslateTo(0, -60);
+
+                    TopNavigationBar.FadeTo(0, 150);
+                    break;
+                case SwipeDirection.Down:
+
+                    TopNavigationBar.TranslateTo(0, 0);
+
+                    TopNavigationBar.FadeTo(1, 150);
+                    break;
+            }
+        }
     }
 
     public class DisAchievementsPage

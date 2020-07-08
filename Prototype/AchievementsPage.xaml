@@ -5,6 +5,10 @@
         <Grid>
 
             <CarouselView ItemsSource="{Binding AchvPages}">
+                <CarouselView.GestureRecognizers>
+                    <SwipeGestureRecognizer Direction="Up" Swiped="AchvSwipe"/>
+                    <SwipeGestureRecognizer Direction="Down" Swiped="AchvSwipe"/>
+                </CarouselView.GestureRecognizers>
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
                         <ContentView Content="{Binding .}">
