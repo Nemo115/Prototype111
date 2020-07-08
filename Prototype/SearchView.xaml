@@ -66,6 +66,18 @@
                 </Grid>
             </Grid>
 
+            
+
+            <CarouselView ItemsSource="{Binding SearchList}" Margin="0,140,0,0">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <ContentView Content="{Binding .}">
+
+                        </ContentView>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+
             <Grid x:Name="FilterSelect" Margin="0,120,200,300" InputTransparent="True" IsVisible="False">
                     <Image Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.Rectangle3x.png}"
                            Margin="0,0,30,0"/>
@@ -105,16 +117,6 @@
                     
                 </Grid>
             </Grid>
-
-            <CarouselView ItemsSource="{Binding SearchList}" Margin="0,140,0,0">
-                <CarouselView.ItemTemplate>
-                    <DataTemplate>
-                        <ContentView Content="{Binding .}">
-
-                        </ContentView>
-                    </DataTemplate>
-                </CarouselView.ItemTemplate>
-            </CarouselView>
 
         </Grid>
     </ContentView.Content>

@@ -1,19 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.SendUploadCreateDrop">
     <ContentView.Content>
-        <Grid>
-            <Grid BackgroundColor="#F6F6F6" Margin="0,0,0,750">
-                <Label Text="Create New Drop" HorizontalOptions="Center" VerticalOptions="Center"
-                       TextColor="#00BCCF" FontSize="15"/>
-            </Grid>
+        <ScrollView>
+            <StackLayout Spacing="4" Margin="0,89,0,0">
+                <Grid BackgroundColor="#F6F6F6" HeightRequest="50">
+                    <Label Text="Create New Drop" HorizontalOptions="Center" VerticalOptions="Center"
+                           TextColor="#00BCCF" FontSize="15"/>
+                </Grid>
 
-            <Grid BackgroundColor="White" Margin="0,62,0,500">
-                
-            </Grid>
+                <Grid BackgroundColor="White" HeightRequest="100">
+                    <Label Text="Drop Name" HorizontalOptions="Center" Margin="0,15,0,0"
+                           TextColor="#00BCCF"/>
+                    <Entry Margin="10,50,10,10"/>
+                </Grid>
 
-            <Grid BackgroundColor="White" Margin="0,312,0,200">
-                
-            </Grid>
-        </Grid>
+                <Grid BackgroundColor="White" HeightRequest="440" >
+                    <Label Text="File Upload Type" HorizontalOptions="Center"
+                           Margin="0,15,0,0" TextColor="#00BCCF"/>
+
+                    <Label x:Name="TextLabel" Text="Text" TextColor="#FF8E5B" Margin="50,62,0,0" HorizontalOptions="Start"/>
+                    <CheckBox x:Name="TextCheck" VerticalOptions="Start" HorizontalOptions="Start" Margin="50,75,100,0"/>
+
+                    <Label x:Name="VideoLabel" Text="Video" HorizontalOptions="Center" TextColor="#FF8E5B" Margin="0,62,0,0" />
+                    <CheckBox x:Name="VideoCheck" Margin="15,75,0,0" HorizontalOptions="Center" VerticalOptions="Start"/>
+
+                    <Label x:Name="ImageLabel" Text="Image" TextColor="#FF8E5B" HorizontalOptions="End" Margin="0,62,50,0"/>
+                    <CheckBox x:Name="ImageCheck" VerticalOptions="Start" HorizontalOptions="End" Margin="0,75,45,0"/>
+
+
+                    <Label Text="Duration of Drop" HorizontalOptions="Center" Margin="0,150,0,0" TextColor="#00BCCF"/>
+
+                    <DatePicker HorizontalOptions="Start" VerticalOptions="Center" Margin="100,0,0,50"/>
+                    <TimePicker HorizontalOptions="End" VerticalOptions="Center" Margin="0,0,100,50"/>
+
+                    <Label Text="Manually Stop" TextColor="#FF8E5B" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,20,120,0"/>
+                    <CheckBox HorizontalOptions="Start" VerticalOptions="Center" Margin="130,70,0,0"/>
+
+                    <Label Text=""/>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
     </ContentView.Content>
 </ContentView>

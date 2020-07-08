@@ -3,6 +3,24 @@
              xmlns:local="clr-namespace:Prototype" BackgroundColor="#E9E9E9">
     <ContentView.Content>
         <Grid>
+            
+            <CarouselView Margin="0,0,0,0" ItemsSource="{Binding SendUploadList}">
+                <CarouselView.GestureRecognizers>
+                    <SwipeGestureRecognizer Direction="Up" Swiped="SUSwiped"/>
+                    <SwipeGestureRecognizer Direction="Down" Swiped="SUSwiped"/>
+                    <SwipeGestureRecognizer Direction="Left" Swiped="SUSwiped"/>
+                    <SwipeGestureRecognizer Direction="Right" Swiped="SUSwiped"/>
+                </CarouselView.GestureRecognizers>
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <ContentView Content="{Binding .}">
+
+                        </ContentView>
+                    </DataTemplate>
+
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+
             <Grid x:Name="NavBar" BackgroundColor="White" Margin="0,0,0,810">
                 <ImageButton x:Name="Upload" Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.UploadIcons.uploadIcon1-3x.png}"
                         Margin="34,35,324,15"
@@ -17,17 +35,6 @@
                 </Grid>
             </Grid>
 
-            
-            <CarouselView Margin="0,88,0,0" ItemsSource="{Binding SendUploadList}">
-                <CarouselView.ItemTemplate>
-                    <DataTemplate>
-                        <ContentView Content="{Binding .}">
-
-                        </ContentView>
-                    </DataTemplate>
-
-                </CarouselView.ItemTemplate>
-            </CarouselView>
             <Grid x:Name="UploadWindow" Margin="0,250,0,90" IsVisible="False" InputTransparent="True">
 
                 <Grid x:Name="ChooseWindow" Margin="0,20,0,100" IsVisible="False" InputTransparent="True">

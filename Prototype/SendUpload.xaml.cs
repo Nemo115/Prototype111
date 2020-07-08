@@ -9,30 +9,28 @@ namespace Prototype
     {
         int i = 0;
         bool clicked;
+
         public SendUpload()
         {
 
-            BindingContext = new SendUploadPages();
+            //BindingContext = new SendUploadPages();
 
-            //BindingContext = new CreateNewDrop();
+            BindingContext = new CreateNewDrop();
 
             InitializeComponent();
         }
 
         void Upload_Clicked(System.Object sender, System.EventArgs e)
         {
-            
             Upload.Source = ImageSource.FromResource("Prototype.assets.SendUpload.NavBar.UploadIcons.uploadIcon3x.png");
             clicked = true;
             i++;
-
             if (clicked == true)
             {
                 UploadWindow.IsVisible = true;
                 UploadWindow.InputTransparent = false;
             }
-            
-            if (clicked == true && i == 2)
+            else if (clicked == true && i == 2)
             {
                 UploadWindow.IsVisible = false;
                 UploadWindow.InputTransparent = true;
@@ -56,7 +54,26 @@ namespace Prototype
 
         void NewDrop_Clicked(System.Object sender, System.EventArgs e)
         {
-            //BindingContext = CreateNewDrop();
+            BindingContext = new CreateNewDrop();
+        }
+
+        void SUSwiped(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
+        {
+            switch (e.Direction)
+            {
+                case SwipeDirection.Up:
+                    
+                    NavBar.TranslateTo(0, -60);
+                    
+                    NavBar.FadeTo(0, 150);
+                    break;
+                case SwipeDirection.Down:
+                    
+                    NavBar.TranslateTo(0, 0);
+                    
+                    NavBar.FadeTo(1, 150);
+                    break;
+            }
         }
 
     }
