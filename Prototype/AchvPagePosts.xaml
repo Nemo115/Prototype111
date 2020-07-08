@@ -2,14 +2,19 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.AchvPagePosts"
              xmlns:local="clr-namespace:Prototype">
     <ContentView.Content>
-        <Grid>
-            <Grid BackgroundColor="#F6F6F6" Margin="0,5,0,730">
-                    <Label Text="Posts" HorizontalOptions="Center" VerticalOptions="Center"
-                           TextColor="#00BCCF" FontSize="15"/>
-            </Grid>
-            <ScrollView BackgroundColor="White" Margin="0,58,0,0">
-                
+        
+            
+            <ScrollView BackgroundColor="#E9E9E9" Margin="0,0,0,0">
+                <Grid Margin="0,120,0,0">
+                    <Grid BackgroundColor="#F6F6F6" Margin="0,0,0,730">
+                        <Label Text="Posts" HorizontalOptions="Center" VerticalOptions="Center"
+                               TextColor="#00BCCF" FontSize="15"/>
+                    </Grid>
+                    <Grid BackgroundColor="White" Margin="0,52,0,0">
+                        
+                    </Grid>
+                </Grid>
             </ScrollView>
-        </Grid>
+        
     </ContentView.Content>
 </ContentView>

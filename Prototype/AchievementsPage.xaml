@@ -3,6 +3,17 @@
              x:Class="Prototype.AchievementsPage" BackgroundColor="#E9E9E9" xmlns:local="clr-namespace:Prototype">
     <ContentView.Content>
         <Grid>
+
+            <CarouselView ItemsSource="{Binding AchvPages}">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <ContentView Content="{Binding .}">
+
+                        </ContentView>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+
             <Grid x:Name="TopNavigationBar" BackgroundColor="White"
                   Margin="0,0,0,780">
                 <Grid.ColumnDefinitions>
@@ -34,15 +45,7 @@
                            Margin="200,3,0,3"/>
                 </Grid>
             </Grid>
-            <CarouselView Margin="0,116,0,0" ItemsSource="{Binding AchvPages}">
-                <CarouselView.ItemTemplate>
-                    <DataTemplate>
-                        <ContentView Content="{Binding .}">
-
-                        </ContentView>
-                    </DataTemplate>
-                </CarouselView.ItemTemplate>
-            </CarouselView>
+            
         </Grid>
     </ContentView.Content>
 </ContentView>

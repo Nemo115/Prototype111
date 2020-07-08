@@ -2,22 +2,25 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.AchvProgress"
              xmlns:local="clr-namespace:Prototype">
     <ContentView.Content>
-        <Grid>
+        
 
-            <Grid BackgroundColor="#F6F6F6" Margin="0,5,0,700">
-                <Label Text="Your Progress" HorizontalOptions="Center" VerticalOptions="Start"
-                       TextColor="#00BCCF" FontSize="15" Margin="0,8,0,0"/>
-                <Slider x:Name="xp" MaximumTrackColor="#FF8E5B" MinimumTrackColor="#00BCCF" InputTransparent="True"
-                            ThumbImageSource="{local:ImageResource Prototype.assets.Achievements.misc.HomeTransparentImage.png}"/>
-                <Label Text="0 / 100 xp" Margin="0,50,0,0" HorizontalOptions="Center"
-                       TextColor="#707070"/>
-            </Grid>
             
-            <ScrollView Margin="0,86,0,0" BackgroundColor="White">
-                <StackLayout>
+            
+            <ScrollView Margin="0,0,0,0" BackgroundColor="#E9E9E9">
+                <StackLayout Margin="0,120,0,0">
+                    <Grid BackgroundColor="#F6F6F6" >
+                        <Label Text="Your Progress" HorizontalOptions="Center" VerticalOptions="Start"
+                               TextColor="#00BCCF" FontSize="15" Margin="0,8,0,0"/>
+                        <Slider x:Name="xp" MaximumTrackColor="#FF8E5B" MinimumTrackColor="#00BCCF" InputTransparent="True"
+                                ThumbImageSource="{local:ImageResource Prototype.assets.Achievements.misc.HomeTransparentImage.png}"/>
+                        <Label Text="0 / 100 xp" Margin="0,50,0,0" HorizontalOptions="Center"
+                               TextColor="#707070"/>
+                    </Grid>
+                    <Grid BackgroundColor="White" HeightRequest="900">
 
+                    </Grid>
                 </StackLayout>
             </ScrollView>
-        </Grid>
+        
     </ContentView.Content>
 </ContentView>

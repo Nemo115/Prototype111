@@ -2,28 +2,34 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.AchvPageTotalScores"
              xmlns:local="clr-namespace:Prototype">
     <ContentView.Content>
-        <Grid>
-            <Grid BackgroundColor="#F6F6F6" Margin="0,5,0,730">
-                    <Label Text="Scores" HorizontalOptions="Center" VerticalOptions="Center"
-                           TextColor="#00BCCF" FontSize="15"/>
-            </Grid>
+        
+            
 
-            <ScrollView BackgroundColor="White" Margin="0,58,0,0">
-                <StackLayout>
-                    <Grid HeightRequest="50" Margin="0,8,0,0">
-                        <Image Source="{local:ImageResource Prototype.assets.Achievements.Row.BackGrey3x.png}"/>
-                        <Grid>
-                            <Label Text="Total Upvotes" TextColor="#707070" FontAttributes="Bold"
-                                   VerticalOptions="Center"
-                                   Margin="30,0,0,0" FontSize="15"/>
-                            <Image Source="{local:ImageResource Prototype.assets.Achievements.Row.UpvoteIcons.upvoteBOLD3x.png}"
-                                   Margin="180,0,0,0" VerticalOptions="Center" HeightRequest="30"/>
-                            <Label VerticalOptions="Center" Margin="320,0,0,0"
-                                   TextColor="#00BCCF"/>
-                        </Grid>
+            <ScrollView BackgroundColor="#E9E9E9" Margin="0,0,0,0">
+                <StackLayout Margin="0,0,0,0">
+                    <Grid BackgroundColor="#F6F6F6" Margin="0,120,0,0" HeightRequest="46">
+                        <Label Text="Scores" HorizontalOptions="Center" VerticalOptions="Center"
+                               TextColor="#00BCCF" FontSize="15"/>
                     </Grid>
+                    <StackLayout BackgroundColor="White" HeightRequest="900">
+                        <Grid HeightRequest="50" Margin="0,8,0,0">
+
+                            <Image Source="{local:ImageResource Prototype.assets.Achievements.Row.BackGrey3x.png}"/>
+
+                            <Grid>
+                                <Label Text="Total Upvotes" TextColor="#707070" FontAttributes="Bold"
+                                       VerticalOptions="Center"
+                                       Margin="30,0,0,0" FontSize="15"/>
+                                <Image Source="{local:ImageResource Prototype.assets.Achievements.Row.UpvoteIcons.upvoteBOLD3x.png}"
+                                       Margin="180,0,0,0" VerticalOptions="Center" HeightRequest="30"/>
+                                <Label VerticalOptions="Center" Margin="320,0,0,0"
+                                       TextColor="#00BCCF"/>
+                            </Grid>
+                        </Grid>
+                    </StackLayout>
+
                 </StackLayout>
             </ScrollView>
-        </Grid>
+        
     </ContentView.Content>
 </ContentView>
