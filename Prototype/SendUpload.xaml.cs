@@ -10,6 +10,7 @@ namespace Prototype
         int i = 0;
         bool clicked = false;
 
+
         public SendUpload()
         {
 
@@ -27,13 +28,18 @@ namespace Prototype
             i++;
             if (clicked == true)
             {
+                
                 UploadWindow.IsVisible = true;
+                UploadWindow.FadeTo(1, 200);
                 UploadWindow.InputTransparent = false;
             }
             if (clicked == true && i == 2)
             {
+                UploadWindow.FadeTo(0, 300);
+
                 UploadWindow.IsVisible = false;
                 UploadWindow.InputTransparent = true;
+                
                 clicked = false;
                 i = 0;
                 Upload.Source = ImageSource.FromResource("Prototype.assets.SendUpload.NavBar.UploadIcons.uploadIcon1-3x.png");

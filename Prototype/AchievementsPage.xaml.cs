@@ -51,7 +51,7 @@ namespace Prototype
         {
             AchvPages = new List<View>()
             {
-                new AchvProgress() ,new AchvPagePosts(), new AchvPageTotalScores()
+                new AchvPagePosts(), new AchvProgress(), new AchvPageTotalScores()
             };
         }
         public IList<View> AchvPages { get; set; }

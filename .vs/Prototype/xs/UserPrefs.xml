@@ -3,26 +3,26 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/AchievementsPage.xaml.cs">
     <Files>
       <File FileName="Prototype/SendUpload.xaml" Line="51" Column="1" />
-      <File FileName="Prototype/SendUpload.xaml.cs" Line="66" Column="48" />
-      <File FileName="Prototype/PeoplePage.xaml" Line="27" Column="39" />
-      <File FileName="Prototype/PeoplePage.xaml.cs" Line="30" Column="47" />
-      <File FileName="Prototype/PeoplePagePosts.xaml" Line="19" Column="1" />
-      <File FileName="Prototype/PeopleYouFollow.xaml" Line="5" Column="1" />
-      <File FileName="Prototype/SendUploadCreateDrop.xaml" Line="1" Column="39" />
-      <File FileName="Prototype/SendUploadPages.cs" Line="17" Column="56" />
-      <File FileName="Prototype/SendUploadCreateDrop.xaml.cs" Line="1" Column="1" />
-      <File FileName="Prototype/SendUploadFriends.xaml" Line="34" Column="7" />
-      <File FileName="Prototype/SearchView.xaml" Line="120" Column="1" />
-      <File FileName="Prototype/HomePage.xaml" Line="25" Column="20" />
-      <File FileName="Prototype/HomePage.xaml.cs" Line="99" Column="75" />
-      <File FileName="Prototype/SearchView.xaml.cs" Line="13" Column="52" />
-      <File FileName="Prototype/MainHomeView.xaml" Line="26" Column="50" />
-      <File FileName="Prototype/PeoplePageActivity.xaml" Line="5" Column="37" />
-      <File FileName="Prototype/AchievementsPage.xaml" Line="9" Column="80" />
-      <File FileName="Prototype/AchvPagePosts.xaml" Line="9" Column="72" />
-      <File FileName="Prototype/AchvPageTotalScores.xaml" Line="10" Column="89" />
-      <File FileName="Prototype/AchvProgress.xaml" Line="18" Column="28" />
-      <File FileName="Prototype/AchievementsPage.xaml.cs" Line="14" Column="10" />
+      <File FileName="Prototype/SendUpload.xaml.cs" />
+      <File FileName="Prototype/PeoplePage.xaml" />
+      <File FileName="Prototype/PeoplePage.xaml.cs" />
+      <File FileName="Prototype/PeoplePagePosts.xaml" />
+      <File FileName="Prototype/PeopleYouFollow.xaml" />
+      <File FileName="Prototype/SendUploadCreateDrop.xaml" />
+      <File FileName="Prototype/SendUploadPages.cs" />
+      <File FileName="Prototype/SendUploadCreateDrop.xaml.cs" />
+      <File FileName="Prototype/SendUploadFriends.xaml" />
+      <File FileName="Prototype/SearchView.xaml" />
+      <File FileName="Prototype/HomePage.xaml" />
+      <File FileName="Prototype/HomePage.xaml.cs" />
+      <File FileName="Prototype/SearchView.xaml.cs" />
+      <File FileName="Prototype/MainHomeView.xaml" />
+      <File FileName="Prototype/PeoplePageActivity.xaml" />
+      <File FileName="Prototype/AchievementsPage.xaml" />
+      <File FileName="Prototype/AchievementsPage.xaml.cs" Line="41" Column="39" />
+      <File FileName="Prototype/AchvPagePosts.xaml" />
+      <File FileName="Prototype/AchvPageTotalScores.xaml" />
+      <File FileName="Prototype/AchvProgress.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
