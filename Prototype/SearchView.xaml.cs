@@ -1,23 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace Prototype
 {
+
     public partial class SearchView : ContentView
     {
-        
         public SearchView()
         {
             InitializeComponent();
             BindingContext = new SearchViewPages();
-            //SearchCarousel.CurrentItem = new SearchViewPages(new SearchTopTab());
-            //SearchCarousel.Position = 1;
-            
-            SearchCarousel.ScrollTo(new SearchTopTab() , animate:false);
+
+            //Startt();
             
         }
+
+        
 
         void BackArrow_Clicked(System.Object sender, System.EventArgs e)
         {
@@ -37,6 +39,20 @@ namespace Prototype
             FilterSelect.InputTransparent = false;
             
         }
+
+        
+        /*
+        bool start = true;
+
+        void Startt()
+        {
+            if (start == true)
+            {
+                SearchCarousel.Position = 1;
+            }
+        }
+        */
+
     }
 
     public class DisSearchView
@@ -60,6 +76,7 @@ namespace Prototype
                 //new People, new Top, new Posts, new Drops
                 new SearchPeopleTab(), new SearchTopTab(), new SearchPostsTab(), new SearchDropsTab()
             };
+            
         }
         public IList<View> SearchList { get; set; }
     }

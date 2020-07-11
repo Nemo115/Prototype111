@@ -19,11 +19,12 @@ namespace Prototype
             //SearchView.IsVisible = false;
 
             BindingContext = new Pages();
+
+            ViewX.IsScrollAnimated = false;
+            ViewX.Position = 1;
+            ViewX.IsScrollAnimated = true;
         }
 
-        
-        
-        
         void FriendsButton_Clicked(System.Object sender, System.EventArgs e)
         {
             FriendsButton.ImageSource =  ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendiconBOLD2x.jpg");
@@ -92,6 +93,8 @@ namespace Prototype
             BindingContext = new DisSearchView();
 
             NavigationBar.IsVisible = false;
+
+            
         }
 
         

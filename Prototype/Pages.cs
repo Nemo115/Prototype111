@@ -13,6 +13,7 @@ namespace Prototype
                 //put recomended and activity pages here
                 new RecentActivity() ,new MainHomeView(), new RecommendedTab()
             };
+            
         }
 
         public IList<View> ViewList { get; set; }

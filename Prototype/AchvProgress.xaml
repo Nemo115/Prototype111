@@ -2,10 +2,6 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.AchvProgress"
              xmlns:local="clr-namespace:Prototype">
     <ContentView.Content>
-        
-
-            
-            
             <ScrollView Margin="0,0,0,0" BackgroundColor="#E9E9E9">
                 <StackLayout Margin="0,120,0,0">
                     <Grid BackgroundColor="#F6F6F6" >
@@ -16,11 +12,57 @@
                         <Label Text="0 / 100 xp" Margin="0,50,0,0" HorizontalOptions="Center"
                                TextColor="#707070"/>
                     </Grid>
-                    <Grid BackgroundColor="White" HeightRequest="900">
+                    <StackLayout BackgroundColor="White" HeightRequest="900">
+                        <Grid HeightRequest="50" Margin="0,8,0,0">
 
-                    </Grid>
+                            <Image Source="{local:ImageResource Prototype.assets.Achievements.Row.BackGrey3x.png}"/>
+
+                            <Grid>
+                                <Label Text="40 xp" VerticalOptions="Center" Margin="250,0,0,0"
+                                       TextColor="#707070"/>
+
+
+                                <Label Text="Gain 10 Upvotes" TextColor="#707070" FontAttributes="Bold"
+                                       VerticalOptions="Center"
+                                       Margin="30,0,0,0" FontSize="15"/>
+                                <Image Source="{local:ImageResource Prototype.assets.Achievements.Row.UpvoteIcons.upvoteBOLD3x.png}"
+                                       Margin="290,0,0,0" VerticalOptions="Center" HeightRequest="30"/>
+                                <Label VerticalOptions="Center" Margin="320,0,0,0"
+                                       TextColor="#00BCCF"/>
+                                <Label Text="5" VerticalOptions="Center" Margin="320,0,0,0" TextColor="#00BCCF" FontAttributes="Bold"/>
+                            </Grid>
+                        </Grid>
+                        <Grid HeightRequest="50" Margin="0,8,0,0">
+
+                            <Image Source="{local:ImageResource Prototype.assets.Achievements.Row.BackGrey3x.png}"/>
+
+                            <Grid>
+                                <Label Text="Comment on 3 Posts" TextColor="#707070" FontAttributes="Bold"
+                                       VerticalOptions="Center"
+                                       Margin="30,0,0,0" FontSize="15"/>
+                                
+                                <Label Text="20 xp" VerticalOptions="Center" Margin="320,0,0,0"
+                                       TextColor="#707070"/>
+                                
+                            </Grid>
+                        </Grid>
+
+                        <Grid HeightRequest="50" Margin="0,8,0,0">
+
+                            <Image Source="{local:ImageResource Prototype.assets.Achievements.Row.BackGrey3x.png}"/>
+
+                            <Grid>
+                                <Label Text="Like 5 Posts in a Pro-Drop" TextColor="#707070" FontAttributes="Bold"
+                                       VerticalOptions="Center"
+                                       Margin="30,0,0,0" FontSize="15"/>
+                                
+                                <Label Text="15 xp" VerticalOptions="Center" Margin="320,0,0,0"
+                                       TextColor="#707070"/>
+
+                            </Grid>
+                        </Grid>
+                    </StackLayout>
                 </StackLayout>
             </ScrollView>
-        
     </ContentView.Content>
 </ContentView>
