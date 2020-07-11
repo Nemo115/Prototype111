@@ -48,14 +48,32 @@ namespace Prototype
 
         void TextUpload_Clicked(System.Object sender, System.EventArgs e)
         {
-            ChooseWindow.IsVisible = true;
-            ChooseWindow.InputTransparent = false;
+            if (ChooseWindow.IsVisible == false && ChooseWindow.InputTransparent == true)
+            {
+                ChooseWindow.IsVisible = true;
+                ChooseWindow.InputTransparent = false;
+            }
+            else if (ChooseWindow.IsVisible == true && ChooseWindow.InputTransparent == true)
+            {
+                
+                ChooseWindow.IsVisible = false;
+                ChooseWindow.InputTransparent = true;
+            }
         }
 
         void CameraUpload_Clicked(System.Object sender, System.EventArgs e)
         {
-            ChooseWindow.IsVisible = true;
-            ChooseWindow.InputTransparent = false;
+            if (ChooseWindow.IsVisible == false && ChooseWindow.InputTransparent == true)
+            {
+                ChooseWindow.IsVisible = true;
+                ChooseWindow.InputTransparent = false;
+            }
+            else if (ChooseWindow.IsVisible == true && ChooseWindow.InputTransparent == true)
+            {
+
+                ChooseWindow.IsVisible = false;
+                ChooseWindow.InputTransparent = true;
+            }
         }
 
         void NewDrop_Clicked(System.Object sender, System.EventArgs e)

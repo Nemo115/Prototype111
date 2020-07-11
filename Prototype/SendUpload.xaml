@@ -45,10 +45,10 @@
                     </Grid>
                 </Grid>
 
-                <Grid Margin="0,450,0,0" InputTransparent="False">
+                <Grid x:Name="UploadBar" Margin="0,450,0,0" InputTransparent="False">
                     <Image Source="{local:ImageResource Prototype.assets.SendUpload.MakeNew.BackWhite3x.png}"
                            Margin="15,15,15,15"/>
-
+                    
 
                     <Grid  Margin="100,5,100,20">
                             <Grid.ColumnDefinitions>
@@ -67,6 +67,7 @@
                                 Grid.Column="1" Margin="30,25,30,25" Clicked="CameraUpload_Clicked"/>
                         <ImageButton x:Name="NewDrop" Source="{local:ImageResource Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg}"
                                 Grid.Column="2" Margin="35,25,35,25" BackgroundColor="Black" Clicked="NewDrop_Clicked"/>
+                        
                     </Grid>
 
                 </Grid>
