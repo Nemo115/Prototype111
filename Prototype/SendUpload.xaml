@@ -79,6 +79,11 @@
                         HeightRequest="200" WidthRequest="200"
                         Clicked="Upload_Clicked"/>
 
+                <ImageButton x:Name="BackArrow" Source="{local:ImageResource Prototype.assets.SendUpload.Misc.backArrow3x.png}"
+                        Margin="34,40,324,10"
+                        HeightRequest="200" WidthRequest="200"
+                        Clicked="BackArrow_Clicked" IsVisible="False" InputTransparent="True"/>
+
                 <Grid x:Name="LineBar" Margin="0,80,0,0">
                     <Image x:Name="BlueLine" Source="{local:ImageResource Prototype.assets.SendUpload.NavBar.Lines.BlueLine3x.png}"
                            Margin="160,0,160,0"/>

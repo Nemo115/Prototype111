@@ -267,6 +267,7 @@
     <None Remove="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD.png" />
     <None Remove="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD2x.png" />
     <None Remove="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD3x.png" />
+    <None Remove="assets\SendUpload\Misc\backArrow3x.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -499,6 +500,7 @@
     <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD.png" />
     <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD2x.png" />
     <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD3x.png" />
+    <EmbeddedResource Include="assets\SendUpload\Misc\backArrow3x.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -516,6 +518,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\" />
+    <Folder Include="assets\SendUpload\Misc\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="RecentActivity.xaml.cs">

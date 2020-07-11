@@ -70,7 +70,6 @@ namespace Prototype
             }
             else if (ChooseWindow.IsVisible == true && ChooseWindow.InputTransparent == true)
             {
-
                 ChooseWindow.IsVisible = false;
                 ChooseWindow.InputTransparent = true;
             }
@@ -78,6 +77,15 @@ namespace Prototype
 
         void NewDrop_Clicked(System.Object sender, System.EventArgs e)
         {
+            UploadWindow.IsVisible = false;
+            UploadWindow.InputTransparent = true;
+
+            Upload.IsVisible = false;
+            Upload.InputTransparent = true;
+
+            BackArrow.IsVisible = true;
+            BackArrow.InputTransparent = false;
+
             BindingContext = new CreateNewDrop();
         }
 
@@ -100,6 +108,17 @@ namespace Prototype
             }
         }
 
+        void BackArrow_Clicked(System.Object sender, System.EventArgs e)
+        {
+            Upload.IsVisible = true;
+            Upload.InputTransparent = false;
+            Upload.Source = ImageSource.FromResource("Prototype.assets.SendUpload.NavBar.UploadIcons.uploadIcon1-3x.png");
+
+            BackArrow.IsVisible = false;
+            BackArrow.InputTransparent = true;
+
+            BindingContext = new SendUploadPages();
+        }
     }
 
     public class DisSendUpload
