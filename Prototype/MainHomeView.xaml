@@ -4,7 +4,7 @@
     <ContentView.Content>
         <ScrollView>
             <StackLayout Margin="0,25,0,0">
-                <Grid BackgroundColor="White" HeightRequest="400" Margin="0,10,0,0">
+                <Grid x:Name="Post" BackgroundColor="White" HeightRequest="400" Margin="0,10,0,0">
                 
                     <Grid Margin="0,0,0,330">
                         <Image Source="{local:ImageResource Prototype.assets.HomePage.PostElements.defaultProfilePic.ProfilePic3x.png}"
@@ -45,6 +45,10 @@
                         <Button x:Name="Comment" ImageSource="{local:ImageResource Prototype.assets.HomePage.PostElements.CommentIcons.commentBubble2x.jpg}"
                                 Margin="0,0,0,50" Grid.Column="5"/>
 
+                    </Grid>
+
+                    <Grid Margin="10,350,10,0">
+                        <Label Text="Description" FontSize="10"/>
                     </Grid>
 
                 </Grid>
