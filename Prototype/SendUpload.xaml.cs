@@ -28,10 +28,10 @@ namespace Prototype
             i++;
             if (clicked == true)
             {
-                
                 UploadWindow.IsVisible = true;
                 UploadWindow.FadeTo(1, 200);
                 UploadWindow.InputTransparent = false;
+                
             }
             if (clicked == true && i == 2)
             {
@@ -86,6 +86,9 @@ namespace Prototype
             BackArrow.IsVisible = true;
             BackArrow.InputTransparent = false;
 
+            OrangeLine.IsVisible = false;
+            BlueLine.IsVisible = false;
+
             BindingContext = new CreateNewDrop();
         }
 
@@ -116,6 +119,9 @@ namespace Prototype
 
             BackArrow.IsVisible = false;
             BackArrow.InputTransparent = true;
+
+            OrangeLine.IsVisible = true;
+            BlueLine.IsVisible = true;
 
             BindingContext = new SendUploadPages();
         }

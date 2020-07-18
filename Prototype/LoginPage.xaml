@@ -12,7 +12,8 @@
             <custom:CustomEntry x:Name="UsernameInput" HeightRequest="50" WidthRequest="100" CornerRadius="30" BorderColor="#00BCCF" FontFamily="Segoe UI" TextColor="#00BCCF"/>
             <Label Text="Password" FontFamily="Segoe UI" FontSize="15" TextColor="#FF8E5B"/>
             <custom:CustomEntry x:Name="PasswordInput" HeightRequest="50" WidthRequest="100" CornerRadius="30" BorderColor="#FF8E5B" IsPassword="True" FontFamily="Segoe UI" TextColor="#FF8E5B"/>
-            <Button x:Name="LoginButton" ImageSource="{local:ImageResource Prototype.assets.LoginScreen.loginbutton2x.jpg}"/>
+            <Button x:Name="LoginButton" ImageSource="{local:ImageResource Prototype.assets.LoginScreen.loginbutton2x.jpg}"
+                    Clicked="LoginButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

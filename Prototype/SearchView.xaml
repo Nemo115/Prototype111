@@ -30,8 +30,6 @@
 
                     <ImageButton Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.SettingsIcon.settingsIcon3x.png}"
                             Margin="10,17,10,60"/>
-                
-
                 </Grid>
 
                 <Grid Margin="60,110,0,0" Grid.ColumnSpan="1" Grid.Column="0" ColumnSpacing="10">
@@ -83,22 +81,20 @@
                            Margin="0,0,30,0"/>
                 <Grid x:Name="selections" Margin="0,0,0,0">
 
-                    
-
                     <Label x:Name="SortByTitle" Text="Sort by:" HorizontalOptions="Center"
                            TextColor="#00BCCF" Margin="0,40,40,0" FontAttributes="Bold"/>
 
-                    <Label Text="Top" HorizontalOptions="Center" TextColor="#00BCCF"
-                           Margin="0,100,40,0"/>
+                    <Button x:Name="Top" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,88,40,0" BorderColor="AliceBlue"
+                            Text="Top" FontSize="15" TextColor="#00BCCF" Clicked="Top_Clicked"/>
 
-                    <Label Text="People" TextColor="#FF8E5B" HorizontalOptions="Center"
-                           Margin="0,180,40,0"/>
+                    <Button x:Name="People" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,168,40,0" BorderColor="AliceBlue"
+                            Text="People" FontSize="15" TextColor="#FF8E5B" Clicked="People_Clicked"/>
 
-                    <Label Text="Posts" TextColor="#FF8E5B" HorizontalOptions="Center"
-                           Margin="0,260,40,0"/>
+                    <Button x:Name="Posts" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,248,40,0" BorderColor="AliceBlue"
+                            Text="Posts" FontSize="15" TextColor="#FF8E5B" Clicked="Posts_Clicked"/>
 
-                    <Label Text="Drops" TextColor="#FF8E5B" HorizontalOptions="Center"
-                           Margin="0,340,40,0"/>
+                    <Button x:Name="Drops" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,330,40,0" BorderColor="AliceBlue"
+                            Text="Drops" FontSize="16" TextColor="#FF8E5B" Clicked="Drops_Clicked"/>
 
                     <Image x:Name="TopTab" Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.Line53x.png}"
                            Margin="60,90,100,300"/>

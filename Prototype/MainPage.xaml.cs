@@ -22,5 +22,11 @@ namespace Prototype
         {
             Navigation.PushAsync(new LoginPage());
         }
+
+        void RegisterButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new RegisterPage());
+        }
+
     }
 }

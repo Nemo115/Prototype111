@@ -7,7 +7,7 @@
 	--sgen-conc \
 	--nolink \
 	--sdkroot=/Applications/Xcode.app/Contents/Developer \
-	--sdk=13.5 \
+	--sdk=13.6 \
 	--targetver=8.0 \
 	--aot-options=-O=-float32 \
 	--http-message-handler=NSUrlSessionHandler \

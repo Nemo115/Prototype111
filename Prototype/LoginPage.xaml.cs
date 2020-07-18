@@ -16,5 +16,12 @@ namespace Prototype
         {
             InitializeComponent();
         }
+
+        void LoginButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            Global.Signed = true;
+            Application parentApp = (Application)this.Parent.Parent;
+            parentApp.MainPage = new HomePage();
+        }
     }
 }

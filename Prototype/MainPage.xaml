@@ -4,13 +4,18 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Prototype.MainPage" BackgroundColor="White" xmlns:local="clr-namespace:Prototype">
+             x:Class="Prototype.MainPage" BackgroundColor="White" xmlns:local="clr-namespace:Prototype"
+             NavigationPage.HasNavigationBar="False">
     
-    <StackLayout x:Name="Login" HorizontalOptions="Center" Spacing="10" Margin="20" Padding="0,80,0,180">
+    <StackLayout x:Name="Login" HorizontalOptions="Center" Spacing="10" Margin="0,90,0,0" Padding="0,80,0,180">
 
-        <Image Source="{local:ImageResource Prototype.assets.titlecard.FullTitle2x.jpg}" WidthRequest="350" HeightRequest="300"/>
-        <Button x:Name="LoginButton" ImageSource="{local:ImageResource Prototype.assets.titlecard.LoginButtontwo.jpg}" WidthRequest="80" HeightRequest="80" Clicked="LoginButton_Clicked"/>
-        <Button x:Name="RegisterButton" ImageSource="{local:ImageResource Prototype.assets.titlecard.RegisterButtontwo.jpg}" />
+        <Image Source="{local:ImageResource Prototype.assets.titlecard.FullTitle2x.jpg}" WidthRequest="300" HeightRequest="300"/>
+
+        <Button x:Name="LoginButton" ImageSource="{local:ImageResource Prototype.assets.titlecard.LoginButtontwo.jpg}"
+                WidthRequest="60" HeightRequest="60" Clicked="LoginButton_Clicked"/>
+
+        <Button x:Name="RegisterButton" ImageSource="{local:ImageResource Prototype.assets.titlecard.RegisterButtontwo.jpg}"
+                WidthRequest="50" HeightRequest="50" Clicked="RegisterButton_Clicked"/>
         
     </StackLayout>
     

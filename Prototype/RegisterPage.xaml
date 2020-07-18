@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.RegisterPage"
+             xmlns:local="clr-namespace:Prototype">
+    <ContentPage.Content>
+
+        
+        <StackLayout HorizontalOptions="Center" Spacing="10"  Margin="10,0,10,0">
+
+            <Image Source="{local:ImageResource Prototype.assets.LoginScreen.title2x.jpg}" WidthRequest="300" HeightRequest="200"/>
+
+            <Label Text="Email" FontFamily="Segoe UI" FontSize="15" TextColor="#00BCCF"/>
+
+            <Entry x:Name="EmailInp" HeightRequest="50" WidthRequest="100" FontFamily="Segoe UI" TextColor="#00BCCF"/>
+
+            <Label Text="Username" FontFamily="Segoe UI" FontSize="15" TextColor="#FF8E5B"/>
+
+            <Entry x:Name="UsernameInp" HeightRequest="50" WidthRequest="100" IsPassword="True" FontFamily="Segoe UI" TextColor="#FF8E5B"/>
+
+            <Label Text="Password" FontFamily="Segoe UI" FontSize="15" TextColor="#FF8E5B"/>
+
+            <Entry x:Name="PasswordInp" HeightRequest="50" WidthRequest="100" IsPassword="True" FontFamily="Segoe UI" TextColor="#FF8E5B"/>
+
+            <Button x:Name="RegisterButton" ImageSource="{local:ImageResource Prototype.assets.titlecard.RegisterButtontwo.jpg}"
+                WidthRequest="70" HeightRequest="70" Clicked="RegisterButton_Clicked"/>
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
