@@ -22,21 +22,37 @@ namespace Prototype
         void Top_Clicked(System.Object sender, System.EventArgs e)
         {
             SearchCarousel.Position = 1;
+            Top.TextColor = Color.FromHex("#00BCCF");
+            People.TextColor = Color.FromHex("#FF8E5B");
+            Posts.TextColor = Color.FromHex("#FF8E5B");
+            Drops.TextColor = Color.FromHex("#FF8E5B");
         }
 
         void People_Clicked(System.Object sender, System.EventArgs e)
         {
             SearchCarousel.Position = 0;
+            Top.TextColor = Color.FromHex("#FF8E5B");
+            People.TextColor = Color.FromHex("#00BCCF");
+            Posts.TextColor = Color.FromHex("#FF8E5B");
+            Drops.TextColor = Color.FromHex("#FF8E5B");
         }
 
         void Posts_Clicked(System.Object sender, System.EventArgs e)
         {
             SearchCarousel.Position = 2;
+            Top.TextColor = Color.FromHex("#FF8E5B");
+            People.TextColor = Color.FromHex("#FF8E5B");
+            Posts.TextColor = Color.FromHex("#00BCCF");
+            Drops.TextColor = Color.FromHex("#FF8E5B");
         }
 
         void Drops_Clicked(System.Object sender, System.EventArgs e)
         {
             SearchCarousel.Position = 3;
+            Top.TextColor = Color.FromHex("#FF8E5B");
+            People.TextColor = Color.FromHex("#FF8E5B");
+            Posts.TextColor = Color.FromHex("#FF8E5B");
+            Drops.TextColor = Color.FromHex("#00BCCF");
         }
 
         void BackArrow_Clicked(System.Object sender, System.EventArgs e)

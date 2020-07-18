@@ -84,20 +84,10 @@
                     <Label x:Name="SortByTitle" Text="Sort by:" HorizontalOptions="Center"
                            TextColor="#00BCCF" Margin="0,40,40,0" FontAttributes="Bold"/>
 
-                    <Button x:Name="Top" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,88,40,0" BorderColor="AliceBlue"
-                            Text="Top" FontSize="15" TextColor="#00BCCF" Clicked="Top_Clicked"/>
-
-                    <Button x:Name="People" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,168,40,0" BorderColor="AliceBlue"
-                            Text="People" FontSize="15" TextColor="#FF8E5B" Clicked="People_Clicked"/>
-
-                    <Button x:Name="Posts" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,248,40,0" BorderColor="AliceBlue"
-                            Text="Posts" FontSize="15" TextColor="#FF8E5B" Clicked="Posts_Clicked"/>
-
-                    <Button x:Name="Drops" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,330,40,0" BorderColor="AliceBlue"
-                            Text="Drops" FontSize="16" TextColor="#FF8E5B" Clicked="Drops_Clicked"/>
+                    
 
                     <Image x:Name="TopTab" Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.Line53x.png}"
-                           Margin="60,90,100,300" BackgroundColor="AliceBlue"/>
+                           Margin="60,120,100,330"/>
 
                     <Image x:Name="PeopleTab" Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.Path3x.png}"
                            Margin="70,80,110,130" />
@@ -110,10 +100,20 @@
 
                     <ImageButton x:Name="BackArrow" Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.backArrow3x.png}"
                           Margin="170,20,0,0" VerticalOptions="End" Clicked="BackArrow_Clicked"/>
-                    
+
+                    <Button x:Name="Top" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,88,40,0" BorderColor="AliceBlue"
+                            Text="Top" FontSize="15" TextColor="#00BCCF" Clicked="Top_Clicked"/>
+
+                    <Button x:Name="People" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,168,40,0" BorderColor="AliceBlue"
+                            Text="People" FontSize="15" TextColor="#FF8E5B" Clicked="People_Clicked"/>
+
+                    <Button x:Name="Posts" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,248,40,0" BorderColor="AliceBlue"
+                            Text="Posts" FontSize="15" TextColor="#FF8E5B" Clicked="Posts_Clicked"/>
+
+                    <Button x:Name="Drops" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,330,40,0" BorderColor="AliceBlue"
+                            Text="Drops" FontSize="16" TextColor="#FF8E5B" Clicked="Drops_Clicked"/>
                 </Grid>
             </Grid>
-
         </Grid>
     </ContentView.Content>
 </ContentView>
