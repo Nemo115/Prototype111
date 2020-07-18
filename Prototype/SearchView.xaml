@@ -97,7 +97,7 @@
                             Text="Drops" FontSize="16" TextColor="#FF8E5B" Clicked="Drops_Clicked"/>
 
                     <Image x:Name="TopTab" Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.Line53x.png}"
-                           Margin="60,90,100,300"/>
+                           Margin="60,90,100,300" BackgroundColor="AliceBlue"/>
 
                     <Image x:Name="PeopleTab" Source="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.Path3x.png}"
                            Margin="70,80,110,130" />

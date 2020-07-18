@@ -21,22 +21,22 @@ namespace Prototype
 
         void Top_Clicked(System.Object sender, System.EventArgs e)
         {
-
+            SearchCarousel.Position = 1;
         }
 
         void People_Clicked(System.Object sender, System.EventArgs e)
         {
-
+            SearchCarousel.Position = 0;
         }
 
         void Posts_Clicked(System.Object sender, System.EventArgs e)
         {
-
+            SearchCarousel.Position = 2;
         }
 
         void Drops_Clicked(System.Object sender, System.EventArgs e)
         {
-
+            SearchCarousel.Position = 3;
         }
 
         void BackArrow_Clicked(System.Object sender, System.EventArgs e)
