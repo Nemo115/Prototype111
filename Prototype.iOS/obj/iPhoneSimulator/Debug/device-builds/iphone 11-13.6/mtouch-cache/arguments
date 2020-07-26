@@ -1,5 +1,5 @@
-# Version: 13.18.2.1 (d16-6): 29c4ea731
-/Library/Frameworks/Xamarin.iOS.framework/Versions/13.18.2.1/lib/mtouch/mtouch.exe \
+# Version: 13.18.3.2 (d16-6-xcode11.6): ce0cc74a3
+/Library/Frameworks/Xamarin.iOS.framework/Versions/13.18.3.2/lib/mtouch/mtouch.exe \
 	'\"--cache=/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/mtouch-cache\"' \
 	'\"--sim=/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/Prototype.iOS.app\"' \
 	--executable=Prototype.iOS \
@@ -14,6 +14,7 @@
 	--abi=x86_64 \
 	'\"--symbollist=/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/mtouch-symbols.list\"' \
 	--dsym=no \
+	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll \
 	-r=/Users/ludens1/Documents/GitHub/Prototype111/Prototype/bin/Debug/netstandard2.0/Prototype.dll \
@@ -22,6 +23,7 @@
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.Vectors.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.Linq.dll \
 	-r=/Users/ludens1/.nuget/packages/xamarin.forms/4.5.0.495/build/XCODE11/Xamarin.Forms.Platform.iOS.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll \
@@ -167,6 +169,19 @@
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
+	-r=/Users/ludens1/.nuget/packages/azure.core/1.2.2/lib/netstandard2.0/Azure.Core.dll \
+	-r=/Users/ludens1/.nuget/packages/azure.storage.blobs/12.4.4/lib/netstandard2.0/Azure.Storage.Blobs.dll \
+	-r=/Users/ludens1/.nuget/packages/azure.storage.common/12.4.3/lib/netstandard2.0/Azure.Storage.Common.dll \
+	-r=/Users/ludens1/.nuget/packages/microsoft.bcl.asyncinterfaces/1.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll \
+	-r=/Users/ludens1/.nuget/packages/newtonsoft.json/10.0.2/lib/netstandard1.3/Newtonsoft.Json.dll \
+	-r=/Users/ludens1/.nuget/packages/sqlite-net-pcl/1.7.335/lib/netstandard2.0/SQLite-net.dll \
+	-r=/Users/ludens1/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll \
+	-r=/Users/ludens1/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/lib/Xamarin.iOS10/SQLitePCLRaw.nativelibrary.dll \
+	-r=/Users/ludens1/.nuget/packages/sqlitepclraw.core/2.0.3/lib/netstandard2.0/SQLitePCLRaw.core.dll \
+	-r=/Users/ludens1/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll \
+	-r=/Users/ludens1/.nuget/packages/system.diagnostics.diagnosticsource/4.6.0/lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll \
+	-r=/Users/ludens1/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll \
+	-r=/Users/ludens1/.nuget/packages/windowsazure.storage/9.3.3/lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll \
 	-r=/Users/ludens1/.nuget/packages/xamarin.essentials/1.3.1/lib/xamarinios10/Xamarin.Essentials.dll \
 	-r=/Users/ludens1/.nuget/packages/xamarin.forms/4.5.0.495/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r=/Users/ludens1/.nuget/packages/xamarin.forms/4.5.0.495/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \

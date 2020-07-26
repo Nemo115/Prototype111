@@ -7,20 +7,14 @@ using Xamarin.Forms.Xaml;
 
 namespace Prototype
 {
-
     public partial class SearchView : ContentView
     {
         public SearchView()
         {
             InitializeComponent();
             BindingContext = new SearchViewPages();
-
-            
         }
-
         
-        
-
         void Top_Clicked(System.Object sender, System.EventArgs e)
         {
             SearchCarousel.Position = 1;
@@ -48,7 +42,6 @@ namespace Prototype
             FilterSelect.InputTransparent = true;
             FilterButton.RotateTo(0, 200);
             FilterButton.Source = ImageSource.FromResource("Prototype.assets.Search.TopSearchTab.Filter.FilterIcons.FilterIcon3x.png");
-            
         }
 
         void FilterButton_Clicked(System.Object sender, System.EventArgs e)
@@ -58,7 +51,6 @@ namespace Prototype
             FilterSelect.FadeTo(1, 200);
             FilterSelect.IsVisible = true;
             FilterSelect.InputTransparent = false;
-            
         }
 
         void SearchCarousel_PositionChanged(System.Object sender, Xamarin.Forms.PositionChangedEventArgs e)
@@ -134,7 +126,6 @@ namespace Prototype
                 //new People, new Top, new Posts, new Drops
                 new SearchPeopleTab(), new SearchTopTab(), new SearchPostsTab(), new SearchDropsTab()
             };
-
         }
         public IList<View> SearchList { get; set; }
     }

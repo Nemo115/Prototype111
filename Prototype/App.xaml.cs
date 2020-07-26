@@ -1,11 +1,21 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Microsoft.WindowsAzure.Storage.Blob;
+using Microsoft.WindowsAzure.Storage;
 
 namespace Prototype
 {
     public partial class App : Application
     {
+        /*
+        public string GetBlob(string containerName, string fileName)
+        {
+            
+            return contents;
+        }
+        */
+
         public App()
         {
             InitializeComponent();
@@ -24,15 +34,26 @@ namespace Prototype
 
             //MainPage = new LoginPage();
 
-            ///*
+            /*
 
-            if (Global.Signed == true)
-            {
-                MainPage = new HomePage();
-            }
-            else
+            string connectionString = "DefaultEndpointsProtocol=https;AccountName=extractions;AccountKey=UE7maR5oz/OJbXkQyzr45zLT935vQ5CHztsTeXT+eqvicT7AZRRyCtVeMufkAzrNdk4M4wmXpKIaffX1jF9iWg==;EndpointSuffix=core.windows.net";
+
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse(connectionString);
+
+            CloudBlobClient serviceClient = storageAccount.CreateCloudBlobClient();
+            CloudBlobContainer container = serviceClient.GetContainerReference("stuff");
+            CloudBlockBlob blob = container.GetBlockBlobReference("verify");
+
+            string contents = blob.DownloadTextAsync().Result;
+            */
+
+            if (Global.Signed == false)
             {
                 MainPage = new NavigationPage(new MainPage());
+            }
+            else if (Global.Signed == true)
+            {
+                MainPage = new HomePage();
             }
 
             //*/
@@ -55,5 +76,6 @@ namespace Prototype
     public static class Global
     {
         public static bool Signed;
+        
     }
 }

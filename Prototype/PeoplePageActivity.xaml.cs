@@ -9,6 +9,8 @@ namespace Prototype
         public PeoplePageActivity()
         {
             InitializeComponent();
+            NoActivity.IsVisible = true;
+            NoActivity.InputTransparent = false;
         }
     }
 }

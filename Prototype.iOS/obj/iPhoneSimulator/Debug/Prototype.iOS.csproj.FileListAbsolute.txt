@@ -147,3 +147,17 @@ C:/Users/leo.liu/source/repos/Prototype/Prototype.iOS/obj/iPhoneSimulator/Debug/
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/coremlc/_BundleResourceWithLogicalName.items
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/optimized/
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/SearchView.xaml.g.cs
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Azure.Core.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Azure.Storage.Blobs.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Azure.Storage.Common.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/System.Diagnostics.DiagnosticSource.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Microsoft.WindowsAzure.Storage.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Microsoft.WindowsAzure.Storage.pdb
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.nativelibrary.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll

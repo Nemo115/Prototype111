@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.PeoplePageActivity">
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.PeoplePageActivity"
+             xmlns:local="clr-namespace:Prototype">
     <ContentView.Content>
         <ScrollView Margin="0,0,0,0" BackgroundColor="#E9E9E9">
             <Grid Margin="0,150,0,0">
@@ -7,9 +8,12 @@
                     <Label Text="Activity" VerticalOptions="Center" HorizontalOptions="Center"
                            TextColor="#00BCCF"/>
                 </Grid>
+
                 <StackLayout BackgroundColor="White" Margin="0,50,0,0">
                     <Label x:Name="NoActivity" Text="No Activity"
-                           HorizontalOptions="Center"/>
+                           HorizontalOptions="Center"
+                           IsVisible="false" InputTransparent="True"/>
+
                 </StackLayout>
             </Grid>
         </ScrollView>
