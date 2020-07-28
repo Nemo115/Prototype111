@@ -40,7 +40,8 @@ namespace Prototype
                     UserName = UsernameInp.Text,
                     Email = EmailInp.Text,
                     Password = PasswordInp.Text,
-                    PhoneNumber = PhoneNumInp.Text
+                    PhoneNumber = PhoneNumInp.Text,
+                    SignedIn = true
                 };
 
                 db.Insert(item);

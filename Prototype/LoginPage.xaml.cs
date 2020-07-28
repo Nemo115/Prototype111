@@ -21,8 +21,6 @@ namespace Prototype
 
         void LoginButton_Clicked(System.Object sender, System.EventArgs e)
         {
-            Global.Signed = true;
-
             var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UserDatabase.db");
             var db = new SQLiteConnection(dbpath);
             var myquery = db.Table<RegistrationTable>().Where(u => u.UserName.Equals(UsernameInput.Text) && u.Password.Equals(PasswordInput.Text)).FirstOrDefault();
