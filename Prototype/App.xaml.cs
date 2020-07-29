@@ -23,33 +23,6 @@ namespace Prototype
         {
             InitializeComponent();
 
-            //MainPage = new PeoplePage();
-
-            //MainPage = new SearchView();
-
-            //MainPage = new HomePage();
-
-            //MainPage = new AchievementsPage();
-
-            //MainPage = new RecommendedTab();
-
-            //MainPage = new SendUpload();
-
-            //MainPage = new LoginPage();
-
-            /*
-
-            string connectionString = "DefaultEndpointsProtocol=https;AccountName=extractions;AccountKey=UE7maR5oz/OJbXkQyzr45zLT935vQ5CHztsTeXT+eqvicT7AZRRyCtVeMufkAzrNdk4M4wmXpKIaffX1jF9iWg==;EndpointSuffix=core.windows.net";
-
-            CloudStorageAccount storageAccount = CloudStorageAccount.Parse(connectionString);
-
-            CloudBlobClient serviceClient = storageAccount.CreateCloudBlobClient();
-            CloudBlobContainer container = serviceClient.GetContainerReference("stuff");
-            CloudBlockBlob blob = container.GetBlockBlobReference("verify");
-
-            string contents = blob.DownloadTextAsync().Result;
-            */
-
             var dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UserDatabase.db");
             var db = new SQLiteConnection(dbPath);
 
@@ -63,23 +36,6 @@ namespace Prototype
             {
                 MainPage = new NavigationPage(new MainPage());
             }
-            /*
-            
-
-            if (RegistrationTable.SignedIn == true)
-            {
-                MainPage = new HomePage();
-            }
-            else
-            {
-                MainPage = new NavigationPage(new MainPage());
-            }
-
-            
-
-            */
-
-            //MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

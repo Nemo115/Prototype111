@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7EE2AB25-FC3C-4B78-841E-DE96BF18153C" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/LoginPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/App.xaml.cs">
     <Files>
-      <File FileName="Prototype/LoginPage.xaml.cs" Line="23" Column="10" />
-      <File FileName="Prototype/App.xaml.cs" Line="51" Column="1" />
-      <File FileName="Prototype/data/RegistrationTable.cs" Line="11" Column="15" />
-      <File FileName="Prototype/App.xaml" Line="1" Column="1" />
-      <File FileName="Prototype/LoginPage.xaml" Line="16" Column="52" />
-      <File FileName="Prototype.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Prototype/LoginPage.xaml.cs" Line="27" Column="1" />
+      <File FileName="Prototype/App.xaml.cs" Line="40" Column="1" />
+      <File FileName="Prototype/data/RegistrationTable.cs" />
+      <File FileName="Prototype/App.xaml" />
+      <File FileName="Prototype/LoginPage.xaml" />
+      <File FileName="Prototype.iOS/Main.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,11 +15,11 @@
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
               <Node name="data" expanded="True" />
-              <Node name="App.xaml" expanded="True" />
-              <Node name="HomePage.xaml" expanded="True" />
-              <Node name="LoginPage.xaml" expanded="True">
-                <Node name="LoginPage.xaml.cs" selected="True" />
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
               </Node>
+              <Node name="HomePage.xaml" expanded="True" />
+              <Node name="LoginPage.xaml" expanded="True" />
               <Node name="PeoplePageActivity.xaml" expanded="True" />
               <Node name="PeoplePagePosts.xaml" expanded="True" />
               <Node name="RegisterPage.xaml" expanded="True" />
