@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7EE2AB25-FC3C-4B78-841E-DE96BF18153C" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/SendUpload.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/HomePage.xaml.cs">
     <Files>
       <File FileName="Prototype/LoginPage.xaml.cs" Line="27" Column="1" />
       <File FileName="Prototype/App.xaml.cs" />
@@ -9,11 +9,13 @@
       <File FileName="Prototype/LoginPage.xaml" />
       <File FileName="Prototype.iOS/Main.cs" />
       <File FileName="Prototype/SendUpload.xaml" />
-      <File FileName="Prototype/SendUpload.xaml.cs" Line="142" Column="1" />
-      <File FileName="Prototype/SendUploadCreateDrop.xaml" />
-      <File FileName="Prototype/SendUploadUploadFile.xaml" />
-      <File FileName="Prototype/SendUploadUploadFile.xaml.cs" />
+      <File FileName="Prototype/SendUpload.xaml.cs" Line="171" Column="6" />
+      <File FileName="Prototype/SendUploadCreateDrop.xaml" Line="1" Column="1" />
+      <File FileName="Prototype/SendUploadUploadFile.xaml.cs" Line="1" Column="1" />
       <File FileName="Prototype/SendUploadCreateDrop.xaml.cs" />
+      <File FileName="Prototype/SendUploadPages.cs" Line="1" Column="1" />
+      <File FileName="Prototype/SendUploadUploadFile.xaml" Line="9" Column="24" />
+      <File FileName="Prototype/HomePage.xaml.cs" Line="82" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,9 +23,10 @@
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
               <Node name="assets" expanded="True" />
-              <Node name="SendUpload.xaml" expanded="True">
-                <Node name="SendUpload.xaml.cs" selected="True" />
+              <Node name="HomePage.xaml" expanded="True">
+                <Node name="HomePage.xaml.cs" selected="True" />
               </Node>
+              <Node name="SendUpload.xaml" expanded="True" />
               <Node name="SendUploadCreateDrop.xaml" expanded="True" />
               <Node name="SendUploadUploadFile.xaml" expanded="True" />
             </Node>
@@ -38,7 +41,8 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/ludens1/Documents/GitHub/Prototype111/Prototype/SendUpload.xaml.cs" relfile="Prototype/SendUpload.xaml.cs" line="143" column="1" />
-      <Breakpoint file="/Users/ludens1/Documents/GitHub/Prototype111/Prototype/SendUpload.xaml.cs" relfile="Prototype/SendUpload.xaml.cs" line="192" column="1" />
+      <Breakpoint file="/Users/ludens1/Documents/GitHub/Prototype111/Prototype/SendUpload.xaml.cs" relfile="Prototype/SendUpload.xaml.cs" line="179" column="1" />
+      <Breakpoint file="/Users/ludens1/Documents/GitHub/Prototype111/Prototype/SendUpload.xaml.cs" relfile="Prototype/SendUpload.xaml.cs" line="165" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

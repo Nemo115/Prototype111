@@ -15,7 +15,7 @@ namespace Prototype
         {
 
             BindingContext = new SendUploadPages();
-
+            
             //BindingContext = new CreateNewDrop();
 
             InitializeComponent();
@@ -158,6 +158,18 @@ namespace Prototype
         }
     }
 
+    public class UploadFiles
+    {
+        public UploadFiles()
+        {
+            UploadFileList = new List<View>()
+            {
+                new SendUploadUploadFile(), new SendUpload()
+            };
+        }
+        public IList<View> UploadFileList { get; set; }
+    }
+
     public class DisSendUpload
     {
         public DisSendUpload()
@@ -183,15 +195,5 @@ namespace Prototype
         public IList<View> SendUploadList { get; set; }
     }
 
-    public class UploadFiles
-    {
-        public UploadFiles()
-        {
-            UploadFileList = new List<View>()
-            {
-                new SendUploadUploadFile()
-            };
-        }
-        public IList<View> UploadFileList { get; set; }
-    }
+    
 }
