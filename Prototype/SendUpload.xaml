@@ -39,10 +39,15 @@
                             <Grid HeightRequest="60">
                                 <Label x:Name="DropName" Text="[BestDropPost]" VerticalOptions="Center" HorizontalOptions="Center"
                                        FontSize="14" TextColor="#00BCCF"/>
-                                <CheckBox VerticalOptions="Center" HorizontalOptions="End" Color="#707070"/>
+                                <CheckBox x:Name="DropCheck" VerticalOptions="Center" HorizontalOptions="End" Color="#707070" CheckedChanged="CheckBox_CheckedChanged"/>
                             </Grid>
+                            
+
                         </StackLayout>
+                        
                     </Grid>
+                    <Button x:Name="UploadButton" Text="Upload" BackgroundColor="AliceBlue"
+                                Margin="80,60,80,10" VerticalOptions="End" Clicked="UploadButton_Clicked" IsVisible="false" InputTransparent="True"/>
                 </Grid>
 
                 <Grid x:Name="UploadBar" Margin="0,450,0,0" InputTransparent="False">

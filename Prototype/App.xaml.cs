@@ -11,14 +11,6 @@ namespace Prototype
 {
     public partial class App : Application
     {
-        /*
-        public string GetBlob(string containerName, string fileName)
-        {
-            
-            return contents;
-        }
-        */
-
         public App()
         {
             InitializeComponent();
@@ -53,6 +45,5 @@ namespace Prototype
     public static class Global
     {
         public static bool Signed;
-        
     }
 }

@@ -31,7 +31,7 @@ namespace Prototype
                 UploadWindow.IsVisible = true;
                 UploadWindow.FadeTo(1, 200);
                 UploadWindow.InputTransparent = false;
-                
+
             }
             if (clicked == true && i == 2)
             {
@@ -39,7 +39,7 @@ namespace Prototype
 
                 UploadWindow.IsVisible = false;
                 UploadWindow.InputTransparent = true;
-                
+
                 clicked = false;
                 i = 0;
                 Upload.Source = ImageSource.FromResource("Prototype.assets.SendUpload.NavBar.UploadIcons.uploadIcon1-3x.png");
@@ -55,7 +55,7 @@ namespace Prototype
             }
             else if (ChooseWindow.IsVisible == true && ChooseWindow.InputTransparent == true)
             {
-                
+
                 ChooseWindow.IsVisible = false;
                 ChooseWindow.InputTransparent = true;
             }
@@ -97,15 +97,15 @@ namespace Prototype
             switch (e.Direction)
             {
                 case SwipeDirection.Up:
-                    
+
                     NavBar.TranslateTo(0, -60);
-                    
+
                     NavBar.FadeTo(0, 150);
                     break;
                 case SwipeDirection.Down:
-                    
+
                     NavBar.TranslateTo(0, 0);
-                    
+
                     NavBar.FadeTo(1, 150);
                     break;
             }
@@ -124,6 +124,37 @@ namespace Prototype
             BlueLine.IsVisible = true;
 
             BindingContext = new SendUploadPages();
+        }
+
+        void UploadButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            UploadWindow.IsVisible = false;
+            UploadWindow.InputTransparent = true;
+
+            Upload.IsVisible = false;
+            Upload.InputTransparent = true;
+
+            BackArrow.IsVisible = true;
+            BackArrow.InputTransparent = false;
+
+            OrangeLine.IsVisible = false;
+            BlueLine.IsVisible = false;
+
+            BindingContext = new UploadFiles();
+        }
+
+        void CheckBox_CheckedChanged(System.Object sender, Xamarin.Forms.CheckedChangedEventArgs e)
+        {
+            if (DropCheck.IsChecked == true)
+            {
+                UploadButton.IsVisible = true;
+                UploadButton.InputTransparent = false;
+            }
+            else if (DropCheck.IsChecked == false)
+            {
+                UploadButton.IsVisible = false;
+                UploadButton.InputTransparent = true;
+            }
         }
     }
 
@@ -150,5 +181,17 @@ namespace Prototype
 
         }
         public IList<View> SendUploadList { get; set; }
+    }
+
+    public class UploadFiles
+    {
+        public UploadFiles()
+        {
+            UploadFileList = new List<View>()
+            {
+                new SendUploadUploadFile()
+            };
+        }
+        public IList<View> UploadFileList { get; set; }
     }
 }

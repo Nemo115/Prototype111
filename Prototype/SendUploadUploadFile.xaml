@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.SendUploadUploadFile">
+    <ContentView.Content>
+        <ScrollView>
+            <StackLayout Spacing="4" Margin="0,89,0,0" BackgroundColor="Blue">
+                <Grid BackgroundColor="#F6F6F6" HeightRequest="50">
+                    <Label Text="Create New Drop" HorizontalOptions="Center" VerticalOptions="Center"
+                           TextColor="#00BCCF" FontSize="15"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentView.Content>
+</ContentView>
