@@ -2,10 +2,22 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.SendUploadUploadFile">
     <ContentView.Content>
         <ScrollView>
-            <StackLayout Spacing="4" Margin="0,89,0,0" BackgroundColor="Blue" HeightRequest="600">
+            <StackLayout Spacing="4" Margin="0,89,0,0" HeightRequest="600">
                 <Grid BackgroundColor="#F6F6F6" HeightRequest="50">
-                    <Label Text="Create New Drop" HorizontalOptions="Center" VerticalOptions="Center"
+                    <Label Text="Upload File" HorizontalOptions="Center" VerticalOptions="Center"
                            TextColor="#00BCCF" FontSize="15"/>
+                </Grid>
+                <Grid BackgroundColor="White" HeightRequest="180">
+                    <Button BackgroundColor="AliceBlue" Margin="200,20,20,130" Text="Select File"/>
+                    <Label Text="Description" Margin="20,90,0,0" FontSize="12"/>
+                    <Entry x:Name="Description" Margin="20,120,20,20"/>
+                </Grid>
+                <Grid BackgroundColor="White" HeightRequest="100">
+                    <Label Text="Textures" FontSize="12" Margin="50,15,0,0"/>
+                    <Picker Margin="50,40,50,20"/>
+                </Grid>
+                <Grid BackgroundColor="White" HeightRequest="100">
+                    <Button x:Name="UploadFileButton" Margin="50,20,50,20" BackgroundColor="AliceBlue" Text="Upload"/>
                 </Grid>
             </StackLayout>
         </ScrollView>

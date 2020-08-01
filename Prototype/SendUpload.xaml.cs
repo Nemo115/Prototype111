@@ -164,7 +164,7 @@ namespace Prototype
         {
             UploadFileList = new List<View>()
             {
-                new SendUploadUploadFile(), new SendUpload()
+                new SendUploadUploadFile()
             };
         }
         public IList<View> UploadFileList { get; set; }
@@ -188,7 +188,7 @@ namespace Prototype
         {
             SendUploadList = new List<View>()
             {
-                new SendUploadCreateDrop()
+                new SendUploadCreateDrop(), new SendUploadUploadFile()
             };
 
         }
