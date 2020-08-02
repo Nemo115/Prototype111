@@ -6,6 +6,7 @@ using Microsoft.WindowsAzure.Storage;
 using Prototype.data;
 using System.IO;
 using SQLite;
+using System.Threading.Tasks;
 
 namespace Prototype
 {
@@ -45,5 +46,9 @@ namespace Prototype
     public static class Global
     {
         public static bool Signed;
+    }
+    public interface IPhotoPickerService
+    {
+        Task<Stream> GetImageStreamAsync();
     }
 }

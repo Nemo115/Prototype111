@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using Xamarin.Forms;
 
 namespace Prototype
@@ -9,6 +10,18 @@ namespace Prototype
         public SendUploadUploadFile()
         {
             InitializeComponent();
+        }
+        async void OnPickPhotoButtonClicked(object sender, EventArgs e)
+        {
+            (sender as Button).IsEnabled = false;
+
+            Stream stream = await DependencyService.Get<IPhotoPickerService>().GetImageStreamAsync();
+            if (stream != null)
+            {
+                image.Source = ImageSource.FromStream(() => stream);
+            }
+
+            (sender as Button).IsEnabled = true;
         }
     }
 }
