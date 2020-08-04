@@ -1,28 +1,13 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7EE2AB25-FC3C-4B78-841E-DE96BF18153C" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype.Android/PhotoPickerService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/SendUploadUploadFile.xaml.cs">
     <Files>
-      <File FileName="Prototype/LoginPage.xaml.cs" Line="27" Column="1" />
-      <File FileName="Prototype/App.xaml.cs" Line="52" Column="44" />
-      <File FileName="Prototype/data/RegistrationTable.cs" />
-      <File FileName="Prototype/App.xaml" />
-      <File FileName="Prototype/LoginPage.xaml" />
+      <File FileName="Prototype/SendUploadUploadFile.xaml.cs" Line="17" Column="10" />
+      <File FileName="Prototype.iOS/PhotoPickerService.cs" Line="42" Column="14" />
       <File FileName="Prototype.iOS/Main.cs" Line="1" Column="1" />
-      <File FileName="Prototype/SendUpload.xaml" />
-      <File FileName="Prototype/SendUpload.xaml.cs" />
-      <File FileName="Prototype/SendUploadCreateDrop.xaml" />
-      <File FileName="Prototype/SendUploadUploadFile.xaml.cs" />
-      <File FileName="Prototype/SendUploadCreateDrop.xaml.cs" />
-      <File FileName="Prototype/SendUploadPages.cs" />
-      <File FileName="Prototype/SendUploadUploadFile.xaml" Line="23" Column="22" />
-      <File FileName="Prototype/HomePage.xaml.cs" />
-      <File FileName="Prototype.iOS/PhotoPickerService.cs" Line="68" Column="67" />
-      <File FileName="Prototype.iOS/Info.plist" />
       <File FileName="Prototype.iOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="Prototype.iOS/CustomEntryRenderer.cs" Line="1" Column="1" />
-      <File FileName="Prototype.iOS/Entitlements.plist" />
-      <File FileName="Prototype.Android/MainActivity.cs" Line="65" Column="1" />
-      <File FileName="Prototype.Android/PhotoPickerService.cs" Line="3" Column="2" />
+      <File FileName="Prototype.iOS/Info.plist" />
+      <File FileName="Prototype/App.xaml.cs" Line="54" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,14 +16,14 @@
             <Node name="Prototype" expanded="True">
               <Node name="assets" expanded="True" />
               <Node name="App.xaml" expanded="True" />
-              <Node name="HomePage.xaml" expanded="True" />
-              <Node name="SendUpload.xaml" expanded="True" />
+              <Node name="LoginPage.xaml" expanded="True" />
               <Node name="SendUploadCreateDrop.xaml" expanded="True" />
-              <Node name="SendUploadUploadFile.xaml" expanded="True" />
+              <Node name="SendUploadUploadFile.xaml" expanded="True">
+                <Node name="SendUploadUploadFile.xaml.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="Prototype.Android" expanded="True">
-              <Node name="PhotoPickerService.cs" selected="True" />
-            </Node>
+            <Node name="Prototype.Android" expanded="True" />
+            <Node name="Prototype.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

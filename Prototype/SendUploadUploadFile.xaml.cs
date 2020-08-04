@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using Xamarin.Forms;
+using Prototype;
 
 namespace Prototype
 {
@@ -11,7 +12,8 @@ namespace Prototype
         {
             InitializeComponent();
         }
-        async void OnPickPhotoButtonClicked(object sender, EventArgs e)
+
+        public async void OnPickPhotoButtonClicked(object sender, EventArgs e)
         {
             (sender as Button).IsEnabled = false;
 

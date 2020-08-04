@@ -11,6 +11,7 @@ namespace Prototype.iOS
         TaskCompletionSource<Stream> taskCompletionSource;
         UIImagePickerController imagePicker;
 
+
         public Task<Stream> GetImageStreamAsync()
         {
             // Create and define UIImagePickerController
@@ -34,7 +35,7 @@ namespace Prototype.iOS
             return taskCompletionSource.Task;
         }
 
-        void OnImagePickerFinishedPickingMedia(object sender, UIImagePickerMediaPickedEventArgs args)
+        public void OnImagePickerFinishedPickingMedia(object sender, UIImagePickerMediaPickedEventArgs args)
         {
             UIImage image = args.EditedImage ?? args.OriginalImage;
 
