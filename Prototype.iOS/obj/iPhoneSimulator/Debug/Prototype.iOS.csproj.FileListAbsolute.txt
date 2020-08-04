@@ -146,7 +146,6 @@ C:/Users/leo.liu/source/repos/Prototype/Prototype.iOS/obj/iPhoneSimulator/Debug/
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/coremlc/_PartialAppManifest.items
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/coremlc/_BundleResourceWithLogicalName.items
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/optimized/
-/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/SearchView.xaml.g.cs
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Azure.Core.dll
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Azure.Storage.Blobs.dll
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Azure.Storage.Common.dll

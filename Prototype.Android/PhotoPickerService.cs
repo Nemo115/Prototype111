@@ -2,7 +2,10 @@
 using System.IO;
 using System.Threading.Tasks;
 using Android.Content;
+using Prototype.Droid;
+using Xamarin.Forms;
 
+[assembly: Dependency(typeof(PhotoPickerService))]
 namespace Prototype.Droid
 {
     public class PhotoPickerService : IPhotoPickerService

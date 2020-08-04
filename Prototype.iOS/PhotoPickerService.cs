@@ -2,15 +2,18 @@
 using System.IO;
 using System.Threading.Tasks;
 using Foundation;
+using Prototype.iOS;
 using UIKit;
+using Xamarin.Forms;
 
+[assembly: Dependency(typeof(PhotoPickerService))]
 namespace Prototype.iOS
 {
+
     public class PhotoPickerService : IPhotoPickerService
     {
         TaskCompletionSource<Stream> taskCompletionSource;
         UIImagePickerController imagePicker;
-
 
         public Task<Stream> GetImageStreamAsync()
         {
@@ -20,7 +23,7 @@ namespace Prototype.iOS
                 SourceType = UIImagePickerControllerSourceType.PhotoLibrary,
                 MediaTypes = UIImagePickerController.AvailableMediaTypes(UIImagePickerControllerSourceType.PhotoLibrary)
             };
-
+            
             // Set event handlers
             imagePicker.FinishedPickingMedia += OnImagePickerFinishedPickingMedia;
             imagePicker.Canceled += OnImagePickerCancelled;

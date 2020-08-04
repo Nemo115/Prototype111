@@ -8,7 +8,7 @@
                            TextColor="#00BCCF" FontSize="15"/>
                 </Grid>
                 <Grid BackgroundColor="White" HeightRequest="180">
-                    <Button BackgroundColor="AliceBlue" Margin="200,20,20,130" Text="Select File"/>
+                    <Button BackgroundColor="AliceBlue" Margin="200,20,20,130" Text="Select File" Clicked="OnPickPhotoButtonClicked"/>
                     <Label Text="Description" Margin="20,90,0,0" FontSize="12"/>
                     <Entry x:Name="Description" Margin="20,120,20,20"/>
                 </Grid>
