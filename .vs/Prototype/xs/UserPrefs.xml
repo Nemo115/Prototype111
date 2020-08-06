@@ -1,17 +1,15 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7EE2AB25-FC3C-4B78-841E-DE96BF18153C" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/LoginPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype.Android/PhotoPickerService.cs">
     <Files>
-      <File FileName="Prototype/SendUploadUploadFile.xaml.cs" Line="25" Column="23" />
+      <File FileName="Prototype/SendUploadUploadFile.xaml" Line="21" Column="151" />
+      <File FileName="Prototype/SendUploadUploadFile.xaml.cs" Line="71" Column="54" />
       <File FileName="Prototype.iOS/PhotoPickerService.cs" Line="40" Column="1" />
-      <File FileName="Prototype.iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="Prototype.iOS/Main.cs" Line="17" Column="1" />
       <File FileName="Prototype.iOS/AppDelegate.cs" />
       <File FileName="Prototype.iOS/Info.plist" />
       <File FileName="Prototype/App.xaml.cs" Line="28" Column="17" />
-      <File FileName="Prototype/SendUploadUploadFile.xaml" Line="12" Column="43" />
-      <File FileName="Prototype.Android/PhotoPickerService.cs" />
-      <File FileName="../../../.nuget/packages/xamarin.essentials/1.5.3.2/readme.txt" Line="11" Column="23" />
-      <File FileName="../../../.nuget/packages/xam.plugin.media/5.0.1/readme.txt" Line="1" Column="1" />
+      <File FileName="Prototype.Android/PhotoPickerService.cs" Line="1" Column="1" />
       <File FileName="Prototype/LoginPage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -27,13 +25,13 @@
                 </Node>
               </Node>
               <Node name="App.xaml" expanded="True" />
-              <Node name="LoginPage.xaml" expanded="True">
-                <Node name="LoginPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="LoginPage.xaml" expanded="True" />
               <Node name="SendUploadCreateDrop.xaml" expanded="True" />
               <Node name="SendUploadUploadFile.xaml" expanded="True" />
             </Node>
-            <Node name="Prototype.Android" expanded="True" />
+            <Node name="Prototype.Android" expanded="True">
+              <Node name="PhotoPickerService.cs" selected="True" />
+            </Node>
             <Node name="Prototype.iOS" expanded="True" />
           </Node>
         </State>
