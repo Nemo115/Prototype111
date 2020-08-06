@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QPpDRBgA/vL39X49bpbzgkylNK01wiU1YUupG+cU09lwNFK6v/jmY5AGLvpWppuW7JpGoYLZC/hT/M4ARmRnlA==",
+  "dgSpecHash": "mg5QGfgY6ryALR8QSO+AzgRijABkzchf/0KnflasTEgvR1nzCILaoO3vendPj49Jrcy4y69xNHVwumNAk6/L7w==",
   "success": true,
   "projectFilePath": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype/Prototype.csproj",
   "expectedPackageFiles": [
@@ -57,8 +57,9 @@
     "/Users/ludens1/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/windowsazure.storage/9.3.3/windowsazure.storage.9.3.3.nupkg.sha512",
-    "/Users/ludens1/.nuget/packages/xamarin.essentials/1.3.1/xamarin.essentials.1.3.1.nupkg.sha512",
-    "/Users/ludens1/.nuget/packages/xamarin.forms/4.5.0.495/xamarin.forms.4.5.0.495.nupkg.sha512"
+    "/Users/ludens1/.nuget/packages/xam.plugin.media/5.0.1/xam.plugin.media.5.0.1.nupkg.sha512",
+    "/Users/ludens1/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/ludens1/.nuget/packages/xamarin.forms/4.7.0.1239/xamarin.forms.4.7.0.1239.nupkg.sha512"
   ],
   "logs": []
 }

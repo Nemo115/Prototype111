@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JsWGR5JhSrVBGo+1rTzW9NC8ZfpJWIN71cCggt9uVKOpnkv4SIqlsYq9dDGQWt7gcJphsad/xS6UEIrQz1Sk6w==",
+  "dgSpecHash": "d4I6crZon7fpaymj0qqmDeVepO23xb6c6uadxqukFNliTOY+EUbzvvBc/1s2+xRcVJkL/y4kbOVm9IlwWCBIvQ==",
   "success": true,
   "projectFilePath": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/Prototype.iOS.csproj",
   "expectedPackageFiles": [
@@ -25,8 +25,36 @@
     "/Users/ludens1/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/windowsazure.storage/9.3.3/windowsazure.storage.9.3.3.nupkg.sha512",
+    "/Users/ludens1/.nuget/packages/xam.plugin.media/5.0.1/xam.plugin.media.5.0.1.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/xamarin.essentials/1.3.1/xamarin.essentials.1.3.1.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/xamarin.forms/4.5.0.495/xamarin.forms.4.5.0.495.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.5.3.2 to 1.3.1. Reference the package directly from the project to select a different version. \n Prototype.iOS -> Prototype -> Xamarin.Essentials (>= 1.5.3.2) \n Prototype.iOS -> Xamarin.Essentials (>= 1.3.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.7.0.1239 to 4.5.0.495. Reference the package directly from the project to select a different version. \n Prototype.iOS -> Prototype -> Xamarin.Forms (>= 4.7.0.1239) \n Prototype.iOS -> Xamarin.Forms (>= 4.5.0.495)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

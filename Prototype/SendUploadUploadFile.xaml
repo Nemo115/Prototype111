@@ -7,17 +7,18 @@
                     <Label Text="Upload File" HorizontalOptions="Center" VerticalOptions="Center"
                            TextColor="#00BCCF" FontSize="15"/>
                 </Grid>
-                <Grid BackgroundColor="White" HeightRequest="180">
-                    <Button BackgroundColor="AliceBlue" Margin="200,20,20,130" Text="Select File" Clicked="OnPickPhotoButtonClicked"/>
-                    <Label Text="Description" Margin="20,90,0,0" FontSize="12"/>
-                    <Entry x:Name="Description" Margin="20,120,20,20"/>
+                <Grid BackgroundColor="White" HeightRequest="400">
+                    <Button BackgroundColor="AliceBlue" Margin="20,20,20,330" Text="Select File" Clicked="OnPickPhotoButtonClicked"/>
+                    <Image x:Name="image" Margin="10,80,10,120"/>
+                    <Label Text="Description" Margin="20,280,0,0" FontSize="12"/>
+                    <Entry x:Name="Description" Margin="20,300,20,20"/>
                 </Grid>
                 <Grid BackgroundColor="White" HeightRequest="100">
                     <Label Text="Textures" FontSize="12" Margin="50,15,0,0"/>
                     <Picker Margin="50,40,50,20"/>
                 </Grid>
                 <Grid BackgroundColor="White" HeightRequest="100">
-                    <Button x:Name="UploadFileButton" Margin="50,20,50,20" BackgroundColor="AliceBlue" Text="Upload"/>
+                    <Button x:Name="UploadFileButton" Margin="50,20,50,20" BackgroundColor="AliceBlue" Text="Upload" Clicked="UploadFileButton_Clicked"/>
                 </Grid>
             </StackLayout>
         </ScrollView>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tWgenSpALYxts34NtMLzy1A/kl8HAoeY6j8Ze9UZvD2DeGyJrE2/H+s53SPZATZRedTaUhjxqsm4RpW+tuXOnQ==",
+  "dgSpecHash": "Iish2csFTXv+m1QMv6OPkKuhVvcVa8bbjErkTUoIdIze/zAoiTUEyD6ROqwyv36rmQMyOzo8B4u/5e6T1Uth7g==",
   "success": true,
   "projectFilePath": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype.Android/Prototype.Android.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "/Users/ludens1/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/windowsazure.storage/9.3.3/windowsazure.storage.9.3.3.nupkg.sha512",
+    "/Users/ludens1/.nuget/packages/xam.plugin.media/5.0.1/xam.plugin.media.5.0.1.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/xamarin.android.arch.core.common/1.1.1.3/xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/xamarin.android.arch.core.runtime/1.1.1.3/xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/xamarin.android.arch.lifecycle.common/1.1.1.3/xamarin.android.arch.lifecycle.common.1.1.1.3.nupkg.sha512",
@@ -66,5 +67,26 @@
     "/Users/ludens1/.nuget/packages/xamarin.essentials/1.3.1/xamarin.essentials.1.3.1.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/xamarin.forms/4.5.0.495/xamarin.forms.4.5.0.495.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.5.3.2 to 1.3.1. Reference the package directly from the project to select a different version. \n Prototype.Android -> Prototype -> Xamarin.Essentials (>= 1.5.3.2) \n Prototype.Android -> Xamarin.Essentials (>= 1.3.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.7.0.1239 to 4.5.0.495. Reference the package directly from the project to select a different version. \n Prototype.Android -> Prototype -> Xamarin.Forms (>= 4.7.0.1239) \n Prototype.Android -> Xamarin.Forms (>= 4.5.0.495)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
 }

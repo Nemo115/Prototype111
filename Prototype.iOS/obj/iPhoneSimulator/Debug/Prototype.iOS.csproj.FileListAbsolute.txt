@@ -160,3 +160,5 @@ C:/Users/leo.liu/source/repos/Prototype/Prototype.iOS/obj/iPhoneSimulator/Debug/
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.nativelibrary.dll
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Plugin.Media.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Plugin.Media.pdb
