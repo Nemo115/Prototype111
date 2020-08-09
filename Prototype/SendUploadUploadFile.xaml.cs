@@ -14,7 +14,7 @@ namespace Prototype
     public partial class SendUploadUploadFile : ContentView
     {
         private MediaFile mediaFile;
-        Stream stream;
+        static Stream stream;
 
         public SendUploadUploadFile()
         {
@@ -23,7 +23,7 @@ namespace Prototype
 
         public async void OnPickPhotoButtonClicked(object sender, EventArgs e)
         {
-            /*
+            ///*
             await CrossMedia.Current.Initialize();
             if (!CrossMedia.Current.IsPickPhotoSupported)
             {
@@ -41,11 +41,13 @@ namespace Prototype
                 {
                     return;
                 }
+                
                 image.Source = ImageSource.FromStream(() => mediaFile.GetStream());
+                //image.Source = ImageSource.FromFile(mediaFile.Path);
             }
-            */
+            //*/
 
-            ///*
+            /*
             (sender as Button).IsEnabled = false;
 
             stream = await DependencyService.Get<IPhotoPickerService>().GetImageStreamAsync();
@@ -55,24 +57,27 @@ namespace Prototype
             }
             
             (sender as Button).IsEnabled = true;
-            ///*/
+            */
         }
 
         public async void UploadFileButton_Clicked(System.Object sender, System.EventArgs e)
         {
-            Upload(stream);
+            //Upload(stream);
+            Upload(mediaFile.GetStream());
         }
 
         public async void Upload(Stream s)
         {
+            string Dname = Description.Text;
             var account = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=dropvoteprototype;AccountKey=3q4b3dn686HyF4jzTpRh/6cbuu8K6MNkXLgTC5kqabqlz0d6UOl9g60QjdjQszXkGM/DwEugjBP/LzC8rjN2DA==;EndpointSuffix=core.windows.net");
             var client = account.CreateCloudBlobClient();
             var container = client.GetContainerReference("teststorage1");
             await container.CreateIfNotExistsAsync();
             var name = Guid.NewGuid().ToString();
-            var blockBlob = container.GetBlockBlobReference($"{name}.png");
+            var blockBlob = container.GetBlockBlobReference($"{Dname + "!&%#%#&!" + name}.png");
             await blockBlob.UploadFromStreamAsync(s);
-            //URL = blockBlob.Uri.OriginalString;
+            string URL = blockBlob.Uri.OriginalString;
+            return;
             //UploadedUrl.Text = URL;
         }
     }

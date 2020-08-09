@@ -1,16 +1,18 @@
-# Version: 13.18.3.2 (d16-6-xcode11.6): ce0cc74a3
-/Library/Frameworks/Xamarin.iOS.framework/Versions/13.18.3.2/lib/mtouch/mtouch.exe \
-	'\"--cache=/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/mtouch-cache\"' \
-	'\"--sim=/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/Prototype.iOS.app\"' \
-	--executable=Prototype.iOS \
+# Version: 13.20.2.2 (d16-7): 817b6f72a
+/Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mtouch/mtouch.exe \
 	--debug \
 	--sgen-conc \
-	--nolink \
+	'/target-framework:Xamarin.iOS,Version=v1.0' \
+	--http-message-handler=NSUrlSessionHandler \
+	'\"--cache=/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/mtouch-cache\"' \
+	--root-assembly=/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Prototype.iOS.exe \
 	--sdkroot=/Applications/Xcode.app/Contents/Developer \
+	'\"--sim=/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/Prototype.iOS.app\"' \
+	--executable=Prototype.iOS \
+	--nolink \
 	--sdk=13.6 \
 	--targetver=8.0 \
 	--aot-options=-O=-float32 \
-	--http-message-handler=NSUrlSessionHandler \
 	--abi=x86_64 \
 	'\"--symbollist=/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/mtouch-symbols.list\"' \
 	--dsym=no \
@@ -223,6 +225,4 @@
 	-r=/Users/ludens1/.nuget/packages/xamarin.forms/4.5.0.495/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r=/Users/ludens1/Documents/GitHub/Prototype111/Prototype/bin/Debug/netstandard2.0/Prototype.dll \
 	-r=/Users/ludens1/.nuget/packages/xamarin.forms/4.5.0.495/build/XCODE11/Xamarin.Forms.Platform.iOS.dll \
-	'--target-framework=Xamarin.iOS,v1.0' \
-	--root-assembly=/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Prototype.iOS.exe \
 	'@/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/response-file.rsp' \
