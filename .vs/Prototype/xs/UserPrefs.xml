@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7EE2AB25-FC3C-4B78-841E-DE96BF18153C" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/PeoplePagePosts.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/PeoplePagePosts.xaml.cs">
     <Files>
-      <File FileName="Prototype/BlobStorageService.cs" Line="22" Column="1" />
-      <File FileName="Prototype/MainHomeView.xaml.cs" />
+      <File FileName="Prototype/BlobStorageService.cs" Line="38" Column="14" />
       <File FileName="Prototype/MainHomeView.xaml" Line="27" Column="1" />
+      <File FileName="Prototype/MainHomeView.xaml.cs" Line="32" Column="78" />
+      <File FileName="Prototype/PeoplePagePosts.xaml" Line="33" Column="21" />
+      <File FileName="Prototype/PeoplePagePosts.xaml.cs" Line="39" Column="24" />
       <File FileName="Prototype/SendUploadUploadFile.xaml.cs" Line="90" Column="69" />
       <File FileName="Prototype.iOS/Main.cs" Line="17" Column="1" />
       <File FileName="Prototype/LoginPage.xaml.cs" />
       <File FileName="Prototype/PeoplePageActivity.xaml" Line="1" Column="1" />
-      <File FileName="Prototype/PeoplePagePosts.xaml" Line="33" Column="21" />
-      <File FileName="Prototype/PeoplePagePosts.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +24,9 @@
               <Node name="LoginPage.xaml" expanded="True" />
               <Node name="MainHomeView.xaml" expanded="True" />
               <Node name="PeoplePageActivity.xaml" expanded="True" />
-              <Node name="PeoplePagePosts.xaml" expanded="True" selected="True" />
+              <Node name="PeoplePagePosts.xaml" expanded="True">
+                <Node name="PeoplePagePosts.xaml.cs" selected="True" />
+              </Node>
               <Node name="SendUploadCreateDrop.xaml" expanded="True" />
               <Node name="SendUploadUploadFile.xaml" expanded="True" />
             </Node>
