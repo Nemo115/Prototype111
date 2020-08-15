@@ -16,8 +16,8 @@
                                Margin="350,18,0,20"/>
                     </Grid>
 
-                    <Grid BackgroundColor="Black" Margin="0,70,0,90">
-
+                    <Grid Margin="0,70,0,90">
+                        <Image x:Name="PostImage"/>
                     </Grid>
 
                     <Grid Margin="10,310,10,50" ColumnSpacing="20">
@@ -29,7 +29,7 @@
                             <RowDefinition Height="90"/>
                         </Grid.RowDefinitions>
                         <Button x:Name="DropVote" ImageSource="{local:ImageResource Prototype.assets.HomePage.PostElements.DropVoteIcons.upvoteIcon2x.jpg}"
-                                Margin="0,0,0,50"/>
+                                Margin="0,0,0,50" Clicked="DropVote_Clicked"/>
                         <Button x:Name="Like" ImageSource="{local:ImageResource Prototype.assets.HomePage.PostElements.thumbsUpIcon.ThumbsUpIcon2x.jpg}"
                                 Margin="0,0,0,50"
                                 Grid.Column="1"/>
@@ -48,7 +48,7 @@
                     </Grid>
 
                     <Grid Margin="10,350,10,0">
-                        <Label Text="Description" FontSize="10"/>
+                        <Label x:Name="DescriptionT" Text="Description" FontSize="10"/>
                     </Grid>
 
                 </Grid>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Iish2csFTXv+m1QMv6OPkKuhVvcVa8bbjErkTUoIdIze/zAoiTUEyD6ROqwyv36rmQMyOzo8B4u/5e6T1Uth7g==",
+  "dgSpecHash": "CmGKGdEBx3x3t2+3Z/PV8/CqRAA6LdFvWBwmzKT/9+0ULq/q1DtD8xt+bGQNMAlDfGHouKb+U45OD987dm5Dgg==",
   "success": true,
   "projectFilePath": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype.Android/Prototype.Android.csproj",
   "expectedPackageFiles": [
@@ -82,7 +82,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.7.0.1239 to 4.5.0.495. Reference the package directly from the project to select a different version. \n Prototype.Android -> Prototype -> Xamarin.Forms (>= 4.7.0.1239) \n Prototype.Android -> Xamarin.Forms (>= 4.5.0.495)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1269 to 4.5.0.495. Reference the package directly from the project to select a different version. \n Prototype.Android -> Prototype -> Xamarin.Forms (>= 4.8.0.1269) \n Prototype.Android -> Xamarin.Forms (>= 4.5.0.495)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"

@@ -68,16 +68,33 @@ namespace Prototype
 
         public async void Upload(Stream s)
         {
-            string Dname = Description.Text;
-            var account = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=dropvoteprototype;AccountKey=3q4b3dn686HyF4jzTpRh/6cbuu8K6MNkXLgTC5kqabqlz0d6UOl9g60QjdjQszXkGM/DwEugjBP/LzC8rjN2DA==;EndpointSuffix=core.windows.net");
-            var client = account.CreateCloudBlobClient();
-            var container = client.GetContainerReference("teststorage1");
-            await container.CreateIfNotExistsAsync();
-            var name = Guid.NewGuid().ToString();
-            var blockBlob = container.GetBlockBlobReference($"{Dname + "!&%#%#&!" + name}.png");
-            await blockBlob.UploadFromStreamAsync(s);
-            string URL = blockBlob.Uri.OriginalString;
-            return;
+            if (Description.Text != null)
+            {
+                string Dname = Description.Text;
+                var account = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=dropvoteprototype;AccountKey=3q4b3dn686HyF4jzTpRh/6cbuu8K6MNkXLgTC5kqabqlz0d6UOl9g60QjdjQszXkGM/DwEugjBP/LzC8rjN2DA==;EndpointSuffix=core.windows.net");
+                var client = account.CreateCloudBlobClient();
+                var container = client.GetContainerReference("teststorage1");
+                await container.CreateIfNotExistsAsync();
+                var name = Guid.NewGuid().ToString();
+                var blockBlob = container.GetBlockBlobReference($"{Dname + "!&%#%#&!" + name}.png");
+                await blockBlob.UploadFromStreamAsync(s);
+                string URL = blockBlob.Uri.OriginalString;
+                mediaFile = null;
+                image.Source = null;
+                return;
+            }
+            else if(s == null || Description.Text == null && s == null)
+            {
+                uint timeout = 50;
+
+                await UploadFileButton.TranslateTo(-15, 0, timeout);
+                await UploadFileButton.TranslateTo(15, 0, timeout);
+                await UploadFileButton.TranslateTo(-10, 0, timeout);
+                await UploadFileButton.TranslateTo(10, 0, timeout);
+                await UploadFileButton.TranslateTo(-5, 0, timeout);
+                await UploadFileButton.TranslateTo(5, 0, timeout);
+                UploadFileButton.TranslationX = 0;
+            }
             //UploadedUrl.Text = URL;
         }
     }

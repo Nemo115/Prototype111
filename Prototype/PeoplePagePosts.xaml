@@ -9,7 +9,7 @@
                     <Label Text="Posts" VerticalOptions="Center" HorizontalOptions="Center"
                            TextColor="#00BCCF"/>
                 </Grid>
-                <Grid BackgroundColor="White" Margin="0,50,0,0" ColumnSpacing="0" VerticalOptions="StartAndExpand">
+                <Grid x:Name="photoGrid" BackgroundColor="White" Margin="0,50,0,0" ColumnSpacing="0" VerticalOptions="StartAndExpand">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="138"/>
                         <ColumnDefinition Width="138"/>
@@ -27,12 +27,10 @@
                     </Grid.RowDefinitions>
                     
 
-                    <Image Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
+                    <Image x:Name="post0" Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
                            HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="AliceBlue"/>
 
                     
-                    
-
                     <Label x:Name="NoPosts" Text="No Posts" VerticalOptions="Start" HorizontalOptions="Center" IsVisible="false"/>
                     
                 </Grid>
