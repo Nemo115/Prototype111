@@ -28,7 +28,7 @@
                     
 
                     <Image x:Name="post0" Source="{local:ImageResource Prototype.assets.WallPapers.AstroWallpaper.jpg}"
-                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="AliceBlue"/>
+                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
 
                     
                     <Label x:Name="NoPosts" Text="No Posts" VerticalOptions="Start" HorizontalOptions="Center" IsVisible="false"/>

@@ -9,7 +9,8 @@ namespace Prototype
 {
     public partial class PeoplePagePosts : ContentView
     {
-        int i = 0;
+        int columnI = 0;
+        int rowI = 0;
 
         public PeoplePagePosts()
         {
@@ -24,19 +25,30 @@ namespace Prototype
             if (blobList != null)
             {
                 NoPosts.IsVisible = false;
-                var firstBlob = blobList?.FirstOrDefault();
-                var photo = new PhotoModel { Title = firstBlob?.Name, Uri = firstBlob?.Uri };
+                
 
-                string description = photo?.Title;
-                const string V = "!&%#%#&!";
+                //string description = photo?.Title;
+                //const string V = "!&%#%#&!";
                 //string[] des = description.Split(V.ToCharArray());
-                post0.Source = ImageSource.FromUri(photo?.Uri);
+                //post0.Source = ImageSource.FromUri(photo?.Uri);
+
                 foreach (var post in blobList)
                 {
+                    var aBlob = post;
+                    var photo = new PhotoModel { Title = aBlob?.Name, Uri = aBlob?.Uri };
+
                     photoGrid.Children.Add(new Image
                     {
                         Source = ImageSource.FromUri(photo?.Uri)
-                    });
+                    }, columnI, rowI);
+
+                    columnI++;
+
+                    if (columnI == 3)
+                    {
+                        columnI = 0;
+                        rowI++;
+                    }
                 }
             }
             else

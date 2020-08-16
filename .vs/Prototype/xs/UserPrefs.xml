@@ -3,23 +3,20 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/PeoplePagePosts.xaml.cs">
     <Files>
       <File FileName="Prototype/BlobStorageService.cs" Line="38" Column="14" />
-      <File FileName="Prototype/MainHomeView.xaml" Line="27" Column="1" />
-      <File FileName="Prototype/MainHomeView.xaml.cs" Line="32" Column="78" />
-      <File FileName="Prototype/PeoplePagePosts.xaml" Line="33" Column="21" />
-      <File FileName="Prototype/PeoplePagePosts.xaml.cs" Line="39" Column="24" />
-      <File FileName="Prototype/SendUploadUploadFile.xaml.cs" Line="90" Column="69" />
-      <File FileName="Prototype.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Prototype/MainHomeView.xaml" />
+      <File FileName="Prototype/MainHomeView.xaml.cs" />
+      <File FileName="Prototype/PeoplePagePosts.xaml" />
+      <File FileName="Prototype/PeoplePagePosts.xaml.cs" Line="46" Column="22" />
+      <File FileName="Prototype/SendUploadUploadFile.xaml.cs" />
+      <File FileName="Prototype.iOS/Main.cs" />
       <File FileName="Prototype/LoginPage.xaml.cs" />
-      <File FileName="Prototype/PeoplePageActivity.xaml" Line="1" Column="1" />
+      <File FileName="Prototype/PeoplePageActivity.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
               <Node name="App.xaml" expanded="True" />
               <Node name="LoginPage.xaml" expanded="True" />
               <Node name="MainHomeView.xaml" expanded="True" />
@@ -34,9 +31,6 @@
             <Node name="Prototype.iOS" expanded="True" />
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
