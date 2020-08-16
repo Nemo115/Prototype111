@@ -26,7 +26,6 @@ namespace Prototype
             {
                 NoPosts.IsVisible = false;
                 
-
                 //string description = photo?.Title;
                 //const string V = "!&%#%#&!";
                 //string[] des = description.Split(V.ToCharArray());
