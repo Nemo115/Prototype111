@@ -81,6 +81,7 @@ namespace Prototype
                 string URL = blockBlob.Uri.OriginalString;
                 mediaFile = null;
                 image.Source = null;
+                Description.Text = null;
                 return;
             }
             else if(s == null || Description.Text == null && s == null)
