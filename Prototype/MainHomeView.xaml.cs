@@ -40,11 +40,8 @@ namespace Prototype
             var db = new SQLiteConnection(dbpath);
             //var myquery = db.Table<RegistrationTable>().Where(u => u.UserName.Equals(UsernameInput.Text) && u.Password.Equals(PasswordInput.Text)).FirstOrDefault();
 
-            string userName;
-
-            var u = db.Table<RegistrationTable>();
-
-            
+            var a = db.Table<RegistrationTable>().FirstOrDefault();
+            string user = a.UserName;
 
             foreach (var posts in blobList)
             {
@@ -64,7 +61,7 @@ namespace Prototype
                             Margin = new Thickness(0,0,0,330), Children =
                             {
                                 new Image{Source = ImageSource.FromResource("Prototype.assets.HomePage.PostElements.defaultProfilePic.ProfilePic3x.png"), Margin = new Thickness(0,10,350,20) },
-                                new Label{Text=userName, Margin = new Thickness(60,10,0,0), FontSize = 12},
+                                new Label{Text=user, Margin = new Thickness(60,10,0,0), FontSize = 12},
                                 new Label{Text="[BestDropComp]", Margin = new Thickness(60,25,0,0), FontSize=14, FontAttributes = FontAttributes.Bold, TextColor = Color.FromHex("#00BCCF") },
                                 new Image{Source=ImageSource.FromResource("Prototype.assets.HomePage.PostElements.DropVoteIcons.upvoteIconBOLD2x.jpg"), Margin = new Thickness(350,18,0,20) }
                             }
