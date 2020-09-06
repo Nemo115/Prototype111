@@ -9,7 +9,7 @@
                                       Margin="135,15,135,45"
                                       BackgroundColor="Blue"
                                       Aspect="AspectFill"/>
-                <Button x:Name="ChangeProfilePic" Text="Change Profile Picture" VerticalOptions="End"/>
+                <Button x:Name="ChangeProfilePic" Text="Change Profile Picture" VerticalOptions="End" Clicked="ChangeProfilePic_Clicked"/>
             </Grid>
         </StackLayout>
     </ContentView.Content>
