@@ -47,9 +47,37 @@ namespace Prototype
                     break;
             }
         }
+        void changeScenes()
+        {
+            if (ProfileBar.IsVisible == false && ProfileBar.InputTransparent == true && CustomizeView.IsVisible == true && CustomizeView.InputTransparent == false)
+            {
+                ProfileBar.IsVisible = true;
+                ProfileBar.InputTransparent = false;
 
+                CustomizeView.IsVisible = false;
+                CustomizeView.InputTransparent = true;
+            }
+            else if (ProfileBar.IsVisible == true && ProfileBar.InputTransparent == false && CustomizeView.IsVisible == false && CustomizeView.InputTransparent == true)
+            {
+                ProfileBar.IsVisible = false;
+                ProfileBar.InputTransparent = true;
+
+                CustomizeView.IsVisible = true;
+                CustomizeView.InputTransparent = false;
+            }
+        }
         void ProfileSettings_Clicked(System.Object sender, System.EventArgs e)
         {
+            changeScenes();
+
+            BindingContext = new PeoplePageCustomize();
+        }
+
+        void BackButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            changeScenes();
+
+            BindingContext = new PeoplePages();
         }
     }
 

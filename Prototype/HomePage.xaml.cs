@@ -20,8 +20,13 @@ namespace Prototype
 
             BindingContext = new Pages();
 
+            sync();
+        }
+
+        public async void sync()
+        {
             ViewX.IsScrollAnimated = false;
-            ViewX.Position = 1;
+            ViewX.Position = 2;
             ViewX.IsScrollAnimated = true;
         }
 
@@ -94,7 +99,6 @@ namespace Prototype
 
             NavigationBar.IsVisible = false;
 
-            
         }
 
         

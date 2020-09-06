@@ -55,7 +55,6 @@ namespace Prototype
             }
             else if (ChooseWindow.IsVisible == true && ChooseWindow.InputTransparent == true)
             {
-
                 ChooseWindow.IsVisible = false;
                 ChooseWindow.InputTransparent = true;
             }
