@@ -140,12 +140,6 @@ C:/Users/leo.liu/source/repos/Prototype/Prototype.iOS/obj/iPhoneSimulator/Debug/
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/Prototype.iOS.csproj.CopyComplete
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/Prototype.iOS.exe
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/Prototype.iOS.pdb
-/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/ibtool/_BundleResourceWithLogicalName.items
-/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/actool/_PartialAppManifest.items
-/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/actool/_BundleResourceWithLogicalName.items
-/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/coremlc/_PartialAppManifest.items
-/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/coremlc/_BundleResourceWithLogicalName.items
-/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/optimized/
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Azure.Core.dll
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Azure.Storage.Blobs.dll
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Azure.Storage.Common.dll
@@ -162,3 +156,10 @@ C:/Users/leo.liu/source/repos/Prototype/Prototype.iOS/obj/iPhoneSimulator/Debug/
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Plugin.Media.dll
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/Plugin.Media.pdb
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/bin/iPhoneSimulator/Debug/ImageCircle.Forms.Plugin.dll
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/ibtool/_BundleResourceWithLogicalName.items
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/_PartialAppManifest.items
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/_BundleResourceWithLogicalName.items
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/coremlc/_PartialAppManifest.items
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/coremlc/_BundleResourceWithLogicalName.items
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/

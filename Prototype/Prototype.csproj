@@ -268,6 +268,7 @@
     <None Remove="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD2x.png" />
     <None Remove="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD3x.png" />
     <None Remove="assets\SendUpload\Misc\backArrow3x.png" />
+    <None Remove="assets\misc\ProfilePic.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -501,6 +502,7 @@
     <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD2x.png" />
     <EmbeddedResource Include="assets\Search\TopSearchTab\Filter\FilterIcons\FilterIconBOLD3x.png" />
     <EmbeddedResource Include="assets\SendUpload\Misc\backArrow3x.png" />
+    <EmbeddedResource Include="assets\misc\ProfilePic.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -509,6 +511,7 @@
     <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
     <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
     <PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
   </ItemGroup>
 
   <ItemGroup>
@@ -523,6 +526,7 @@
     <Folder Include="assets\" />
     <Folder Include="assets\SendUpload\Misc\" />
     <Folder Include="data\" />
+    <Folder Include="assets\misc\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="RecentActivity.xaml.cs">

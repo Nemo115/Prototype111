@@ -1,4 +1,6 @@
 ﻿using System;
+using Plugin.Media.Abstractions;
+
 namespace Prototype.data
 {
     public class RegistrationTable
@@ -9,5 +11,7 @@ namespace Prototype.data
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
         public bool SignedIn { get; set; }
+        
+        //public MediaFile ProfilePic { get; set; }
     }
 }

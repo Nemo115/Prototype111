@@ -58,6 +58,9 @@
     <PackageReference Include="Azure.Storage.Blobs">
       <Version>12.4.4</Version>
     </PackageReference>
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle">
+      <Version>3.0.0.5</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomEntryRenderer.cs" />

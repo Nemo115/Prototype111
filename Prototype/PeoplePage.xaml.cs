@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using SQLite;
+using Prototype.data;
+using System.IO;
 
 namespace Prototype
 {
@@ -11,6 +14,19 @@ namespace Prototype
         {
             InitializeComponent();
             BindingContext = new PeoplePages();
+            sync();
+        }
+
+        private async void sync()
+        {
+            var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UserDatabase.db");
+            var db = new SQLiteConnection(dbpath);
+            //var myquery = db.Table<RegistrationTable>().Where(u => u.UserName.Equals(UsernameInput.Text) && u.Password.Equals(PasswordInput.Text)).FirstOrDefault();
+
+            var a = db.Table<RegistrationTable>().FirstOrDefault();
+            string user = a.UserName;
+
+            UserName1.Text = user;
         }
 
         void PPSwiped(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
@@ -30,6 +46,10 @@ namespace Prototype
                     ProfileBar.FadeTo(1, 150);
                     break;
             }
+        }
+
+        void ProfileSettings_Clicked(System.Object sender, System.EventArgs e)
+        {
         }
     }
 
@@ -53,6 +73,19 @@ namespace Prototype
             PPList = new List<View>()
             {
                 new PeoplePagePosts(), new PeoplePageActivity()
+            };
+        }
+
+        public IList<View> PPList { get; set; }
+    }
+
+    public class PeoplePageCustomize
+    {
+        public PeoplePageCustomize()
+        {
+            PPList = new List<View>()
+            {
+                new PeoplePageCustomizePage()
             };
         }
 

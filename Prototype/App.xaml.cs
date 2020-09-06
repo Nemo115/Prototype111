@@ -16,19 +16,28 @@ namespace Prototype
         {
             InitializeComponent();
 
-            var dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UserDatabase.db");
-            var db = new SQLiteConnection(dbPath);
 
-            var SignInQuery = db.Table<RegistrationTable>().Where(u => u.SignedIn.Equals(true)).FirstOrDefault();
 
-            if (SignInQuery != null)
+            try
             {
-                MainPage = new HomePage();
+                var dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UserDatabase.db");
+                var db = new SQLiteConnection(dbPath);
+                var SignInQuery = db.Table<RegistrationTable>().Where(u => u.SignedIn.Equals(true)).FirstOrDefault();
+
+                if (SignInQuery != null)
+                {
+                    MainPage = new HomePage();
+                }
+                else
+                {
+                    MainPage = new NavigationPage(new MainPage());
+                }
             }
-            else
+            catch
             {
                 MainPage = new NavigationPage(new MainPage());
             }
+            
         }
 
         protected override void OnStart()

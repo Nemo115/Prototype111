@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kBRBAuo9eJNO4v0TfqHJBAyxnx0dRitQT59KW/ugCDyrCrcvT2S4lnoHFp1goeyKrLTqM1yH4LIcCXO3UAlKYQ==",
+  "dgSpecHash": "lVcgU7YEN1Y8qyUMUUGTQiylA4R2Db3vz1Z93mNCSBemCMqL0HDmYBpl8CbDcjQbvdn/aA3ZTOxXosLZyRFEAA==",
   "success": true,
   "projectFilePath": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype/Prototype.csproj",
   "expectedPackageFiles": [
@@ -58,6 +58,7 @@
     "/Users/ludens1/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/windowsazure.storage/9.3.3/windowsazure.storage.9.3.3.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/xam.plugin.media/5.0.1/xam.plugin.media.5.0.1.nupkg.sha512",
+    "/Users/ludens1/.nuget/packages/xam.plugins.forms.imagecircle/3.0.0.5/xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/xamarin.forms/4.8.0.1269/xamarin.forms.4.8.0.1269.nupkg.sha512"
   ],
