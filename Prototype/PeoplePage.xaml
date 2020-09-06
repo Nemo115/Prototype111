@@ -91,10 +91,10 @@
 
             <Grid x:Name="CustomizeView" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White"
                   HeightRequest="100" InputTransparent="True" IsVisible="False">
-                <Button x:Name="BackButton" ImageSource="{local:ImageResource Prototype.assets.SendUpload.Misc.backArrow3x.png}"
+                <Button x:Name="BackButton" ImageSource="{local:ImageResource Prototype.assets.Search.TopSearchTab.Filter.backArrow3x.png}"
                         HorizontalOptions="StartAndExpand"
                         VerticalOptions="CenterAndExpand"
-                        Margin="30,20,0,0"
+                        Margin="30,20,0,0" ScaleX="2" ScaleY="2"
                         Clicked="BackButton_Clicked"/>
 
             </Grid>

@@ -11,7 +11,8 @@ namespace Prototype.data
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
         public bool SignedIn { get; set; }
+        public string Description { get; set; }
         
-        //public MediaFile ProfilePic { get; set; }
+        public MediaFile ProfilePic { get; set; }
     }
 }

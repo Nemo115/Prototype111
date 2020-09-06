@@ -1,26 +1,28 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B076C194-16C8-4191-AF32-96FCA5DED65F" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/SendUpload.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/SearchView.xaml">
     <Files>
       <File FileName="Prototype/MainHomeView.xaml" Line="27" Column="1" />
       <File FileName="Prototype/PeoplePagePosts.xaml.cs" />
-      <File FileName="Prototype/PeoplePage.xaml" Line="94" Column="38" />
-      <File FileName="Prototype/PeoplePage.xaml.cs" Line="58" Column="10" />
+      <File FileName="Prototype/PeoplePage.xaml" Line="87" Column="69" />
+      <File FileName="Prototype/PeoplePage.xaml.cs" Line="80" Column="48" />
       <File FileName="Prototype/PeoplePageCustomizePage.xaml" Line="5" Column="83" />
-      <File FileName="Prototype/data/RegistrationTable.cs" />
+      <File FileName="Prototype/data/RegistrationTable.cs" Line="1" Column="1" />
       <File FileName="Prototype/MainHomeView.xaml.cs" Line="35" Column="10" />
       <File FileName="Prototype/PeoplePageCustomizePage.xaml.cs" Line="1" Column="1" />
       <File FileName="Prototype/SearchView.xaml.cs" Line="1" Column="1" />
       <File FileName="Prototype/HomePage.xaml.cs" Line="29" Column="32" />
       <File FileName="Prototype/HomePage.xaml" Line="1" Column="1" />
       <File FileName="Prototype/SendUpload.xaml.cs" Line="60" Column="14" />
-      <File FileName="Prototype/SendUpload.xaml" Line="87" Column="127" />
+      <File FileName="Prototype/SendUpload.xaml" Line="90" Column="96" />
+      <File FileName="Prototype/SearchView.xaml" Line="103" Column="98" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
+              <Node name="data" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="HomePage.xaml" expanded="True" />
               <Node name="MainHomeView.xaml" expanded="True" />
@@ -28,8 +30,8 @@
               <Node name="PeoplePageCustomizePage.xaml" expanded="True" />
               <Node name="PeoplePagePosts.xaml" expanded="True" />
               <Node name="RegisterPage.xaml" expanded="True" />
-              <Node name="SearchView.xaml" expanded="True" />
-              <Node name="SendUpload.xaml" expanded="True" selected="True" />
+              <Node name="SearchView.xaml" expanded="True" selected="True" />
+              <Node name="SendUpload.xaml" expanded="True" />
               <Node name="SendUploadCreateDrop.xaml" expanded="True" />
             </Node>
           </Node>
