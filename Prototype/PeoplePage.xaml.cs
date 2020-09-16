@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using Plugin.Media.Abstractions;
+using Plugin.Media;
 using Xamarin.Forms;
 using SQLite;
 using Prototype.data;
@@ -10,6 +11,7 @@ namespace Prototype
 {
     public partial class PeoplePage : ContentView
     {
+        public MediaFile med;
         public PeoplePage()
         {
             InitializeComponent();
@@ -27,6 +29,10 @@ namespace Prototype
             string user = a.UserName;
 
             UserName1.Text = user;
+
+            med = a.ProfilePic;
+
+            testProfile.Source = ;
         }
 
         void PPSwiped(System.Object sender, Xamarin.Forms.SwipedEventArgs e)

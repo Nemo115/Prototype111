@@ -5,11 +5,14 @@
     <ContentView.Content>
         <StackLayout x:Name="FullPage" Spacing="10">
             <Grid x:Name="ProfilePicGrid" BackgroundColor="White" HeightRequest="200" Margin="0,120,0,0">
-                <controls:CircleImage Source="{local:ImageResource Prototype.assets.misc.ProfilePic.jpg}"
+                <controls:CircleImage x:Name="profileImage" Source="{local:ImageResource Prototype.assets.misc.ProfilePic.jpg}"
                                       Margin="135,15,135,45"
                                       BackgroundColor="Blue"
                                       Aspect="AspectFill"/>
                 <Button x:Name="ChangeProfilePic" Text="Change Profile Picture" VerticalOptions="End" Clicked="ChangeProfilePic_Clicked"/>
+            </Grid>
+            <Grid BackgroundColor="White" HeightRequest="100">
+                <Button x:Name="SaveChangesButton" Clicked="SaveChangesButton_Clicked" Text="Save Changes"/>
             </Grid>
         </StackLayout>
     </ContentView.Content>

@@ -1,5 +1,6 @@
 ﻿using System;
 using Plugin.Media.Abstractions;
+using Xamarin.Forms;
 
 namespace Prototype.data
 {
@@ -12,7 +13,10 @@ namespace Prototype.data
         public string PhoneNumber { get; set; }
         public bool SignedIn { get; set; }
         public string Description { get; set; }
-        
+
         public MediaFile ProfilePic { get; set; }
+
+        public Image ProfilePicture { get; set; }
+        
     }
 }

@@ -6,6 +6,9 @@ using Microsoft.WindowsAzure.Storage;
 using System.IO;
 using SQLite;
 using Prototype.data;
+using Plugin;
+using Plugin.Media;
+using Plugin.Media.Abstractions;
 
 namespace Prototype
 {
@@ -15,6 +18,7 @@ namespace Prototype
         public readonly string ConnectionString = "DefaultEndpointsProtocol=https;AccountName=extractions;AccountKey=UE7maR5oz/OJbXkQyzr45zLT935vQ5CHztsTeXT+eqvicT7AZRRyCtVeMufkAzrNdk4M4wmXpKIaffX1jF9iWg==;EndpointSuffix=core.windows.net";
         public readonly CloudBlobClient client;
         */
+        
 
         public RegisterPage()
         {
@@ -34,6 +38,7 @@ namespace Prototype
                 var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UserDatabase.db");
                 var db = new SQLiteConnection(dbpath);
                 db.CreateTable<RegistrationTable>();
+                
 
                 var item = new RegistrationTable()
                 {
@@ -41,6 +46,7 @@ namespace Prototype
                     Email = EmailInp.Text,
                     Password = PasswordInp.Text,
                     PhoneNumber = PhoneNumInp.Text,
+                    ProfilePicture = ImageSource.FromResource("Prototype.assets."),
                     SignedIn = true
                 };
 
