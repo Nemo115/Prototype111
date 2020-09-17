@@ -46,7 +46,7 @@ namespace Prototype
                     Email = EmailInp.Text,
                     Password = PasswordInp.Text,
                     PhoneNumber = PhoneNumInp.Text,
-                    ProfilePicture = ImageSource.FromResource("Prototype.assets."),
+                    //ProfilePicture = ImageSource.FromResource("Prototype.assets."),
                     SignedIn = true
                 };
 
