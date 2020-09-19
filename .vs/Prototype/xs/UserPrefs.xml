@@ -1,27 +1,27 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
-  <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B076C194-16C8-4191-AF32-96FCA5DED65F" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/RegisterPage.xaml.cs">
+  <MonoDevelop.Ide.ItemProperties.Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3A4B4A1E-7924-479A-858F-EB5730370E60" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/11.0.2.0/lib/xamarin.android/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
     <Files>
       <File FileName="Prototype/MainHomeView.xaml" Line="27" Column="1" />
       <File FileName="Prototype/PeoplePagePosts.xaml.cs" />
       <File FileName="Prototype/PeoplePage.xaml" />
-      <File FileName="Prototype/PeoplePage.xaml.cs" />
-      <File FileName="Prototype/RegisterPage.xaml.cs" Line="49" Column="84" />
+      <File FileName="Prototype/PeoplePage.xaml.cs" Line="17" Column="35" />
+      <File FileName="Prototype/RegisterPage.xaml.cs" />
       <File FileName="Prototype/PeoplePageCustomizePage.xaml" />
       <File FileName="Prototype/PeoplePageCustomizePage.xaml.cs" />
       <File FileName="Prototype/MainHomeView.xaml.cs" />
       <File FileName="Prototype/SendUploadUploadFile.xaml.cs" />
-      <File FileName="Prototype/data/RegistrationTable.cs" />
+      <File FileName="Prototype/data/RegistrationTable.cs" Line="1" Column="1" />
+      <File FileName="../../../../../Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/Microsoft.Common.CurrentVersion.targets" Line="26" Column="19" />
+      <File FileName="../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1645" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
-              <Node name="assets" expanded="True">
-                <Node name="People" expanded="True">
-                  <Node name="defaultProfilePic" expanded="True" />
-                </Node>
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="data" expanded="True" />
               <Node name="App.xaml" expanded="True" />
@@ -29,22 +29,23 @@
               <Node name="MainHomeView.xaml" expanded="True" />
               <Node name="PeoplePage.xaml" expanded="True" />
               <Node name="PeoplePageCustomizePage.xaml" expanded="True" />
-              <Node name="PeoplePagePosts.xaml" expanded="True" />
-              <Node name="RegisterPage.xaml" expanded="True">
-                <Node name="RegisterPage.xaml.cs" selected="True" />
+              <Node name="PeoplePagePosts.xaml" expanded="True">
+                <Node name="PeoplePagePosts.xaml.cs" selected="True" />
               </Node>
+              <Node name="RegisterPage.xaml" expanded="True" />
               <Node name="SearchView.xaml" expanded="True" />
               <Node name="SendUpload.xaml" expanded="True" />
               <Node name="SendUploadCreateDrop.xaml" expanded="True" />
               <Node name="SendUploadUploadFile.xaml" expanded="True" />
             </Node>
+            <Node name="Prototype.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

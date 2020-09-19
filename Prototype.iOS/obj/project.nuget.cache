@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8PqfvDJTUsot5q6hLbm5SvW7YN6AU/UR9xsostLTI9HR6NXbvdcUTBCfHfxZ0Zg0kjKwN8GEWl8WA0bOGujAsA==",
+  "dgSpecHash": "lJkjCmlTIypoXyZurLLIBzErfFJYNSUAdXJ2zF8APcJFL7+ZFmMMlHtTz4ZmDxFeADyJOzhGZjZgeo7FKbfI2Q==",
   "success": true,
   "projectFilePath": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/Prototype.iOS.csproj",
   "expectedPackageFiles": [
@@ -48,7 +48,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1269 to 4.5.0.495. Reference the package directly from the project to select a different version. \n Prototype.iOS -> Prototype -> Xamarin.Forms (>= 4.8.0.1269) \n Prototype.iOS -> Xamarin.Forms (>= 4.5.0.495)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1451 to 4.5.0.495. Reference the package directly from the project to select a different version. \n Prototype.iOS -> Prototype -> Xamarin.Forms (>= 4.8.0.1451) \n Prototype.iOS -> Xamarin.Forms (>= 4.5.0.495)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
