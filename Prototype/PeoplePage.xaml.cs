@@ -32,7 +32,7 @@ namespace Prototype
 
             med = a.ProfilePic;
 
-            testProfile.Source = a.ProfilePicture.Source;
+            //testProfile.Source = a.ProfilePicture.Source;
         }
 
         void PPSwiped(System.Object sender, Xamarin.Forms.SwipedEventArgs e)

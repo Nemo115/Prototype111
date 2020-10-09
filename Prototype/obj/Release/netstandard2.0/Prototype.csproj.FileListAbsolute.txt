@@ -35,3 +35,4 @@
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Release/netstandard2.0/Prototype.dll
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Release/netstandard2.0/ref/Prototype.dll
 /Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Release/netstandard2.0/Prototype.pdb
+/Users/ludens1/Documents/GitHub/Prototype111/Prototype/obj/Release/netstandard2.0/Prototype.csprojAssemblyReference.cache
