@@ -415,7 +415,7 @@
           "Xam.Plugin.Media": "5.0.1",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451",
+          "Xamarin.Forms": "4.8.0.1534",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -840,7 +840,7 @@
           "Xam.Plugin.Media": "5.0.1",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451",
+          "Xamarin.Forms": "4.8.0.1534",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -1265,7 +1265,7 @@
           "Xam.Plugin.Media": "5.0.1",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451",
+          "Xamarin.Forms": "4.8.0.1534",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -1690,7 +1690,7 @@
           "Xam.Plugin.Media": "5.0.1",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451",
+          "Xamarin.Forms": "4.8.0.1534",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -2818,7 +2818,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1451 to 4.5.0.495. Reference the package directly from the project to select a different version. \n Prototype.iOS -> Prototype -> Xamarin.Forms (>= 4.8.0.1451) \n Prototype.iOS -> Xamarin.Forms (>= 4.5.0.495)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1534 to 4.5.0.495. Reference the package directly from the project to select a different version. \n Prototype.iOS -> Prototype -> Xamarin.Forms (>= 4.8.0.1534) \n Prototype.iOS -> Xamarin.Forms (>= 4.5.0.495)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
