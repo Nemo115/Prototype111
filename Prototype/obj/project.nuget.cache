@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SgASPv3ZTJL8Gy5La0T3bE95doxObP1+pDFHlxfjL8a8ChDDfdLFIvWfBsNnAl86NgXPsjUN0Oz9jfBRJC/x0w==",
+  "dgSpecHash": "U7DOcAsNtMjr/ssv6OFy8bvTceb0oUq1nH54ODy8/dBTKWGtCQQuY7WkZhgZWpx5Bxe3yDzTnpudP6kZV1fpDg==",
   "success": true,
   "projectFilePath": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype/Prototype.csproj",
   "expectedPackageFiles": [
@@ -60,7 +60,7 @@
     "/Users/ludens1/.nuget/packages/xam.plugin.media/5.0.1/xam.plugin.media.5.0.1.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/xam.plugins.forms.imagecircle/3.0.0.5/xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/ludens1/.nuget/packages/xamarin.forms/4.8.0.1534/xamarin.forms.4.8.0.1534.nupkg.sha512"
+    "/Users/ludens1/.nuget/packages/xamarin.forms/4.8.0.1560/xamarin.forms.4.8.0.1560.nupkg.sha512"
   ],
   "logs": []
 }

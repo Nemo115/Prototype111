@@ -855,7 +855,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.8.0.1534": {
+      "Xamarin.Forms/4.8.0.1560": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -3716,10 +3716,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.8.0.1534": {
-      "sha512": "h5S4nWRBYUNgbs2FtxkSLISh2FUBdLGZ0yVR0KP8utNMTOiRUhWcLzuJf3w4NYtboWFFUx/dyqZpi+aCcIMvSg==",
+    "Xamarin.Forms/4.8.0.1560": {
+      "sha512": "uWw6knrT26YOI+vZXB8YvYAEimycokY0qN58u++Rb7Y4tcWm/Fzn6UWaGaTCY1VppTXA1JrQMsb5vxBvoyYFhg==",
       "type": "package",
-      "path": "xamarin.forms/4.8.0.1534",
+      "path": "xamarin.forms/4.8.0.1560",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4028,7 +4028,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.8.0.1534.nupkg.sha512",
+        "xamarin.forms.4.8.0.1560.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -4040,7 +4040,7 @@
       "Xam.Plugin.Media >= 5.0.1",
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
       "Xamarin.Essentials >= 1.5.3.2",
-      "Xamarin.Forms >= 4.8.0.1534",
+      "Xamarin.Forms >= 4.8.0.1560",
       "sqlite-net-pcl >= 1.7.335"
     ]
   },
@@ -4103,7 +4103,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.8.0.1534, )"
+            "version": "[4.8.0.1560, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",
