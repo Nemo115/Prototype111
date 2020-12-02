@@ -30,7 +30,7 @@ namespace Prototype
 
             UserName1.Text = user;
 
-            med = a.ProfilePic;
+            //med = a.ProfilePic;
 
             //testProfile.Source = a.ProfilePicture.Source;
         }

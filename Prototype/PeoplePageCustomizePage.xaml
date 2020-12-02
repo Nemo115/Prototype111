@@ -12,7 +12,8 @@
                 <Button x:Name="ChangeProfilePic" Text="Change Profile Picture" VerticalOptions="End" Clicked="ChangeProfilePic_Clicked"/>
             </Grid>
             <Grid BackgroundColor="White" HeightRequest="100">
-                <Button x:Name="SaveChangesButton" Clicked="SaveChangesButton_Clicked" Text="Save Changes"/>
+                <!--save button clicked method for clicked-->
+                <Button x:Name="SaveChangesButton" Text="Save Changes"/>
             </Grid>
         </StackLayout>
     </ContentView.Content>

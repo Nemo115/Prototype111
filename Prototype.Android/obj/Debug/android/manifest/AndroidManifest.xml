@@ -7,7 +7,7 @@
   <uses-feature android:name="android.hardware.camera" android:required="false" />
   <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="Prototype.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+  <application android:label="Prototype.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Prototype" android:theme="@style/MainTheme" android:name="crc643a895c87e3609a22.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

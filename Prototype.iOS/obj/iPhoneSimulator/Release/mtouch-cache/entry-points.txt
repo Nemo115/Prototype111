@@ -63,6 +63,7 @@ Function=xamarin_GetFolderPath
 	/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
 Function=xamarin_log
 	/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+	/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_get_locale_country_code
 	/Users/ludens1/Documents/GitHub/Prototype111/Prototype.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
 Function=SystemNative_GetDomainSocketSizes

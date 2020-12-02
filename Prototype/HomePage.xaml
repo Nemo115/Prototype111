@@ -6,6 +6,7 @@
             mc:Ignorable="d"
             x:Class="Prototype.HomePage" BackgroundColor="#E9E9E9" xmlns:local="clr-namespace:Prototype" xmlns:controls="clr-namespace:Prototype;assembly=Prototype"
             >
+    
     <ContentPage.Content>
 
         
@@ -98,38 +99,38 @@
 
                     </local:AspectRatioContainer>
 
-                        <Grid Margin="30,0,30,0" Grid.Row="0" ColumnSpacing="20">
+                        <Grid Margin="20,0,20,0" Grid.Row="0" ColumnSpacing="20" >
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="1*"/>
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="80"/>
                             </Grid.RowDefinitions>
-                            <Button x:Name="FriendsButton" ImageSource="{local:ImageResource Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg}"
+                            <ImageButton x:Name="FriendsButton" Source="{local:ImageResource Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg}"
                                 Grid.Row="0" Grid.Column="0"
-                                VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand"
-                                    HeightRequest="200"
-                                    Clicked="FriendsButton_Clicked" Margin="0,25,0,25"/>
-                            <Button x:Name="Achievements" ImageSource="{local:ImageResource Prototype.assets.HomePage.RemoteBar.TrophyIcons.trophyicon2x.jpg}"
+                                VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"
+                                    HeightRequest="28" WidthRequest="28"
+                                    Clicked="FriendsButton_Clicked"/>
+                            <ImageButton x:Name="Achievements" Source="{local:ImageResource Prototype.assets.HomePage.RemoteBar.TrophyIcons.trophyicon2x.jpg}"
                                     Grid.Row="0" Grid.Column="1"
-                                    VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand"
-                                    HeightRequest="200"
-                                    Clicked="Achievements_Clicked" Margin="0,25,0,25"/>
-                            <Button x:Name="Home" ImageSource="{local:ImageResource Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIconBOLD2x.jpg}"
+                                    VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"
+                                    HeightRequest="28" WidthRequest="28"
+                                    Clicked="Achievements_Clicked"/>
+                            <ImageButton x:Name="Home" Source="{local:ImageResource Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIconBOLD2x.jpg}"
                                     Grid.Row="0" Grid.Column="2"
-                                    VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand"
-                                    HeightRequest="200"
-                                    Clicked="Home_Clicked" Margin="0,25,0,25"/>
-                            <Button x:Name="Create" ImageSource="{local:ImageResource Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg}"
+                                    VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"
+                                    HeightRequest="28" WidthRequest="28"
+                                    Clicked="Home_Clicked"/>
+                            <ImageButton x:Name="Create" Source="{local:ImageResource Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg}"
                                     Grid.Row="0" Grid.Column="3"
-                                    VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand"
-                                    HeightRequest="200" 
-                                    Clicked="Create_Clicked" Margin="0,25,0,25"/>
-                            <Button x:Name="Search" ImageSource="{local:ImageResource Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg}"
+                                    VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"
+                                    HeightRequest="28" WidthRequest="28"
+                                    Clicked="Create_Clicked"/>
+                            <ImageButton x:Name="Search" Source="{local:ImageResource Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg}"
                                     Grid.Row="0" Grid.Column="4"
-                                    VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand"
-                                    HeightRequest="200"
-                                    Clicked="Search_Clicked" Margin="0,20,0,20"/>
+                                    VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"
+                                    HeightRequest="28" WidthRequest="28"
+                                    Clicked="Search_Clicked"/>
 
                         </Grid>
                 </Grid>

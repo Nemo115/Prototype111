@@ -14,9 +14,8 @@ namespace Prototype.data
         public bool SignedIn { get; set; }
         public string Description { get; set; }
 
-        public MediaFile ProfilePic { get; set; }
+        //public MediaFile ProfilePic { get; set; }
 
-        public Image ProfilePicture { get; set; }
-        
+        //public Image ProfilePicture { get; set; }
     }
 }

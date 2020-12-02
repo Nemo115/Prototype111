@@ -32,12 +32,20 @@ namespace Prototype
 
         void FriendsButton_Clicked(System.Object sender, System.EventArgs e)
         {
+            /*
             FriendsButton.ImageSource =  ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendiconBOLD2x.jpg");
 
             Achievements.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.TrophyIcons.trophyicon2x.jpg");
             Home.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg");
             Create.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
-            Search.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
+            Search.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");*/
+
+            FriendsButton.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendiconBOLD2x.jpg");
+
+            Achievements.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.TrophyIcons.trophyicon2x.jpg");
+            Home.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg");
+            Create.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
+            Search.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
 
             BindingContext = new DisPeoplePage();
 
@@ -46,12 +54,21 @@ namespace Prototype
 
         void Achievements_Clicked(System.Object sender, System.EventArgs e)
         {
+            /*
             Achievements.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.TrophyIcons.trophyiconBOLD2x.jpg");
 
             Home.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg");
             Create.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
             Search.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
+            */
+
+            Achievements.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.TrophyIcons.trophyiconBOLD2x.jpg");
+
+            Home.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg");
+            Create.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
+            Search.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
+            FriendsButton.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
 
             BindingContext = new DisAchievementsPage();
 
@@ -60,12 +77,21 @@ namespace Prototype
 
         void Home_Clicked(System.Object sender, System.EventArgs e)
         {
+            /*
             Home.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIconBOLD2x.jpg");
 
             Achievements.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.TrophyIcons.trophyicon2x.jpg");
             Create.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
             Search.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
+            */
+
+            Home.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIconBOLD2x.jpg");
+
+            Achievements.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.TrophyIcons.trophyicon2x.jpg");
+            Create.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
+            Search.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
+            FriendsButton.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
 
             BindingContext = new Pages();
 
@@ -74,12 +100,21 @@ namespace Prototype
 
         void Create_Clicked(System.Object sender, System.EventArgs e)
         {
+            /*
             Create.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadiconBOLD2x.jpg");
 
             Achievements.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.TrophyIcons.trophyicon2x.jpg");
             Home.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg");
             Search.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
+            */
+
+            Create.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadiconBOLD2x.jpg");
+
+            Achievements.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.TrophyIcons.trophyicon2x.jpg");
+            Home.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg");
+            Search.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchicon2x.jpg");
+            FriendsButton.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
 
             BindingContext = new DisSendUpload();
 
@@ -88,12 +123,21 @@ namespace Prototype
 
         void Search_Clicked(System.Object sender, System.EventArgs e)
         {
+            /*
             Search.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchiconBOLD2x.jpg");
 
             Achievements.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.TrophyIcons.trophyicon2x.jpg");
             Home.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg");
             Create.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
             FriendsButton.ImageSource = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
+            */
+
+            Search.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.SearchIcons.searchiconBOLD2x.jpg");
+
+            Achievements.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.TrophyIcons.trophyicon2x.jpg");
+            Home.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.HomeIcons.HomeIcon2x.jpg");
+            Create.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.UploadIcons.uploadicon2x.jpg");
+            FriendsButton.Source = ImageSource.FromResource("Prototype.assets.HomePage.RemoteBar.FriendsIcon.friendIcon2x.jpg");
 
             BindingContext = new DisSearchView();
 

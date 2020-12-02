@@ -48,6 +48,7 @@ namespace Prototype
                     PhoneNumber = PhoneNumInp.Text,
                     //ProfilePicture = ImageSource.FromResource("Prototype.assets."),
                     SignedIn = true
+                    //ProfilePicture = null
                 };
 
                 db.Insert(item);
@@ -60,7 +61,6 @@ namespace Prototype
                         Application parentApp = (Application)this.Parent.Parent;
                         parentApp.MainPage = new HomePage();
                     }
-
                 }
                 );
             }

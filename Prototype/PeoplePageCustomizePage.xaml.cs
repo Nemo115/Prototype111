@@ -42,14 +42,15 @@ namespace Prototype
             }
         }
 
+        /*
         void SaveChangesButton_Clicked(System.Object sender, System.EventArgs e)
         {
             var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UserDatabase.db");
             var db = new SQLiteConnection(dbpath);
             var a = db.Table<RegistrationTable>().FirstOrDefault();
 
-            a.ProfilePic = profilePic;
-            a.ProfilePicture = profileImage;
-        }
+            //a.ProfilePic = profilePic;
+            //a.ProfilePicture = profileImage;
+        }*/
     }
 }

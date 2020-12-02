@@ -14,7 +14,7 @@ namespace Prototype
     public partial class SendUploadUploadFile : ContentView
     {
         private MediaFile mediaFile;
-        static Stream stream;
+        //static Stream stream;
 
         public SendUploadUploadFile()
         {
