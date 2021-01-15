@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
-  <MonoDevelop.Ide.ItemProperties.Prototype.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E1086068-137E-477D-A1CF-190673A3FF09" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/HomePage.xaml">
+  <MonoDevelop.Ide.ItemProperties.Prototype.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.88ABADD8-B72C-46AF-AB1A-19FD56CCECDE" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/PhotoModel.cs">
     <Files>
       <File FileName="Prototype/MainHomeView.xaml" Line="30" Column="47" />
       <File FileName="Prototype/MainHomeView.xaml.cs" />
       <File FileName="Prototype/BlobStorageService.cs" />
-      <File FileName="Prototype/PhotoModel.cs" />
-      <File FileName="Prototype/HomePage.xaml" Line="82" Column="58" />
+      <File FileName="Prototype/PhotoModel.cs" Line="1" Column="1" />
+      <File FileName="Prototype/HomePage.xaml" />
       <File FileName="Prototype/HomePage.xaml.cs" />
       <File FileName="Prototype/PeoplePage.xaml.cs" />
       <File FileName="Prototype/SendUpload.xaml" />
@@ -27,7 +27,7 @@
         <State name="__root__">
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
-              <Node name="HomePage.xaml" selected="True" />
+              <Node name="PhotoModel.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -36,7 +36,6 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
-  <MonoDevelop.Ide.ItemProperties.PrototypeAPI FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
