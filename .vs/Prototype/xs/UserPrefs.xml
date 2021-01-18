@@ -1,24 +1,27 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
   <MonoDevelop.Ide.ItemProperties.Prototype.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.646C95F4-BDF2-4890-858A-08A97F585F99" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/Models/EmptyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/data/RegistrationTable.cs">
     <Files>
       <File FileName="Prototype/data/RegistrationTable.cs" Line="28" Column="40" />
-      <File FileName="Prototype/Services/ApiServices.cs" Line="17" Column="1" />
+      <File FileName="Prototype/Services/ApiServices.cs" Line="27" Column="1" />
       <File FileName="Prototype/RegisterPage.xaml.cs" Line="1" Column="1" />
       <File FileName="Prototype/RegisterPage.xaml" Line="25" Column="124" />
       <File FileName="../Prototype-API/Controllers/AccountController.cs" Line="324" Column="75" />
       <File FileName="../Prototype-API/Models/AccountBindingModels.cs" Line="51" Column="6" />
-      <File FileName="Prototype/Models/EmptyClass.cs" Line="15" Column="41" />
+      <File FileName="Prototype/Models/EmptyClass.cs" Line="18" Column="1" />
+      <File FileName="Prototype/Models/RegisterBindingModel.cs" Line="14" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="EmptyClass.cs" selected="True" />
+              <Node name="data" expanded="True">
+                <Node name="RegistrationTable.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True" />
+              <Node name="RegisterPage.xaml" expanded="True" />
             </Node>
             <Node name="Prototype-API" expanded="True">
               <Node name="Controllers" expanded="True" />

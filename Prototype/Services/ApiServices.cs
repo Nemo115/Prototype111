@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Net.Http;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Prototype.Models;
+using System.Net.Http.Headers;
 
 namespace Prototype.Services
 {
@@ -9,9 +13,26 @@ namespace Prototype.Services
         {
         }
 
-        public async Task RegisterAsync(string email, string password, string confirmPassword)
+        public async Task<bool> RegisterAsync(string email, string password, string confirmPassword)
         {
             var client = new HttpClient();
+
+            var model = new RegisterBindingModel
+            {
+                Email = email,
+                Password = password,
+                ConfirmPassword = confirmPassword
+            };
+
+            var json = JsonConvert.SerializeObject(model);
+
+            HttpContent content = new StringContent(json);
+
+            content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+            var response = await client.PostAsync("http://localhost:****/api/Account/Register", content);
+
+            return response.IsSuccessStatusCode;
         }
     }
 }
