@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prototype.RegisterPage"
-             xmlns:local="clr-namespace:Prototype">
+             xmlns:local="clr-namespace:Prototype"
+             xmlns:data="clr-namespace:Prototype.data;assembly=Prototype">
+    <ContentPage.BindingContext>
+        <data:RegistrationTable/>
+    </ContentPage.BindingContext>
     <ContentPage.Content>
 
-        
         <StackLayout HorizontalOptions="Center" Spacing="10"  Margin="10,0,10,0">
 
             <Image Source="{local:ImageResource Prototype.assets.LoginScreen.title2x.jpg}" WidthRequest="300" HeightRequest="200"/>
 
-            <Entry x:Name="EmailInp" Placeholder="Email" HeightRequest="50" WidthRequest="100" FontFamily="Segoe UI" TextColor="#00BCCF"/>
+            <Entry x:Name="EmailInp" Placeholder="Email" Text="{Binding Email}" HeightRequest="50" WidthRequest="100" FontFamily="Segoe UI" TextColor="#00BCCF"/>
 
             <Entry x:Name="UsernameInp" Placeholder="Username" HeightRequest="50" WidthRequest="100" IsPassword="False" FontFamily="Segoe UI" TextColor="#FF8E5B"/>
 

@@ -1,33 +1,28 @@
 ﻿<Properties StartupConfiguration="{6AB66729-BC72-4377-BD7B-AB65A9549EE1}|Default">
-  <MonoDevelop.Ide.ItemProperties.Prototype.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.88ABADD8-B72C-46AF-AB1A-19FD56CCECDE" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/PhotoModel.cs">
+  <MonoDevelop.Ide.ItemProperties.Prototype.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.646C95F4-BDF2-4890-858A-08A97F585F99" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/Models/EmptyClass.cs">
     <Files>
-      <File FileName="Prototype/MainHomeView.xaml" Line="30" Column="47" />
-      <File FileName="Prototype/MainHomeView.xaml.cs" />
-      <File FileName="Prototype/BlobStorageService.cs" />
-      <File FileName="Prototype/PhotoModel.cs" Line="1" Column="1" />
-      <File FileName="Prototype/HomePage.xaml" />
-      <File FileName="Prototype/HomePage.xaml.cs" />
-      <File FileName="Prototype/PeoplePage.xaml.cs" />
-      <File FileName="Prototype/SendUpload.xaml" />
-      <File FileName="Prototype/SendUpload.xaml.cs" />
-      <File FileName="Prototype/SendUploadUploadFile.xaml.cs" />
-      <File FileName="Prototype/SendUploadUploadFile.xaml" />
-      <File FileName="Prototype.iOS/Info.plist" />
-      <File FileName="../../../.nuget/packages/xamarin.forms/4.8.0.1560/buildTransitive/Xamarin.Forms.targets" />
-      <File FileName="Prototype.iOS/Main.cs" />
-      <File FileName="Prototype/App.xaml.cs" />
-      <File FileName="Prototype/RegisterPage.xaml.cs" />
-      <File FileName="Prototype/data/RegistrationTable.cs" />
-      <File FileName="Prototype/PeoplePageCustomizePage.xaml.cs" />
-      <File FileName="Prototype/PeoplePageCustomizePage.xaml" />
+      <File FileName="Prototype/data/RegistrationTable.cs" Line="28" Column="40" />
+      <File FileName="Prototype/Services/ApiServices.cs" Line="17" Column="1" />
+      <File FileName="Prototype/RegisterPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Prototype/RegisterPage.xaml" Line="25" Column="124" />
+      <File FileName="../Prototype-API/Controllers/AccountController.cs" Line="324" Column="75" />
+      <File FileName="../Prototype-API/Models/AccountBindingModels.cs" Line="51" Column="6" />
+      <File FileName="Prototype/Models/EmptyClass.cs" Line="15" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prototype" expanded="True">
             <Node name="Prototype" expanded="True">
-              <Node name="PhotoModel.cs" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="EmptyClass.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="Prototype-API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>

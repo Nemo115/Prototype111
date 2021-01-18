@@ -512,6 +512,7 @@
     <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
     <PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
     <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
+    <PackageReference Include="Microsoft.Net.Http" Version="2.2.29" />
   </ItemGroup>
 
   <ItemGroup>
@@ -527,6 +528,8 @@
     <Folder Include="assets\SendUpload\Misc\" />
     <Folder Include="data\" />
     <Folder Include="assets\misc\" />
+    <Folder Include="Services\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="RecentActivity.xaml.cs">

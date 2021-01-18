@@ -1,14 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "hD4z36bRsu5/Y8XF7d7vtz8qtf47lChmuH17oGvSRTSJ11xg4uoHHghv/WFTenYlS6UVokS1FxpP8Zw5alxsmw==",
+  "dgSpecHash": "igRbuJlGigQwCISgrXpKvsxMO7Dhx9pBOXq46xNxnfAelrzTaN3uZvLSTRLfUE1qajY8EgPIhDMews+mokdQoA==",
   "success": true,
   "projectFilePath": "/Users/ludens1/Documents/GitHub/Prototype111/Prototype.Android/Prototype.Android.csproj",
   "expectedPackageFiles": [
     "/Users/ludens1/.nuget/packages/azure.core/1.2.2/azure.core.1.2.2.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/azure.storage.blobs/12.4.4/azure.storage.blobs.12.4.4.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/azure.storage.common/12.4.3/azure.storage.common.12.4.3.nupkg.sha512",
+    "/Users/ludens1/.nuget/packages/microsoft.bcl/1.1.10/microsoft.bcl.1.1.10.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/microsoft.bcl.asyncinterfaces/1.0.0/microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "/Users/ludens1/.nuget/packages/microsoft.bcl.build/1.0.14/microsoft.bcl.build.1.0.14.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/microsoft.csharp/4.3.0/microsoft.csharp.4.3.0.nupkg.sha512",
+    "/Users/ludens1/.nuget/packages/microsoft.net.http/2.2.29/microsoft.net.http.2.2.29.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/newtonsoft.json/10.0.2/newtonsoft.json.10.0.2.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
     "/Users/ludens1/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
