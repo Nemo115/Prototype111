@@ -22,7 +22,7 @@
             <Entry x:Name="ConfPasswordInp" Placeholder="Confirm Password" HeightRequest="50" WidthRequest="100" IsPassword="True" FontFamily="Segoe UI" TextColor="#FF8E5B"/>
 
             <Button x:Name="RegisterButton" ImageSource="{local:ImageResource Prototype.assets.titlecard.RegisterButtontwo.jpg}"
-                WidthRequest="70" HeightRequest="70" Clicked="RegisterButton_Clicked"/>
+                WidthRequest="70" HeightRequest="70" Clicked="RegisterButton_Clicked" Command="{Binding RegisterCommand}"/>
 
         </StackLayout>
         

@@ -23,10 +23,11 @@ namespace Prototype.data
         {
             get
             {
-                return new Command(() =>
+                return new Command(async() =>
                 {
-                    _apiServices.RegisterAsync(Email, Password, ConfirmPassword)
+                    var isSuccess = await _apiServices.RegisterAsync(Email, Password, ConfirmPassword);
                 });
+                
             }
         }
 
