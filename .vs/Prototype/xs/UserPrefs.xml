@@ -4,22 +4,21 @@
     <Files>
       <File FileName="Prototype/data/RegistrationTable.cs" Line="20" Column="52" />
       <File FileName="Prototype/Services/ApiServices.cs" Line="34" Column="1" />
-      <File FileName="Prototype/RegisterPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Prototype/RegisterPage.xaml" Line="25" Column="105" />
-      <File FileName="../Prototype-API/Controllers/AccountController.cs" Line="324" Column="75" />
-      <File FileName="../Prototype-API/Models/AccountBindingModels.cs" Line="51" Column="6" />
-      <File FileName="Prototype/Models/EmptyClass.cs" Line="18" Column="1" />
-      <File FileName="Prototype/Models/RegisterBindingModel.cs" Line="8" Column="26" />
-      <File FileName="Prototype/App.xaml.cs" Line="31" Column="21" />
-      <File FileName="Prototype/LoginPage.xaml.cs" Line="25" Column="51" />
-      <File FileName="Prototype/MainPage.xaml" Line="4" Column="68" />
-      <File FileName="Prototype/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="../Prototype-API/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="../Prototype-API/Controllers/IdeasController.cs" Line="1" Column="1" />
-      <File FileName="../Prototype-API/Controllers/ValuesController.cs" Line="1" Column="1" />
-      <File FileName="../Prototype-API/Models/AccountViewModels.cs" Line="1" Column="1" />
-      <File FileName="../Prototype-API/Models/Idea.cs" Line="1" Column="1" />
-      <File FileName="../Prototype-API/Models/IdentityModels.cs" Line="1" Column="1" />
+      <File FileName="Prototype/RegisterPage.xaml.cs" />
+      <File FileName="Prototype/RegisterPage.xaml" />
+      <File FileName="../Prototype-API/Controllers/AccountController.cs" />
+      <File FileName="../Prototype-API/Models/AccountBindingModels.cs" />
+      <File FileName="Prototype/Models/RegisterBindingModel.cs" />
+      <File FileName="Prototype/App.xaml.cs" />
+      <File FileName="Prototype/LoginPage.xaml.cs" />
+      <File FileName="Prototype/MainPage.xaml" />
+      <File FileName="Prototype/MainPage.xaml.cs" />
+      <File FileName="../Prototype-API/Controllers/HomeController.cs" />
+      <File FileName="../Prototype-API/Controllers/IdeasController.cs" />
+      <File FileName="../Prototype-API/Controllers/ValuesController.cs" />
+      <File FileName="../Prototype-API/Models/AccountViewModels.cs" />
+      <File FileName="../Prototype-API/Models/Idea.cs" />
+      <File FileName="../Prototype-API/Models/IdentityModels.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

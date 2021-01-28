@@ -30,7 +30,7 @@ namespace Prototype.Services
 
             content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
-            var response = await client.PostAsync("http://localhost:****/api/Account/Register", content);
+            var response = await client.PostAsync("http://localhost:4399/api/Account/Register", content);
 
             return response.IsSuccessStatusCode;
         }
