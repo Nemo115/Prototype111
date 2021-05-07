@@ -3,7 +3,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Prototype/Services/ApiServices.cs">
     <Files>
       <File FileName="Prototype/data/RegistrationTable.cs" Line="20" Column="52" />
-      <File FileName="Prototype/Services/ApiServices.cs" Line="34" Column="1" />
+      <File FileName="Prototype/Services/ApiServices.cs" Line="35" Column="49" />
       <File FileName="Prototype/RegisterPage.xaml.cs" />
       <File FileName="Prototype/RegisterPage.xaml" />
       <File FileName="../Prototype-API/Controllers/AccountController.cs" />
